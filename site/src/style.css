@@ -461,3 +461,22 @@ td small { color: var(--text-3); margin-left: 4px; }
   .apoie-botao { width: 100%; justify-content: center; }
 }
 @media (prefers-reduced-motion: reduce) { .apoie-flutuante, .apoie-botao { transition: none; } .apoie-flutuante svg { animation: none; } }
+
+/* ---------- newsletter (Substack) */
+.news-bloco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 440px); align-items: center; gap: 24px; margin: 48px 0 0; padding: 24px 28px;
+  border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
+.news-bloco + .apoie-bloco { margin-top: 16px; }
+.news-texto h2 { margin: 0 0 6px; font-size: 1.4rem; }
+.news-texto p:last-child { margin: 0; color: var(--text-2); }
+.news-texto .kicker { margin-bottom: 8px; color: #b87a25; }
+/* campo próprio: o e-mail vai para a página de inscrição do Substack, sem carregar nada do Substack aqui */
+.news-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+.news-form input { font: inherit; font-size: .95rem; color: var(--text); background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; min-width: 0; }
+.news-form input:focus { outline: 2px solid #dc9b3e; outline-offset: 1px; border-color: transparent; }
+.news-form button { font: inherit; font-weight: 700; border: 0; border-radius: 12px; padding: 12px 18px; background: #dc9b3e; color: #1a1a19; cursor: pointer; transition: filter .15s, transform .15s; }
+.news-form button:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.news-form .nota { grid-column: 1 / -1; margin: 2px 0 0; font-size: .78rem; }
+@media (max-width: 760px) {
+  .news-bloco { grid-template-columns: 1fr; padding: 20px; }
+  .news-form { grid-template-columns: 1fr; }
+}

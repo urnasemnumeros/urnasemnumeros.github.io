@@ -163,3 +163,6 @@ if (flutuante && blocoApoie) {
   addEventListener("scroll", atualizar, { passive: true });
   atualizar();
 }
+
+// inscrição na newsletter: só conta o envio (sem o e-mail) no contador anônimo
+document.querySelector("[data-news]")?.addEventListener("submit", () => contarEvento("newsletter-envio", "Inscrição na newsletter"));
