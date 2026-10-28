@@ -8,3 +8,4 @@ __pycache__/
 auditoria/saida.txt
 auditoria/erros.txt
 .claude/
+raio_x/saida/

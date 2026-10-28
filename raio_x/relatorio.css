@@ -1,0 +1,66 @@
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 10.5pt/1.5 Inter, system-ui, sans-serif; color: #1a1a19; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.pag { position: relative; width: 210mm; height: 297mm; padding: 22mm 18mm 20mm; page-break-after: always; overflow: hidden; background: #fff; }
+.pag:last-child { page-break-after: auto; }
+.pag > header { position: absolute; top: 9mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; align-items: center;
+  font-size: 8pt; color: #7a7974; border-bottom: 1px solid #e2e1dc; padding-bottom: 3mm; }
+.pag > header b { color: #1a1a19; letter-spacing: .18em; font-size: 8.5pt; }
+.pag > header b::before { content: ""; display: inline-block; width: 7mm; height: 1.2mm; background: #dc9b3e; margin-right: 2.5mm; vertical-align: middle; border-radius: 1mm; }
+.pag > footer { position: absolute; bottom: 8mm; left: 18mm; right: 18mm; display: flex; justify-content: space-between; font-size: 7pt; color: #7a7974;
+  border-top: 1px solid #e2e1dc; padding-top: 2.5mm; }
+h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; line-height: 1.15; margin: 0; }
+h2 { font-size: 17pt; margin-bottom: 2mm; }
+h2.mt { margin-top: 9mm; }
+h3 { font-size: 11.5pt; margin: 5mm 0 1.5mm; }
+.lead { margin: 0 0 4mm; color: #52514e; }
+.nota { color: #7a7974; font-size: 8pt; margin: 3mm 0 0; }
+.kicker { text-transform: uppercase; letter-spacing: .14em; font-size: 8.5pt; font-weight: 600; color: #b87a25; margin: 0 0 3mm; }
+
+/* capa */
+.capa { padding-top: 14mm; }
+.capa h1 { font-size: 40pt; font-weight: 800; }
+.capa .sub { font-size: 12pt; color: #52514e; margin: 3mm 0 10mm; }
+.selo { display: inline-block; border: 1.2px solid #dc9b3e; color: #b87a25; border-radius: 99px; padding: 1mm 4mm; font-size: 8pt; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: 8mm; }
+.tiles { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4mm; }
+.tiles div { background: #f5f4ee; border-radius: 4mm; padding: 6mm; border-left: 2mm solid #dc9b3e; }
+.tiles b { display: block; font-family: "Source Serif 4", Georgia, serif; font-size: 26pt; font-weight: 800; line-height: 1; }
+.tiles span { display: block; margin-top: 2mm; color: #52514e; font-size: 9.5pt; }
+.destaques { margin-top: 10mm; display: grid; gap: 3mm; }
+.destaques p { margin: 0; padding-left: 5mm; border-left: 1mm solid #e2e1dc; font-size: 11pt; }
+.capa .nota { margin-top: 12mm; font-size: 8.5pt; }
+
+/* mapa */
+.mapa { display: block; width: 100%; height: auto; max-height: 128mm; margin: 2mm 0 3mm; }
+.legenda { display: flex; flex-wrap: wrap; gap: 3mm 6mm; font-size: 8.5pt; color: #52514e; }
+.legenda i { display: inline-block; width: 4mm; height: 4mm; border-radius: 1mm; margin-right: 1.5mm; vertical-align: -0.7mm; }
+
+/* tabelas */
+table { width: 100%; border-collapse: collapse; font-size: 9pt; }
+th { text-align: left; font-size: 7.5pt; text-transform: uppercase; letter-spacing: .05em; color: #7a7974; font-weight: 600; border-bottom: 1.2px solid #1a1a19; padding: 1.6mm 2mm; }
+td { padding: 1.4mm 2mm; border-bottom: 1px solid #ecebe6; }
+.n { text-align: right; font-variant-numeric: tabular-nums; }
+td:first-child, th:first-child { width: 8mm; color: #7a7974; text-align: left; }
+tbody tr:nth-child(-n+3) td:nth-child(2) { font-weight: 600; }
+
+/* barras */
+.barras .b { display: grid; grid-template-columns: 1fr auto; gap: .8mm 4mm; margin-bottom: 2.6mm; font-size: 9pt; }
+.barras .v { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+.barras .v small { font-weight: 400; color: #7a7974; margin-left: 2mm; }
+.barras i { grid-column: 1 / -1; height: 2.4mm; background: #f1efe8; border-radius: 0 1.2mm 1.2mm 0; }
+.barras i s { display: block; height: 100%; background: #dc9b3e; border-radius: 0 1.2mm 1.2mm 0; }
+.barras.conc i { height: 4mm; }
+.barras.zonas { columns: 2; column-gap: 10mm; }
+.barras.zonas .b { break-inside: avoid; margin-bottom: 2mm; }
+
+/* método */
+.metodo ul { margin: 0; padding-left: 5mm; }
+.metodo li { margin-bottom: 1.2mm; }
+.metodo p { margin: 0 0 2mm; }
+.cta { position: absolute; left: 18mm; right: 18mm; bottom: 22mm; background: #1a1a19; color: #f5f4ee; border-radius: 4mm; padding: 6mm 7mm;
+  display: flex; flex-direction: column; gap: 1mm; }
+.cta b { font-size: 12pt; }
+.cta span { color: #dc9b3e; font-weight: 600; }
+.barras .q { display: inline-block; width: 3.4mm; height: 3.4mm; border-radius: .8mm; margin-right: 2mm; vertical-align: -.5mm; }
+.barras.faixas i:not(.q) s { background: #c98a2e; }
