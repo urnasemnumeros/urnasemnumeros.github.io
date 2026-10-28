@@ -11,7 +11,9 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 AMBAR = ["#f6e7cc", "#efcf97", "#e2ac5c", "#c98a2e", "#8f5d17"]  # rampa sequencial na cor da marca
-LIMITES = [10, 20, 30, 40]  # % dos votos no município
+LIMITES = [10, 20, 30, 40]  # faixas do mapa (% dos votos no município); recalculadas por candidato em faixas_para()
+PASSOS = [0.5, 1, 2, 2.5, 5, 10, 20, 25]
+MAX_ZONAS = 20  # capitais grandes (São Paulo tem 57 zonas) mostram só as maiores
 UF_NOME = {"MG": "Minas Gerais", "SP": "São Paulo", "RJ": "Rio de Janeiro", "BA": "Bahia", "RS": "Rio Grande do Sul",
            "PR": "Paraná", "PE": "Pernambuco", "CE": "Ceará", "PA": "Pará", "SC": "Santa Catarina", "GO": "Goiás",
            "MA": "Maranhão", "AM": "Amazonas", "ES": "Espírito Santo", "PB": "Paraíba", "RN": "Rio Grande do Norte",
@@ -29,6 +31,20 @@ def pct(p, casas=1):
 
 def cor(p):
     return AMBAR[next((i for i, l in enumerate(LIMITES) if p < l), len(LIMITES))]
+
+
+def faixas_para(d):
+    """Faixas redondas do mapa ajustadas ao candidato: 5 cores até perto do 95º percentil das cidades
+    (só as de MIN_VALIDOS+ votos, para cidades minúsculas não esticarem a escala)."""
+    todos = sorted(c["pct"] for c in d["cidades"])
+    p95 = todos[int(0.95 * (len(todos) - 1))]
+    passo = next((p for p in PASSOS if 4 * p >= p95), PASSOS[-1])
+    return [passo * i for i in range(1, 5)]
+
+
+def rotulos_faixas(lim):
+    f = lambda v: (f"{v:g}".replace(".", ",")) + "%"
+    return [f"menos de {f(lim[0])}"] + [f"{f(a)} a {f(b)}" for a, b in zip(lim, lim[1:])] + [f"{f(lim[-1])} ou mais"]
 
 
 def mapa_svg(uf, por_id, largura=640, altura=560):
@@ -73,6 +89,8 @@ def tabela(linhas, cab, celulas):
 
 def main(arq, exemplo):
     d = json.loads(Path(arq).read_text())
+    global LIMITES
+    LIMITES = faixas_para(d)
     c = d["candidato"]
     uf = d["uf"]
     nome = escape(c["nome"].title())
@@ -83,9 +101,9 @@ def main(arq, exemplo):
     maxz = max(z["votos"] for z in capital["zonas"])
     maxm = d["mesorregioes"][0]["votos"]
     legenda = "".join(f'<span><i style="background:{AMBAR[i]}"></i>{t}</span>' for i, t in
-                      enumerate(["menos de 10%", "10% a 20%", "20% a 30%", "30% a 40%", "40% ou mais"]))
+                      enumerate(rotulos_faixas(LIMITES)))
     hoje = date.today().strftime("%d/%m/%Y")
-    rotulos = ["menos de 10%", "10% a 20%", "20% a 30%", "30% a 40%", "40% ou mais"]
+    rotulos = rotulos_faixas(LIMITES)
     faixas = [(rotulos[i], sum(1 for x in d["cidades"] if cor(x["pct"]) == AMBAR[i]), AMBAR[i]) for i in range(len(AMBAR))]
     selo = '<span class="selo">Relatório de exemplo</span>' if exemplo else ""
     rodape = (f'<footer><span>Sem Clarim · Raio-X eleitoral · {nome} ({c["partido"]}-{uf})</span>'
@@ -119,7 +137,7 @@ def main(arq, exemplo):
       <p class="lead">Percentual dos votos para {escape(c["cargo"].lower())} que {nome} recebeu em cada município de {UF_NOME.get(uf, uf)}.</p>
       {mapa_svg(uf, por_id)}
       <div class="legenda">{legenda}</div>
-      <p class="nota">Percentual sobre os votos computados para o cargo, sem brancos e nulos (critério da divulgação oficial do TSE).</p>
+      <p class="nota">Percentual sobre os votos computados para o cargo, sem brancos e nulos (critério da divulgação oficial do TSE). As faixas de cor são ajustadas aos números de cada candidato: compare cores só dentro do mesmo relatório.</p>
       <h2 class="mt">Quantos municípios em cada faixa</h2>
       <div class="barras faixas">{barras(faixas, lambda f: f'<i class="q" style="background:{f[2]}"></i>{f[0]}', lambda f: f'{num(f[1])} <small>municípios</small>', lambda f: f[1] / max(x[1] for x in faixas))}</div>'''
 
@@ -144,8 +162,9 @@ def main(arq, exemplo):
 
     p5 = f'''
       <h2>{escape(capital["nome"])}, zona por zona</h2>
-      <p class="lead">{num(capital["votos"])} votos na capital, divididos pelas {len(capital["zonas"])} zonas eleitorais.</p>
-      <div class="barras zonas">{barras(capital["zonas"], lambda z: f'Zona {z["zona"]}', lambda z: num(z["votos"]), lambda z: z["votos"] / maxz)}</div>
+      <p class="lead">{num(capital["votos"])} votos na capital, divididos pelas {len(capital["zonas"])} zonas eleitorais{"" if len(capital["zonas"]) <= MAX_ZONAS else f" (as {MAX_ZONAS} com mais votos)"}.</p>
+      <div class="barras zonas">{barras(capital["zonas"][:MAX_ZONAS], lambda z: f'Zona {z["zona"]}', lambda z: num(z["votos"]), lambda z: z["votos"] / maxz)}</div>
+      {"" if len(capital["zonas"]) <= MAX_ZONAS else f'<p class="nota">As outras {len(capital["zonas"]) - MAX_ZONAS} zonas somam {num(sum(z["votos"] for z in capital["zonas"][MAX_ZONAS:]))} votos.</p>'}
       <h2 class="mt">Onde teve menos peso</h2>
       <p class="lead">Menor percentual dos votos no município (cidades com {num(d["min_validos"])} ou mais votos para o cargo).</p>
       {tabela(d["menor_pct"][:8], ["#", "Município", "% na cidade", "Votos", "Votos no cargo"],
