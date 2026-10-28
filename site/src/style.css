@@ -445,7 +445,7 @@ td small { color: var(--text-3); margin-left: 4px; }
 .apoie-flutuante svg { display: block; flex: none; width: 18px; height: 18px; fill: currentColor; transform-origin: center; animation: pulsar 2.4s ease-in-out infinite; }
 @keyframes pulsar { 0%, 70%, 100% { transform: scale(1); } 80% { transform: scale(1.2); } 90% { transform: scale(.95); } }
 .apoie-icone svg { width: 17px; height: 17px; fill: currentColor; }
-.apoie-bloco { display: flex; align-items: center; gap: 20px; margin: 48px 0 24px; padding: 24px 28px; border-radius: 16px;
+.apoie-bloco { display: flex; align-items: center; gap: 20px; margin: 0; padding: 24px 28px; border-radius: 16px;
   background: var(--surface); border: 1px solid var(--line); border-left: 6px solid #dc9b3e; }
 .apoie-icone { flex: none; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: #dc9b3e; color: #1a1a19; }
 .apoie-icone svg { width: 26px; height: 26px; }
@@ -463,7 +463,7 @@ td small { color: var(--text-3); margin-left: 4px; }
 @media (prefers-reduced-motion: reduce) { .apoie-flutuante, .apoie-botao { transition: none; } .apoie-flutuante svg { animation: none; } }
 
 /* ---------- newsletter (Substack) */
-.news-bloco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 440px); align-items: center; gap: 24px; margin: 48px 0 0; padding: 24px 28px;
+.news-bloco { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 440px); align-items: center; gap: 24px; margin: 0; padding: 24px 28px;
   border-radius: 16px; background: var(--surface); border: 1px solid var(--line); }
 .news-bloco + .apoie-bloco { margin-top: 16px; }
 .news-texto h2 { margin: 0 0 6px; font-size: 1.4rem; }
@@ -480,3 +480,5 @@ td small { color: var(--text-3); margin-left: 4px; }
   .news-bloco { grid-template-columns: 1fr; padding: 20px; }
   .news-form { grid-template-columns: 1fr; }
 }
+
+.sobre .sobre-titulo { margin-top: 48px; }

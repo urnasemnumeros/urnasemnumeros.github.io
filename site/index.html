@@ -172,7 +172,30 @@
       <div id="comp-listas"></div>
     </section>
     <section id="sobre" class="secao sobre">
-      <h2>Sobre este site</h2>
+    <aside class="news-bloco" aria-labelledby="news-titulo">
+      <div class="news-texto">
+        <p class="kicker">Newsletter grátis</p>
+        <h2 id="news-titulo">A política da semana em números</h2>
+        <p>Toda semana no seu e-mail: dados oficiais, com contexto e com a fonte de cada informação. Sem alarde, só fatos.</p>
+      </div>
+      <form class="news-form" action="https://semclarim.substack.com/subscribe" method="get" target="_blank" data-news>
+        <label for="news-email" class="vh">Seu e-mail</label>
+        <input id="news-email" type="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+        <button type="submit">Assinar grátis</button>
+        <p class="nota">Abre a página do Substack com o seu e-mail preenchido para confirmar. Dá para cancelar quando quiser.</p>
+      </form>
+    </aside>
+
+    <aside class="apoie-bloco" aria-labelledby="apoie-titulo">
+      <div class="apoie-icone"><svg viewBox="0 1.3 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/></svg></div>
+      <div class="apoie-texto">
+        <h2 id="apoie-titulo">O Sem Clarim é independente</h2>
+        <p>Sem patrocínio de partidos nem de governos. Quem mantém este site e os vídeos de pé são as pessoas que apoiam, a partir de <b>R$ 5 por mês</b>.</p>
+      </div>
+      <a class="apoie-botao" href="https://apoia.se/semclarim" target="_blank" rel="noopener" data-apoie="rodape">Apoiar no Apoia.se <span aria-hidden="true">→</span></a>
+    </aside>
+
+      <h2 class="sobre-titulo">Sobre este site</h2>
       <p class="sobre-lede">Site <b>independente</b>, feito a partir dos dados abertos do Tribunal Superior Eleitoral. Não tem vínculo com o TSE, com partidos ou com candidatos, e não apoia nenhum deles. Mostra fatos dos resultados oficiais, sem opinião.</p>
       <div class="sobre-grade">
         <div>
@@ -206,29 +229,6 @@
         </div>
       </div>
     </section>
-
-    <aside class="news-bloco" aria-labelledby="news-titulo">
-      <div class="news-texto">
-        <p class="kicker">Newsletter grátis</p>
-        <h2 id="news-titulo">A política da semana em números</h2>
-        <p>Toda semana no seu e-mail: dados oficiais, com contexto e com a fonte de cada informação. Sem alarde, só fatos.</p>
-      </div>
-      <form class="news-form" action="https://semclarim.substack.com/subscribe" method="get" target="_blank" data-news>
-        <label for="news-email" class="vh">Seu e-mail</label>
-        <input id="news-email" type="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
-        <button type="submit">Assinar grátis</button>
-        <p class="nota">Abre a página do Substack com o seu e-mail preenchido para confirmar. Dá para cancelar quando quiser.</p>
-      </form>
-    </aside>
-
-    <aside class="apoie-bloco" aria-labelledby="apoie-titulo">
-      <div class="apoie-icone"><svg viewBox="0 1.3 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/></svg></div>
-      <div class="apoie-texto">
-        <h2 id="apoie-titulo">O Sem Clarim é independente</h2>
-        <p>Sem patrocínio de partidos nem de governos. Quem mantém este site e os vídeos de pé são as pessoas que apoiam, a partir de <b>R$ 5 por mês</b>.</p>
-      </div>
-      <a class="apoie-botao" href="https://apoia.se/semclarim" target="_blank" rel="noopener" data-apoie="rodape">Apoiar no Apoia.se <span aria-hidden="true">→</span></a>
-    </aside>
   </main>
 
   <footer class="rodape">
