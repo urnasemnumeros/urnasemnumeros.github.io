@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Raio-X eleitoral · Sem Clarim</title>
+  <meta name="description" content="De onde vieram os votos de qualquer candidato, cidade por cidade. Relatórios com dados oficiais do TSE, conferidos com a API oficial de resultados.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <!-- Contagem anônima de visitas e cliques, sem cookies (GoatCounter), a mesma do site -->
+  <script data-goatcounter="https://urnasemnumeros.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <style>
+    :root {
+      --bg: #f5f4ee; --card: #ffffff; --line: #e2e1dc; --text: #1a1a19; --text-2: #52514e; --text-3: #7a7974;
+      --ambar: #dc9b3e; --ambar-texto: #9a6418; --grafite: #393939;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #121211; --card: #1c1c1a; --line: #34342f; --text: #f0efec; --text-2: #c3c2b7; --text-3: #908f86; --ambar-texto: #e7b46a; --grafite: #f0efec; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+    h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; line-height: 1.15; margin: 0; }
+
+    .topo { border-bottom: 1px solid var(--line); background: var(--bg); }
+    .topo .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .marca { white-space: nowrap; display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 800; font-size: .86rem; letter-spacing: .16em; text-transform: uppercase; }
+    .marca svg { width: 30px; height: 30px; }
+    .marca .clarim { fill: var(--grafite); stroke: var(--grafite); }
+    .marca .vao { stroke: var(--bg); stroke-width: 5; fill: none; }
+    .marca .risco { stroke: var(--ambar); stroke-width: 2.8; fill: none; }
+    .topo nav a { font-size: .9rem; color: var(--text-2); text-decoration: none; }
+    .topo nav .curto { display: none; }
+    .topo nav a:hover { color: var(--text); text-decoration: underline; }
+
+    .hero { padding-top: 56px; padding-bottom: 40px; }
+    .kicker { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; font-weight: 700; color: var(--ambar-texto); margin: 0 0 12px; }
+    .hero h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); font-weight: 800; max-width: 18ch; }
+    .hero .lede { font-size: 1.15rem; color: var(--text-2); max-width: 58ch; margin: 16px 0 28px; }
+    .acoes { display: flex; flex-wrap: wrap; gap: 12px; }
+    .botao { display: inline-flex; align-items: center; gap: 8px; padding: 14px 22px; border-radius: 12px; font-weight: 700; text-decoration: none;
+      transition: transform .15s, box-shadow .2s, filter .15s; }
+    .botao.principal { background: var(--ambar); color: #1a1a19; }
+    .botao.principal:hover { filter: brightness(1.05); transform: translateY(-1px); box-shadow: 0 8px 22px rgb(0 0 0 / .15); }
+    .botao.secundario { border: 1px solid var(--line); background: var(--card); }
+    .botao.secundario:hover { border-color: var(--text-3); }
+    .botao:focus-visible, a:focus-visible { outline: 2px solid var(--ambar); outline-offset: 2px; }
+    .selos { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 28px 0 0; padding: 0; list-style: none; color: var(--text-2); font-size: .9rem; }
+    .selos li::before { content: "✓ "; color: var(--ambar-texto); font-weight: 700; }
+
+    section { padding: 40px 0; border-top: 1px solid var(--line); }
+    section h2 { font-size: clamp(1.6rem, 4vw, 2.1rem); margin-bottom: 8px; }
+    section .sub { color: var(--text-2); margin: 0 0 24px; max-width: 62ch; }
+
+    .exemplos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+    .exemplo { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
+    .exemplo img { display: block; width: 100%; height: auto; background: #fff; border-bottom: 1px solid var(--line); }
+    .exemplo .corpo { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+    .exemplo h3 { font-size: 1.35rem; }
+    .exemplo .meta { color: var(--text-3); font-size: .88rem; margin: 0; }
+    .exemplo .nums { display: flex; gap: 20px; margin: 8px 0 14px; }
+    .exemplo .nums b { display: block; font-family: "Source Serif 4", Georgia, serif; font-size: 1.4rem; font-weight: 800; line-height: 1.1; }
+    .exemplo .nums span { font-size: .8rem; color: var(--text-3); }
+    .exemplo .botao { margin-top: auto; justify-content: center; padding: 11px 16px; }
+
+    .grade { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+    .item { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .item h3 { font-size: 1.05rem; margin-bottom: 6px; font-family: Inter, system-ui, sans-serif; font-weight: 700; }
+    .item p { margin: 0; color: var(--text-2); font-size: .92rem; }
+
+    .passos { counter-reset: p; list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+    .passos li { counter-increment: p; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .passos li::before { content: counter(p); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--ambar); color: #1a1a19;
+      font-weight: 800; margin-bottom: 10px; }
+    .passos b { display: block; margin-bottom: 4px; }
+    .passos span { color: var(--text-2); font-size: .92rem; }
+
+    .limites { margin: 0; padding-left: 20px; color: var(--text-2); }
+    .limites li { margin-bottom: 6px; }
+
+    .chamada { margin: 8px 0 48px; background: var(--grafite); color: var(--bg); border-radius: 18px; padding: 32px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    @media (prefers-color-scheme: dark) { .chamada { background: var(--card); color: var(--text); border: 1px solid var(--line); } }
+    .chamada h2 { font-size: 1.6rem; }
+    .chamada p { margin: 6px 0 0; opacity: .8; }
+    footer { padding: 24px 0 40px; color: var(--text-3); font-size: .85rem; border-top: 1px solid var(--line); }
+
+    @media (max-width: 760px) {
+      .exemplos, .grade, .passos { grid-template-columns: 1fr; }
+      .topo nav .longo { display: none; }
+      .topo nav .curto { display: inline; }
+      .chamada { flex-direction: column; align-items: flex-start; padding: 24px; }
+      .chamada .botao { width: 100%; justify-content: center; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .botao { transition: none; } }
+  </style>
+</head>
+<body>
+  <header class="topo">
+    <div class="wrap">
+      <a class="marca" href="/" aria-label="Sem Clarim: ir para o site">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <g class="clarim"><rect x="2.5" y="12.2" width="2.2" height="4.6" rx=".6" stroke="none"/><rect x="4.2" y="13.6" width="15" height="1.9" stroke="none"/>
+            <path d="M18.4 13.6c3.8-.2 7-1.7 9.6-4.6v13.4c-2.5-2.8-5.6-4.3-9.4-4.9z" stroke="none"/>
+            <path d="M10.6 16.8h9.6a3.05 3.05 0 0 1 0 6.1h-9.6a3.05 3.05 0 0 1 0-6.1z" fill="none" stroke-width="2.1"/></g>
+          <path class="vao" d="M7 27L26 5"/><path class="risco" d="M7 27L26 5"/>
+        </svg>
+        Sem Clarim
+      </a>
+      <nav><a href="/"><span class="longo">Eleições 2026 em curiosidades</span><span class="curto">Ver o site</span> →</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero">
+      <p class="kicker">Raio-X eleitoral · Eleições 2026</p>
+      <h1>De onde vieram os votos, cidade por cidade</h1>
+      <p class="lede">Relatórios em PDF sobre qualquer candidato, município ou partido, feitos com os dados oficiais do TSE e conferidos um a um com a API oficial de resultados.</p>
+      <div class="acoes">
+        <a class="botao principal" href="https://docs.google.com/forms/d/e/1FAIpQLSc_324lChpcSUdbDqFzLkvMVB5Ok3vJzWFmBfnReROax8P27w/viewform" target="_blank" rel="noopener" data-goatcounter-click="raiox-pedido-topo">Pedir um Raio-X <span aria-hidden="true">→</span></a>
+        <a class="botao secundario" href="#exemplos">Ver exemplos grátis</a>
+      </div>
+      <ul class="selos">
+        <li>Dados oficiais do TSE</li>
+        <li>100% dos municípios conferidos</li>
+        <li>Sem opinião, sem lado</li>
+      </ul>
+    </div>
+
+    <section id="exemplos">
+      <div class="wrap">
+        <h2>Veja dois exemplos completos</h2>
+        <p class="sub">Um de cada lado do espectro político, com o mesmo método. Baixe e veja exatamente o que você recebe.</p>
+        <div class="exemplos">
+          <article class="exemplo">
+            <img src="mapa-nikolas-ferreira.jpg" alt="Mapa de Minas Gerais com o percentual de votos de Nikolas Ferreira em cada município" width="640" height="500" loading="lazy">
+            <div class="corpo">
+              <h3>Nikolas Ferreira</h3>
+              <p class="meta">PL · Deputado federal por Minas Gerais</p>
+              <div class="nums"><div><b>3.119.318</b><span>votos</span></div><div><b>853</b><span>municípios conferidos</span></div></div>
+              <a class="botao secundario" href="raio-x-exemplo-nikolas-ferreira.pdf" download data-goatcounter-click="raiox-exemplo-nikolas">Baixar o PDF (6 páginas)</a>
+            </div>
+          </article>
+          <article class="exemplo">
+            <img src="mapa-erika-hilton.jpg" alt="Mapa de São Paulo com o percentual de votos de Erika Hilton em cada município" width="640" height="500" loading="lazy">
+            <div class="corpo">
+              <h3>Erika Hilton</h3>
+              <p class="meta">PSOL · Deputada federal por São Paulo</p>
+              <div class="nums"><div><b>1.596.472</b><span>votos</span></div><div><b>645</b><span>municípios conferidos</span></div></div>
+              <a class="botao secundario" href="raio-x-exemplo-erika-hilton.pdf" download data-goatcounter-click="raiox-exemplo-erika">Baixar o PDF (6 páginas)</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>O que vem no Raio-X de um candidato</h2>
+        <p class="sub">Tudo calculado direto dos arquivos oficiais, sem estimativas.</p>
+        <div class="grade">
+          <div class="item"><h3>Mapa do voto</h3><p>O percentual do candidato em cada município do estado, e quantas cidades em cada faixa.</p></div>
+          <div class="item"><h3>Rankings</h3><p>As cidades que deram mais votos e aquelas onde ele foi mais forte em percentual.</p></div>
+          <div class="item"><h3>Regiões</h3><p>Votos por região do estado e quanto do total veio das maiores cidades.</p></div>
+          <div class="item"><h3>Capital por zona</h3><p>A votação na capital dividida pelas zonas eleitorais.</p></div>
+          <div class="item"><h3>Peso no partido</h3><p>Quanto dos votos do partido no estado foram do candidato.</p></div>
+          <div class="item"><h3>Auditoria</h3><p>Cada município conferido com a API oficial de resultados do TSE, com o método explicado.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Precisa de outra coisa?</h2>
+        <p class="sub">Também fazemos relatórios sob medida com os dados oficiais: como votou um município em todos os cargos, o desempenho de um partido no estado, comparações entre candidatos e outros recortes. Descreva o que precisa no pedido.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Como funciona</h2>
+        <p class="sub">Sem cadastro e sem complicação.</p>
+        <ol class="passos">
+          <li><b>Faça o pedido</b><span>Preencha o formulário dizendo o que precisa.</span></li>
+          <li><b>Receba o orçamento</b><span>Respondemos por e-mail com preço e prazo, em até 1 dia útil.</span></li>
+          <li><b>Pague por Pix</b><span>E envie o comprovante respondendo o e-mail.</span></li>
+          <li><b>Receba o PDF</b><span>O relatório chega no seu e-mail, conferido e com as fontes.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>O que o Raio-X não faz</h2>
+        <ul class="limites">
+          <li>Não identifica como pessoas votaram. O voto é secreto, e os dados são totais por município, zona ou seção.</li>
+          <li>Não dá recomendação de estratégia de campanha. Mostra os números, e a leitura é sua.</li>
+          <li>Não usa pesquisas nem estimativas: só os resultados oficiais e públicos do TSE.</li>
+          <li>Tem o mesmo método e as mesmas condições para qualquer candidato ou partido.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="wrap">
+      <div class="chamada">
+        <div>
+          <h2>Quer o Raio-X do seu candidato?</h2>
+          <p>Peça agora e receba o orçamento por e-mail.</p>
+        </div>
+        <a class="botao principal" href="https://docs.google.com/forms/d/e/1FAIpQLSc_324lChpcSUdbDqFzLkvMVB5Ok3vJzWFmBfnReROax8P27w/viewform" target="_blank" rel="noopener" data-goatcounter-click="raiox-pedido-fim">Pedir um Raio-X <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">Sem Clarim · Política com dados e fontes. Sem alarde, só fatos. · Dúvidas: <a href="mailto:semclarim@gmail.com">semclarim@gmail.com</a></div>
+  </footer>
+</body>
+</html>
