@@ -1,6 +1,6 @@
 // Cards de curiosidade compartilháveis: link direto (#id) e download como imagem.
 import { toPng } from "html-to-image";
-import { Curiosidade, esc, aviso, normalizar } from "./util";
+import { Curiosidade, esc, aviso, normalizar, contarEvento } from "./util";
 
 const vistos = new Set<string>();
 
@@ -37,6 +37,7 @@ export function ativarCards() {
       try {
         await navigator.clipboard.writeText(url);
         aviso("Link copiado");
+        contarEvento(`card-link/${card.id}`, card.querySelector("h4")?.textContent ?? card.id);
       } catch {
         prompt("Copie o link:", url);
       }
@@ -55,6 +56,7 @@ export function ativarCards() {
         a.href = png;
         a.download = `eleicoes-2026-${card.id}.png`;
         a.click();
+        contarEvento(`card-imagem/${card.id}`, card.querySelector("h4")?.textContent ?? card.id);
       } catch (e) {
         console.error(e);
         aviso("Não foi possível gerar a imagem");

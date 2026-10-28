@@ -111,3 +111,10 @@ export function cabecalhoMedia(titulo: string, valor: string, rotulo: string): s
   return `<div class="tit-media"><h4>${titulo}</h4><p class="media num">${valor}<small>${rotulo}</small></p></div>`;
 }
 export const media = (xs: number[]) => (xs.length ? xs.reduce((s, x) => s + x, 0) / xs.length : 0);
+
+/** Conta um evento no GoatCounter (ex.: download de card), se o contador estiver carregado. Nunca quebra o site. */
+export function contarEvento(caminho: string, titulo: string) {
+  try {
+    (window as any).goatcounter?.count?.({ path: caminho, title: titulo, event: true });
+  } catch { /* contador bloqueado ou fora do ar */ }
+}

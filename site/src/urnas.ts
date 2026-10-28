@@ -38,11 +38,63 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
   const computados = (n?: number) => (n == null ? "" : `${num(n)} votos computados`);
   const soma = (n?: number) => (n == null ? "" : `<p class="meta">Essas urnas somam <b>${num(n)}</b> votos computados.</p>`);
 
+  // ---- filtro por estado (pílulas em slide) e paginação lateral, comuns aos quadros de urnas
+  const POR_PAGINA = 10;
+  function filtroUf(porUf: Record<string, number>, total: number) {
+    const ufs = Object.entries(porUf).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    const pilula = (uf: string, n: number) => `<button type="button" class="pilula-uf" data-uf-filtro="${uf}" data-n="${n}"
+      aria-pressed="${uf === ""}">${uf || "Todos"} <b class="num">${num(n)}</b></button>`;
+    return `<div class="filtro-uf">
+      <button type="button" class="seta-uf" data-rolar="-1" aria-label="Estados anteriores" disabled>‹</button>
+      <div class="trilho-uf" role="group" aria-label="Filtrar a tabela por estado">${pilula("", total)}${ufs.map(([uf, n]) => pilula(uf, n)).join("")}</div>
+      <button type="button" class="seta-uf" data-rolar="1" aria-label="Próximos estados">›</button>
+    </div><p class="nota filtro-nota" hidden></p>`;
+  }
+  const botaoMais = (n: number) => (n > POR_PAGINA ? `<div class="paginacao">
+      <button type="button" class="seta-pag" data-pag="-1" aria-label="Página anterior" disabled>‹</button>
+      <span class="pag-info num">1–${POR_PAGINA} de ${num(n)}</span>
+      <button type="button" class="seta-pag" data-pag="1" aria-label="Próxima página">›</button></div>` : "");
+  /** Mostra a página atual das linhas do estado escolhido (ou de todas) e atualiza o paginador. */
+  function aplicarFiltro(painel: HTMLElement) {
+    const uf = painel.dataset.uf ?? "";
+    const linhas = [...painel.querySelectorAll<HTMLTableRowElement>("tbody tr[data-uf]")];
+    const ok = linhas.filter((tr) => !uf || tr.dataset.uf === uf);
+    const paginas = Math.max(1, Math.ceil(ok.length / POR_PAGINA));
+    const pag = Math.min(Math.max(0, Number(painel.dataset.pagina ?? 0)), paginas - 1);
+    painel.dataset.pagina = String(pag);
+    const ini = pag * POR_PAGINA, fim = Math.min(ini + POR_PAGINA, ok.length);
+    linhas.forEach((tr) => (tr.hidden = true));
+    ok.slice(ini, fim).forEach((tr) => (tr.hidden = false));
+    const pg = painel.querySelector<HTMLElement>(".paginacao");
+    if (pg) {
+      pg.hidden = ok.length <= POR_PAGINA;
+      pg.querySelector(".pag-info")!.textContent = `${num(ini + 1)}–${num(fim)} de ${num(ok.length)}`;
+      pg.querySelector<HTMLButtonElement>('[data-pag="-1"]')!.disabled = pag === 0;
+      pg.querySelector<HTMLButtonElement>('[data-pag="1"]')!.disabled = pag >= paginas - 1;
+    }
+    const wrap = painel.querySelector<HTMLElement>(".tabela-wrap");
+    if (wrap) wrap.scrollTop = 0;
+    const nota = painel.querySelector<HTMLElement>(".filtro-nota")!;
+    const total = Number(painel.querySelector<HTMLElement>(`[data-uf-filtro="${uf}"]`)?.dataset.n ?? 0);
+    nota.hidden = !uf || ok.length >= total;
+    nota.textContent = ok.length
+      ? `${num(total)} urnas em ${uf}; a tabela traz as ${num(ok.length)} que estão entre as maiores da lista.`
+      : `${num(total)} urnas em ${uf}, mas nenhuma entre as maiores da lista.`;
+  }
+  /** Liga/desliga as setas do slide de estados conforme a posição. */
+  function setasUf(trilho: HTMLElement) {
+    const f = trilho.parentElement!;
+    const ini = trilho.scrollLeft <= 2, fim = trilho.scrollLeft + trilho.clientWidth >= trilho.scrollWidth - 2;
+    f.querySelector<HTMLButtonElement>('[data-rolar="-1"]')!.disabled = ini;
+    f.querySelector<HTMLButtonElement>('[data-rolar="1"]')!.disabled = fim;
+    // esmaece só o lado em que ainda há estados escondidos
+    trilho.dataset.borda = ini && fim ? "" : ini ? "dir" : fim ? "esq" : "ambas";
+  }
+
   function tabelaZeradas(sq: string, i: number, t: TurnoUrnas) {
     const z = t.zeradas[sq];
     const outro = finalistas[1 - i];
-    const ufs = Object.entries(z.porUf).map(([uf, n]) => `${uf === "ZZ" ? "Exterior" : uf} ${num(n)}`).join(" · ");
-    const linhas = z.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" ${j >= 10 ? "hidden" : ""}>
+    const linhas = z.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" data-uf="${u.uf}" ${j >= 10 ? "hidden" : ""}>
         <td><b>${esc(u.local)}</b><br><small>${esc(u.end)}</small></td>
         <td>${esc(lugar(u))}<br><small>Zona ${u.zona} · Seção ${u.secao}</small></td>
         <td class="n">${num(votosDe(u, outro))} <small>de ${num(u.validos)}</small><br><small>${pct((100 * votosDe(u, outro)) / u.validos)} p/ ${nome(outro)}</small><br><small>${computados(u.total)}</small></td></tr>`).join("");
@@ -50,11 +102,11 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
       <h4><span class="marca" style="background:${corCandidato(i)}"></span>Nenhum voto para ${nome(sq)}</h4>
       <p class="destaque-painel num">${num(z.total)} <small>urnas de ${num(t.secoes)}</small></p>
       ${z.total ? soma(z.votos) : ""}
-      <p class="meta">${z.total ? `Por estado: ${ufs}` : "Recebeu votos em todas as urnas."}</p>
+      ${z.total ? filtroUf(z.porUf, z.total) : `<p class="meta">Recebeu votos em todas as urnas.</p>`}
       ${z.total ? `<div class="tabela-wrap"><table>
         <thead><tr><th>Local de votação</th><th>Cidade</th><th class="n">Votos válidos</th></tr></thead>
         <tbody>${linhas}</tbody></table></div>
-        ${z.lista.length > 10 ? `<button type="button" class="mais" data-expandir>Mostrar todas (${num(z.lista.length)})</button>` : ""}
+        ${botaoMais(z.lista.length)}
         ${z.total > z.lista.length ? `<p class="nota">Lista com as ${num(z.lista.length)} maiores urnas, ordenadas por votos válidos.</p>` : ""}` : ""}
     </div>`;
   }
@@ -65,8 +117,7 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
     const max = Math.max(...p.porVotos, 1);
     const colunas = p.porVotos.map((n, v) => `<div class="col" title="${num(n)} urnas com ${v} voto${v === 1 ? "" : "s"}">
         <small class="num">${num(n)}</small><i class="area"><span style="height:${(100 * n) / max}%;background:${corCandidato(i)}"></span></i><b>${v}</b></div>`).join("");
-    const ufs = Object.entries(p.porUf).slice(0, 8).map(([uf, n]) => `${uf === "ZZ" ? "Exterior" : uf} ${num(n)}`).join(" · ");
-    const linhas = p.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" ${j >= 10 ? "hidden" : ""}>
+    const linhas = p.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" data-uf="${u.uf}" ${j >= 10 ? "hidden" : ""}>
         <td><b>${esc(u.local)}</b><br><small>${esc(u.end)}</small></td>
         <td>${esc(lugar(u))}<br><small>Zona ${u.zona} · Seção ${u.secao}</small></td>
         <td class="n">${num(votosDe(u, sq))} <small>de ${num(u.validos)}</small><br><small>${nome(outro)}: ${num(votosDe(u, outro))}</small><br><small>${computados(u.total)}</small></td></tr>`).join("");
@@ -76,11 +127,11 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
       ${p.total ? soma(p.votos) : ""}
       <p class="mini">Quantas urnas deram exatamente 0, 1, 2… 10 votos</p>
       <div class="colunas" role="img" aria-label="Urnas por número de votos para ${nome(sq)}, de 0 a 10">${colunas}</div>
-      <p class="meta">${p.total ? `Onde ficam: ${ufs}${Object.keys(p.porUf).length > 8 ? "…" : ""}` : ""}</p>
+      ${p.total ? filtroUf(p.porUf, p.total) : ""}
       ${p.total ? `<p class="mini">As maiores dessas urnas</p><div class="tabela-wrap"><table>
         <thead><tr><th>Local de votação</th><th>Cidade</th><th class="n">Votos para ${nome(sq)}</th></tr></thead>
         <tbody>${linhas}</tbody></table></div>
-        ${p.lista.length > 10 ? `<button type="button" class="mais" data-expandir>Mostrar mais (${num(p.lista.length)})</button>` : ""}
+        ${botaoMais(p.lista.length)}
         ${p.total > p.lista.length ? `<p class="nota">Lista com as ${num(p.lista.length)} maiores urnas (por votos válidos) entre as ${num(p.total)}.</p>` : ""}` : ""}
     </div>`;
   }
@@ -97,22 +148,21 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
   /** Tabela de urnas comparadas (1º → 2º turno): 10 linhas visíveis e "Mostrar mais". */
   const tabelaComparadas = (lista: UrnaComparada[]) => `<div class="tabela-wrap"><table>
       <thead><tr><th>Local de votação</th><th>Cidade</th><th class="n">1º → 2º turno</th></tr></thead>
-      <tbody>${lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" ${j >= 10 ? "hidden" : ""}>
+      <tbody>${lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" data-uf="${u.uf}" ${j >= 10 ? "hidden" : ""}>
         <td><b>${esc(u.local)}</b><br><small>${esc(u.end)}</small></td>
         <td>${esc(lugar(u))}<br><small>Zona ${u.zona} · Seção ${u.secao}</small></td>
         <td class="n">${num(u.v1)} → ${num(u.v2)}<br><small>${sinal(u.d)} votos</small></td></tr>`).join("")}</tbody></table></div>
-    ${lista.length > 10 ? `<button type="button" class="mais" data-expandir-aos-poucos>Mostrar mais (${num(lista.length - 10)} restantes)</button>` : ""}`;
+    ${botaoMais(lista.length)}`;
 
   /** Quadro de um finalista: total de urnas em que ganhou (ou perdeu) votos, estados e tabela das maiores variações. */
   function painelComparadas(sq: string, i: number, comparadas: number) {
     const c = dados.entreTurnos!.lados[sq].caiu;
-    const ufs = Object.entries(c.porUf).slice(0, 8).map(([uf, n]) => `${uf} ${num(n)}`).join(" · ");
     const verbo = "perdeu", maiores = "maiores quedas";
     return `<div class="painel">
       <h4><span class="marca" style="background:${corCandidato(i)}"></span>Urnas em que ${nome(sq)} ${verbo} votos</h4>
       <p class="destaque-painel num">${num(c.total)} <small>urnas de ${num(comparadas)} (${pct((100 * c.total) / comparadas, 1)})</small></p>
       ${c.total && c.cand1 != null ? `<p class="meta">${nome(sq)} teve <b>${num(c.cand1 - c.cand2!)}</b> votos a menos nessas urnas.</p>` : ""}
-      <p class="meta">${c.total ? `Onde ficam: ${ufs}${Object.keys(c.porUf).length > 8 ? "…" : ""}` : `Não ${verbo} votos em nenhuma urna.`}</p>
+      ${c.total ? filtroUf(c.porUf, c.total) : `<p class="meta">Não ${verbo} votos em nenhuma urna.</p>`}
       ${c.total ? `<p class="mini">As ${maiores}</p>${tabelaComparadas(c.lista)}
         ${c.total > c.lista.length ? `<p class="nota">Lista com as ${num(c.lista.length)} ${maiores} entre as ${num(c.total)} urnas.</p>` : ""}` : ""}
     </div>`;
@@ -126,8 +176,7 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
     return `<p class="nota">Seções em que um finalista estava à frente do outro no 1º turno e o outro venceu no 2º (comparando só os dois; ${num(et.comparadas)} seções comparadas). Placar: ${nome(finalistas[0])} × ${nome(finalistas[1])}. Variações grandes numa seção costumam vir de mudanças no eleitorado dela (transferências, seções agregadas), não necessariamente de mudança de voto. Toque numa linha para ver a cidade.</p>
       <div class="disputas">${finalistas.map((sq, i) => {
         const c = et.viradas![sq], outro = finalistas[1 - i];
-        const ufs = Object.entries(c.porUf).slice(0, 8).map(([uf, n]) => `${uf} ${num(n)}`).join(" · ");
-        const linhas = c.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" ${j >= 10 ? "hidden" : ""}>
+        const linhas = c.lista.map((u, j) => `<tr class="clicavel" data-cidade="${u.id}" data-uf="${u.uf}" ${j >= 10 ? "hidden" : ""}>
           <td><b>${esc(u.local)}</b><br><small>${esc(lugar(u))} · Zona ${u.zona} · Seção ${u.secao}</small></td>
           <td class="n">${placar(v1De(u, finalistas[0]), v1De(u, finalistas[1]))}</td>
           <td class="n">${placar(votosDe(u, finalistas[0]), votosDe(u, finalistas[1]))}</td></tr>`).join("");
@@ -136,11 +185,11 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
           <p class="meta">${nome(outro)} à frente no 1º turno, ${nome(sq)} venceu no 2º.</p>
           <p class="destaque-painel num">${num(c.total)} <small>urnas de ${num(et.comparadas)} (${pct((100 * c.total) / et.comparadas, 1)})</small></p>
           ${c.total && c.cand1 != null ? `<p class="meta">${nome(sq)} teve <b>${num(c.cand2! - c.cand1)}</b> votos a mais nessas urnas.</p>` : ""}
-          <p class="meta">${c.total ? `Onde ficam: ${ufs}${Object.keys(c.porUf).length > 8 ? "…" : ""}` : "Nenhuma urna virou para este lado."}</p>
+          ${c.total ? filtroUf(c.porUf, c.total) : `<p class="meta">Nenhuma urna virou para este lado.</p>`}
           ${c.total ? `<p class="mini">As maiores viradas</p><div class="tabela-wrap"><table>
             <thead><tr><th>Local de votação</th><th class="n">1º turno</th><th class="n">2º turno</th></tr></thead>
             <tbody>${linhas}</tbody></table></div>
-            ${c.lista.length > 10 ? `<button type="button" class="mais" data-expandir-aos-poucos>Mostrar mais (${num(c.lista.length - 10)} restantes)</button>` : ""}
+            ${botaoMais(c.lista.length)}
             ${c.total > c.lista.length ? `<p class="nota">Lista com as ${num(c.lista.length)} maiores viradas (pela mudança na diferença de votos) entre as ${num(c.total)} urnas.</p>` : ""}` : ""}
         </div>`;
       }).join("")}</div>`;
@@ -195,6 +244,13 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
     ${seletor("zeradas")}<div data-conteudo="zeradas">${zeradas()}</div>
     <h3 class="sub">Urnas com no máximo 10 votos para um finalista</h3>
     ${seletor("poucos")}<div data-conteudo="poucos">${poucos()}</div>`;
+  el.addEventListener("scroll", (e) => {
+    const t = e.target as HTMLElement;
+    if (t.classList?.contains("trilho-uf")) setasUf(t);
+  }, true);
+  const iniciarSetas = () => el.querySelectorAll<HTMLElement>(".trilho-uf").forEach(setasUf);
+  new ResizeObserver(iniciarSetas).observe(el);
+  requestAnimationFrame(iniciarSetas);
   el.addEventListener("click", (e) => {
     const alvo = e.target as HTMLElement;
     const bt = alvo.closest<HTMLButtonElement>("[data-turno-urna]");
@@ -203,21 +259,30 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
       escolha[topico] = bt.dataset.turnoUrna!;
       el.querySelectorAll(`[data-topico="${topico}"]`).forEach((x) => x.setAttribute("aria-pressed", String(x === bt)));
       el.querySelector(`[data-conteudo="${topico}"]`)!.innerHTML = desenhar[topico]();
+      iniciarSetas();
       return;
     }
-    const aos = alvo.closest<HTMLButtonElement>("[data-expandir-aos-poucos]");
-    if (aos) {
-      const ocultas = [...aos.closest(".painel")!.querySelectorAll("tr[hidden]")];
-      ocultas.slice(0, 50).forEach((tr) => tr.removeAttribute("hidden"));
-      const resta = ocultas.length - 50;
-      if (resta > 0) aos.textContent = `Mostrar mais (${num(resta)} restantes)`;
-      else aos.remove();
+    const pilula = alvo.closest<HTMLButtonElement>("[data-uf-filtro]");
+    if (pilula) {
+      const painel = pilula.closest<HTMLElement>(".painel")!;
+      painel.dataset.uf = pilula.dataset.ufFiltro!;
+      painel.dataset.pagina = "0";
+      painel.querySelectorAll("[data-uf-filtro]").forEach((x) => x.setAttribute("aria-pressed", String(x === pilula)));
+      pilula.scrollIntoView({ block: "nearest", inline: "nearest", behavior: "smooth" });
+      aplicarFiltro(painel);
       return;
     }
-    const exp = alvo.closest<HTMLButtonElement>("[data-expandir]");
-    if (exp) {
-      exp.closest(".painel")!.querySelectorAll("tr[hidden]").forEach((tr) => tr.removeAttribute("hidden"));
-      exp.remove();
+    const seta = alvo.closest<HTMLButtonElement>("[data-rolar]");
+    if (seta) {
+      const trilho = seta.parentElement!.querySelector<HTMLElement>(".trilho-uf")!;
+      trilho.scrollBy({ left: Number(seta.dataset.rolar) * trilho.clientWidth * 0.8, behavior: "smooth" });
+      return;
+    }
+    const pag = alvo.closest<HTMLButtonElement>("[data-pag]");
+    if (pag) {
+      const painel = pag.closest<HTMLElement>(".painel")!;
+      painel.dataset.pagina = String(Number(painel.dataset.pagina ?? 0) + Number(pag.dataset.pag));
+      aplicarFiltro(painel);
       return;
     }
     const linha = alvo.closest<HTMLElement>("[data-cidade]");
