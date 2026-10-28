@@ -5,7 +5,7 @@ import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
 import "@fontsource/source-serif-4/600.css";
 import "@fontsource/source-serif-4/800.css";
-import { Resumo, Candidato, Municipio, esc, nomeCidade } from "./util";
+import { Resumo, Candidato, Municipio, esc, nomeCidade, contarEvento } from "./util";
 import { htmlCard, ativarCards } from "./cards";
 import { placar, listas, crescimento, viradas } from "./presidente";
 import { criarMapa, corrigirOrientacao } from "./mapa";
@@ -145,3 +145,7 @@ function falha(onde: string, e: unknown) {
 }
 
 iniciar().catch((e) => falha("placar", e));
+
+// cliques nos botões "Apoie" (topo e fim da página) entram como evento anônimo no contador de visitas
+document.querySelectorAll<HTMLAnchorElement>("[data-apoie]").forEach((a) =>
+  a.addEventListener("click", () => contarEvento(`apoie-${a.dataset.apoie}`, "Clique em Apoie")));

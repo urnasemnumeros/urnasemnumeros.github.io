@@ -435,3 +435,26 @@ td small { color: var(--text-3); margin-left: 4px; }
   .uf-trilho span, .janela-urnas[open] { animation: none; }
   .botao-urna, .botao-urna::after, .botao-urna .seta, .uf-linha { transition: none; }
 }
+
+/* ---------- apoio (Apoia.se) */
+.apoie-topo { flex: none; display: inline-flex; align-items: center; gap: 6px; height: 40px; padding: 0 14px; border-radius: 999px;
+  background: #dc9b3e; color: #1a1a19; text-decoration: none; font-size: .86rem; font-weight: 700; transition: transform .15s, filter .15s; }
+.apoie-topo:hover { filter: brightness(1.06); transform: translateY(-1px); }
+.apoie-topo svg, .apoie-icone svg { width: 17px; height: 17px; fill: currentColor; }
+.apoie-bloco { display: flex; align-items: center; gap: 20px; margin: 48px 0 24px; padding: 24px 28px; border-radius: 16px;
+  background: var(--surface); border: 1px solid var(--line); border-left: 6px solid #dc9b3e; }
+.apoie-icone { flex: none; width: 56px; height: 56px; border-radius: 50%; display: grid; place-items: center; background: #dc9b3e; color: #1a1a19; }
+.apoie-icone svg { width: 26px; height: 26px; }
+.apoie-texto { flex: 1; min-width: 0; }
+.apoie-texto h2 { margin: 0 0 6px; font-size: 1.4rem; }
+.apoie-texto p { margin: 0; color: var(--text-2); }
+.apoie-botao { flex: none; display: inline-flex; align-items: center; gap: 8px; padding: 13px 20px; border-radius: 12px; background: var(--text); color: var(--bg);
+  text-decoration: none; font-weight: 700; transition: transform .15s, box-shadow .2s; }
+.apoie-botao:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgb(0 0 0 / .18); }
+@media (max-width: 760px) {
+  .apoie-topo { width: 40px; padding: 0; justify-content: center; }
+  .apoie-topo span { display: none; }
+  .apoie-bloco { flex-direction: column; align-items: flex-start; padding: 20px; }
+  .apoie-botao { width: 100%; justify-content: center; }
+}
+@media (prefers-reduced-motion: reduce) { .apoie-topo, .apoie-botao { transition: none; } }
