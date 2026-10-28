@@ -1,0 +1,8320 @@
+[
+ {
+  "area": "API oficial",
+  "item": "1º turno: soma dos estados + exterior = Brasil (vv)",
+  "site": 119300788,
+  "esperado": 119300788,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "1º turno: soma dos estados + exterior = Brasil (te)",
+  "site": 158745502,
+  "esperado": 158745502,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "1º turno: soma dos estados + exterior = Brasil (c)",
+  "site": 125275835,
+  "esperado": 125275835,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "1º turno: soma dos estados + exterior = Brasil (a)",
+  "site": 33469244,
+  "esperado": 33469244,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "2º turno: soma dos estados + exterior = Brasil (vv)",
+  "site": 124082273,
+  "esperado": 124082273,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "2º turno: soma dos estados + exterior = Brasil (te)",
+  "site": 158745502,
+  "esperado": 158745502,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "2º turno: soma dos estados + exterior = Brasil (c)",
+  "site": 128236074,
+  "esperado": 128236074,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "API oficial",
+  "item": "2º turno: soma dos estados + exterior = Brasil (a)",
+  "site": 30509005,
+  "esperado": 30509005,
+  "fonte": "API de resultados",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos válidos",
+  "site": 119300788,
+  "esperado": 119300788,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Flávio Bolsonaro",
+  "site": 56104503,
+  "esperado": 56104503,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Ronaldo Caiado",
+  "site": 2605148,
+  "esperado": 2605148,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Lula",
+  "site": 53879538,
+  "esperado": 53879538,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Clariana Barao",
+  "site": 40043,
+  "esperado": 40043,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Edmilson Costa",
+  "site": 22693,
+  "esperado": 22693,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Hertz Dias",
+  "site": 43103,
+  "esperado": 43103,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Escritor Augusto Cury",
+  "site": 3448569,
+  "esperado": 3448569,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Zema",
+  "site": 326488,
+  "esperado": 326488,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Samara",
+  "site": 122911,
+  "esperado": 122911,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Veterinário Wilson Grassi",
+  "site": 16881,
+  "esperado": 16881,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Renan Santos",
+  "site": 2675887,
+  "esperado": 2675887,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BR: votos de Rui Costa Pimenta",
+  "site": 15024,
+  "esperado": 15024,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos válidos",
+  "site": 330882,
+  "esperado": 330882,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Flávio Bolsonaro",
+  "site": 143900,
+  "esperado": 143900,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Ronaldo Caiado",
+  "site": 4708,
+  "esperado": 4708,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Lula",
+  "site": 157387,
+  "esperado": 157387,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Clariana Barao",
+  "site": 825,
+  "esperado": 825,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Edmilson Costa",
+  "site": 421,
+  "esperado": 421,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Hertz Dias",
+  "site": 373,
+  "esperado": 373,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Escritor Augusto Cury",
+  "site": 9734,
+  "esperado": 9734,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Zema",
+  "site": 3329,
+  "esperado": 3329,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Samara",
+  "site": 1053,
+  "esperado": 1053,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Veterinário Wilson Grassi",
+  "site": 373,
+  "esperado": 373,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Renan Santos",
+  "site": 8580,
+  "esperado": 8580,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ZZ: votos de Rui Costa Pimenta",
+  "site": 199,
+  "esperado": 199,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos válidos",
+  "site": 469066,
+  "esperado": 469066,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Flávio Bolsonaro",
+  "site": 302807,
+  "esperado": 302807,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Ronaldo Caiado",
+  "site": 8594,
+  "esperado": 8594,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Lula",
+  "site": 134770,
+  "esperado": 134770,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Clariana Barao",
+  "site": 215,
+  "esperado": 215,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Edmilson Costa",
+  "site": 140,
+  "esperado": 140,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Hertz Dias",
+  "site": 71,
+  "esperado": 71,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Escritor Augusto Cury",
+  "site": 13523,
+  "esperado": 13523,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Zema",
+  "site": 573,
+  "esperado": 573,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Samara",
+  "site": 314,
+  "esperado": 314,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Veterinário Wilson Grassi",
+  "site": 39,
+  "esperado": 39,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Renan Santos",
+  "site": 7980,
+  "esperado": 7980,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AC: votos de Rui Costa Pimenta",
+  "site": 40,
+  "esperado": 40,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos válidos",
+  "site": 1818856,
+  "esperado": 1818856,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Flávio Bolsonaro",
+  "site": 735718,
+  "esperado": 735718,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Ronaldo Caiado",
+  "site": 14198,
+  "esperado": 14198,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Lula",
+  "site": 995459,
+  "esperado": 995459,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Hertz Dias",
+  "site": 431,
+  "esperado": 431,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Edmilson Costa",
+  "site": 267,
+  "esperado": 267,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Clariana Barao",
+  "site": 636,
+  "esperado": 636,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Zema",
+  "site": 1168,
+  "esperado": 1168,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Escritor Augusto Cury",
+  "site": 42427,
+  "esperado": 42427,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Veterinário Wilson Grassi",
+  "site": 246,
+  "esperado": 246,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Samara",
+  "site": 1345,
+  "esperado": 1345,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Renan Santos",
+  "site": 26851,
+  "esperado": 26851,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AL: votos de Rui Costa Pimenta",
+  "site": 110,
+  "esperado": 110,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos válidos",
+  "site": 464858,
+  "esperado": 464858,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Flávio Bolsonaro",
+  "site": 212278,
+  "esperado": 212278,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Ronaldo Caiado",
+  "site": 8304,
+  "esperado": 8304,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Lula",
+  "site": 212503,
+  "esperado": 212503,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Clariana Barao",
+  "site": 229,
+  "esperado": 229,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Edmilson Costa",
+  "site": 62,
+  "esperado": 62,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Hertz Dias",
+  "site": 132,
+  "esperado": 132,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Escritor Augusto Cury",
+  "site": 19057,
+  "esperado": 19057,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Zema",
+  "site": 341,
+  "esperado": 341,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Samara",
+  "site": 508,
+  "esperado": 508,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Veterinário Wilson Grassi",
+  "site": 49,
+  "esperado": 49,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Renan Santos",
+  "site": 11342,
+  "esperado": 11342,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AP: votos de Rui Costa Pimenta",
+  "site": 53,
+  "esperado": 53,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos válidos",
+  "site": 2170763,
+  "esperado": 2170763,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Flávio Bolsonaro",
+  "site": 976764,
+  "esperado": 976764,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Ronaldo Caiado",
+  "site": 28310,
+  "esperado": 28310,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Lula",
+  "site": 1046996,
+  "esperado": 1046996,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Hertz Dias",
+  "site": 457,
+  "esperado": 457,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Edmilson Costa",
+  "site": 265,
+  "esperado": 265,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Clariana Barao",
+  "site": 929,
+  "esperado": 929,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Zema",
+  "site": 1781,
+  "esperado": 1781,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Escritor Augusto Cury",
+  "site": 77531,
+  "esperado": 77531,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Veterinário Wilson Grassi",
+  "site": 291,
+  "esperado": 291,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Samara",
+  "site": 1867,
+  "esperado": 1867,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Renan Santos",
+  "site": 35411,
+  "esperado": 35411,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno AM: votos de Rui Costa Pimenta",
+  "site": 161,
+  "esperado": 161,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos válidos",
+  "site": 8560291,
+  "esperado": 8560291,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Flávio Bolsonaro",
+  "site": 2442585,
+  "esperado": 2442585,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Ronaldo Caiado",
+  "site": 122705,
+  "esperado": 122705,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Lula",
+  "site": 5664771,
+  "esperado": 5664771,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Clariana Barao",
+  "site": 1676,
+  "esperado": 1676,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Edmilson Costa",
+  "site": 1299,
+  "esperado": 1299,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Hertz Dias",
+  "site": 1791,
+  "esperado": 1791,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Escritor Augusto Cury",
+  "site": 195451,
+  "esperado": 195451,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Zema",
+  "site": 6497,
+  "esperado": 6497,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Samara",
+  "site": 4649,
+  "esperado": 4649,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Veterinário Wilson Grassi",
+  "site": 625,
+  "esperado": 625,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Renan Santos",
+  "site": 117518,
+  "esperado": 117518,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno BA: votos de Rui Costa Pimenta",
+  "site": 724,
+  "esperado": 724,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos válidos",
+  "site": 5617814,
+  "esperado": 5617814,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Flávio Bolsonaro",
+  "site": 1756850,
+  "esperado": 1756850,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Ronaldo Caiado",
+  "site": 45604,
+  "esperado": 45604,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Lula",
+  "site": 3555263,
+  "esperado": 3555263,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Hertz Dias",
+  "site": 1491,
+  "esperado": 1491,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Edmilson Costa",
+  "site": 783,
+  "esperado": 783,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Clariana Barao",
+  "site": 1071,
+  "esperado": 1071,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Zema",
+  "site": 4310,
+  "esperado": 4310,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Escritor Augusto Cury",
+  "site": 140524,
+  "esperado": 140524,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Veterinário Wilson Grassi",
+  "site": 481,
+  "esperado": 481,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Samara",
+  "site": 3352,
+  "esperado": 3352,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Renan Santos",
+  "site": 107587,
+  "esperado": 107587,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno CE: votos de Rui Costa Pimenta",
+  "site": 498,
+  "esperado": 498,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos válidos",
+  "site": 1772808,
+  "esperado": 1772808,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Flávio Bolsonaro",
+  "site": 909616,
+  "esperado": 909616,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Ronaldo Caiado",
+  "site": 85076,
+  "esperado": 85076,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Lula",
+  "site": 675627,
+  "esperado": 675627,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Hertz Dias",
+  "site": 828,
+  "esperado": 828,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Edmilson Costa",
+  "site": 334,
+  "esperado": 334,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Clariana Barao",
+  "site": 716,
+  "esperado": 716,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Zema",
+  "site": 4915,
+  "esperado": 4915,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Escritor Augusto Cury",
+  "site": 45979,
+  "esperado": 45979,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Veterinário Wilson Grassi",
+  "site": 324,
+  "esperado": 324,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Samara",
+  "site": 2297,
+  "esperado": 2297,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Renan Santos",
+  "site": 46714,
+  "esperado": 46714,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno DF: votos de Rui Costa Pimenta",
+  "site": 382,
+  "esperado": 382,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos válidos",
+  "site": 2251078,
+  "esperado": 2251078,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Flávio Bolsonaro",
+  "site": 1233194,
+  "esperado": 1233194,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Ronaldo Caiado",
+  "site": 39097,
+  "esperado": 39097,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Lula",
+  "site": 850028,
+  "esperado": 850028,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Hertz Dias",
+  "site": 638,
+  "esperado": 638,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Edmilson Costa",
+  "site": 388,
+  "esperado": 388,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Clariana Barao",
+  "site": 974,
+  "esperado": 974,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Zema",
+  "site": 5873,
+  "esperado": 5873,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Escritor Augusto Cury",
+  "site": 65121,
+  "esperado": 65121,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Veterinário Wilson Grassi",
+  "site": 311,
+  "esperado": 311,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Samara",
+  "site": 1973,
+  "esperado": 1973,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Renan Santos",
+  "site": 53236,
+  "esperado": 53236,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno ES: votos de Rui Costa Pimenta",
+  "site": 245,
+  "esperado": 245,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos válidos",
+  "site": 3827823,
+  "esperado": 3827823,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Flávio Bolsonaro",
+  "site": 2051888,
+  "esperado": 2051888,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Ronaldo Caiado",
+  "site": 472041,
+  "esperado": 472041,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Lula",
+  "site": 1188880,
+  "esperado": 1188880,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Clariana Barao",
+  "site": 559,
+  "esperado": 559,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Edmilson Costa",
+  "site": 468,
+  "esperado": 468,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Hertz Dias",
+  "site": 668,
+  "esperado": 668,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Escritor Augusto Cury",
+  "site": 53849,
+  "esperado": 53849,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Zema",
+  "site": 2672,
+  "esperado": 2672,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Samara",
+  "site": 2087,
+  "esperado": 2087,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Veterinário Wilson Grassi",
+  "site": 346,
+  "esperado": 346,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Renan Santos",
+  "site": 54105,
+  "esperado": 54105,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno GO: votos de Rui Costa Pimenta",
+  "site": 260,
+  "esperado": 260,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos válidos",
+  "site": 4010439,
+  "esperado": 4010439,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Flávio Bolsonaro",
+  "site": 1239040,
+  "esperado": 1239040,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Ronaldo Caiado",
+  "site": 50155,
+  "esperado": 50155,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Lula",
+  "site": 2566301,
+  "esperado": 2566301,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Hertz Dias",
+  "site": 1459,
+  "esperado": 1459,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Edmilson Costa",
+  "site": 475,
+  "esperado": 475,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Clariana Barao",
+  "site": 895,
+  "esperado": 895,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Zema",
+  "site": 4584,
+  "esperado": 4584,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Escritor Augusto Cury",
+  "site": 84830,
+  "esperado": 84830,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Veterinário Wilson Grassi",
+  "site": 307,
+  "esperado": 307,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Samara",
+  "site": 1795,
+  "esperado": 1795,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Renan Santos",
+  "site": 60387,
+  "esperado": 60387,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MA: votos de Rui Costa Pimenta",
+  "site": 211,
+  "esperado": 211,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos válidos",
+  "site": 1993288,
+  "esperado": 1993288,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Flávio Bolsonaro",
+  "site": 1298581,
+  "esperado": 1298581,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Ronaldo Caiado",
+  "site": 33079,
+  "esperado": 33079,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Lula",
+  "site": 581681,
+  "esperado": 581681,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Clariana Barao",
+  "site": 1869,
+  "esperado": 1869,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Edmilson Costa",
+  "site": 239,
+  "esperado": 239,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Hertz Dias",
+  "site": 340,
+  "esperado": 340,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Escritor Augusto Cury",
+  "site": 40019,
+  "esperado": 40019,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Zema",
+  "site": 2424,
+  "esperado": 2424,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Samara",
+  "site": 1584,
+  "esperado": 1584,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Veterinário Wilson Grassi",
+  "site": 172,
+  "esperado": 172,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Renan Santos",
+  "site": 33170,
+  "esperado": 33170,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MT: votos de Rui Costa Pimenta",
+  "site": 130,
+  "esperado": 130,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos válidos",
+  "site": 1490278,
+  "esperado": 1490278,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Flávio Bolsonaro",
+  "site": 873351,
+  "esperado": 873351,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Ronaldo Caiado",
+  "site": 23291,
+  "esperado": 23291,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Lula",
+  "site": 516855,
+  "esperado": 516855,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Clariana Barao",
+  "site": 626,
+  "esperado": 626,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Edmilson Costa",
+  "site": 332,
+  "esperado": 332,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Hertz Dias",
+  "site": 353,
+  "esperado": 353,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Escritor Augusto Cury",
+  "site": 39148,
+  "esperado": 39148,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Zema",
+  "site": 2792,
+  "esperado": 2792,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Samara",
+  "site": 1291,
+  "esperado": 1291,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Veterinário Wilson Grassi",
+  "site": 209,
+  "esperado": 209,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Renan Santos",
+  "site": 31847,
+  "esperado": 31847,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MS: votos de Rui Costa Pimenta",
+  "site": 183,
+  "esperado": 183,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos válidos",
+  "site": 11976235,
+  "esperado": 11976235,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Flávio Bolsonaro",
+  "site": 5777548,
+  "esperado": 5777548,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Ronaldo Caiado",
+  "site": 230423,
+  "esperado": 230423,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Lula",
+  "site": 5188936,
+  "esperado": 5188936,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Hertz Dias",
+  "site": 4085,
+  "esperado": 4085,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Edmilson Costa",
+  "site": 2300,
+  "esperado": 2300,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Clariana Barao",
+  "site": 3411,
+  "esperado": 3411,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Zema",
+  "site": 98407,
+  "esperado": 98407,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Escritor Augusto Cury",
+  "site": 409737,
+  "esperado": 409737,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Veterinário Wilson Grassi",
+  "site": 1732,
+  "esperado": 1732,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Samara",
+  "site": 11026,
+  "esperado": 11026,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Renan Santos",
+  "site": 247209,
+  "esperado": 247209,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno MG: votos de Rui Costa Pimenta",
+  "site": 1421,
+  "esperado": 1421,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos válidos",
+  "site": 4863172,
+  "esperado": 4863172,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Flávio Bolsonaro",
+  "site": 2163957,
+  "esperado": 2163957,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Ronaldo Caiado",
+  "site": 51991,
+  "esperado": 51991,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Lula",
+  "site": 2427237,
+  "esperado": 2427237,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Hertz Dias",
+  "site": 1045,
+  "esperado": 1045,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Edmilson Costa",
+  "site": 674,
+  "esperado": 674,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Clariana Barao",
+  "site": 1293,
+  "esperado": 1293,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Zema",
+  "site": 3064,
+  "esperado": 3064,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Escritor Augusto Cury",
+  "site": 125172,
+  "esperado": 125172,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Veterinário Wilson Grassi",
+  "site": 442,
+  "esperado": 442,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Samara",
+  "site": 3824,
+  "esperado": 3824,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Renan Santos",
+  "site": 84165,
+  "esperado": 84165,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PA: votos de Rui Costa Pimenta",
+  "site": 308,
+  "esperado": 308,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos válidos",
+  "site": 2513747,
+  "esperado": 2513747,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Flávio Bolsonaro",
+  "site": 831377,
+  "esperado": 831377,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Ronaldo Caiado",
+  "site": 19511,
+  "esperado": 19511,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Lula",
+  "site": 1541127,
+  "esperado": 1541127,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Clariana Barao",
+  "site": 604,
+  "esperado": 604,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Edmilson Costa",
+  "site": 347,
+  "esperado": 347,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Hertz Dias",
+  "site": 627,
+  "esperado": 627,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Escritor Augusto Cury",
+  "site": 73831,
+  "esperado": 73831,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Zema",
+  "site": 1988,
+  "esperado": 1988,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Samara",
+  "site": 1593,
+  "esperado": 1593,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Veterinário Wilson Grassi",
+  "site": 221,
+  "esperado": 221,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Renan Santos",
+  "site": 42247,
+  "esperado": 42247,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PB: votos de Rui Costa Pimenta",
+  "site": 274,
+  "esperado": 274,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos válidos",
+  "site": 6585243,
+  "esperado": 6585243,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Flávio Bolsonaro",
+  "site": 3945345,
+  "esperado": 3945345,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Ronaldo Caiado",
+  "site": 171294,
+  "esperado": 171294,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Lula",
+  "site": 2054597,
+  "esperado": 2054597,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Clariana Barao",
+  "site": 2445,
+  "esperado": 2445,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Edmilson Costa",
+  "site": 1195,
+  "esperado": 1195,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Hertz Dias",
+  "site": 2056,
+  "esperado": 2056,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Escritor Augusto Cury",
+  "site": 205095,
+  "esperado": 205095,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Zema",
+  "site": 17172,
+  "esperado": 17172,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Samara",
+  "site": 6731,
+  "esperado": 6731,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Veterinário Wilson Grassi",
+  "site": 962,
+  "esperado": 962,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Renan Santos",
+  "site": 177434,
+  "esperado": 177434,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PR: votos de Rui Costa Pimenta",
+  "site": 917,
+  "esperado": 917,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos válidos",
+  "site": 5601017,
+  "esperado": 5601017,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Flávio Bolsonaro",
+  "site": 1738043,
+  "esperado": 1738043,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Ronaldo Caiado",
+  "site": 73176,
+  "esperado": 73176,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Lula",
+  "site": 3553971,
+  "esperado": 3553971,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Hertz Dias",
+  "site": 1114,
+  "esperado": 1114,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Edmilson Costa",
+  "site": 705,
+  "esperado": 705,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Clariana Barao",
+  "site": 869,
+  "esperado": 869,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Zema",
+  "site": 6060,
+  "esperado": 6060,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Escritor Augusto Cury",
+  "site": 137960,
+  "esperado": 137960,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Veterinário Wilson Grassi",
+  "site": 457,
+  "esperado": 457,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Samara",
+  "site": 2387,
+  "esperado": 2387,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Renan Santos",
+  "site": 85865,
+  "esperado": 85865,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PE: votos de Rui Costa Pimenta",
+  "site": 410,
+  "esperado": 410,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos válidos",
+  "site": 2146394,
+  "esperado": 2146394,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Flávio Bolsonaro",
+  "site": 517028,
+  "esperado": 517028,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Ronaldo Caiado",
+  "site": 21629,
+  "esperado": 21629,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Lula",
+  "site": 1523710,
+  "esperado": 1523710,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Hertz Dias",
+  "site": 443,
+  "esperado": 443,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Edmilson Costa",
+  "site": 319,
+  "esperado": 319,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Clariana Barao",
+  "site": 504,
+  "esperado": 504,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Zema",
+  "site": 1357,
+  "esperado": 1357,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Escritor Augusto Cury",
+  "site": 47692,
+  "esperado": 47692,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Veterinário Wilson Grassi",
+  "site": 193,
+  "esperado": 193,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Samara",
+  "site": 1099,
+  "esperado": 1099,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Renan Santos",
+  "site": 32274,
+  "esperado": 32274,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno PI: votos de Rui Costa Pimenta",
+  "site": 146,
+  "esperado": 146,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos válidos",
+  "site": 9369700,
+  "esperado": 9369700,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Flávio Bolsonaro",
+  "site": 4966844,
+  "esperado": 4966844,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Ronaldo Caiado",
+  "site": 199844,
+  "esperado": 199844,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Lula",
+  "site": 3693021,
+  "esperado": 3693021,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Hertz Dias",
+  "site": 3999,
+  "esperado": 3999,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Edmilson Costa",
+  "site": 2854,
+  "esperado": 2854,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Clariana Barao",
+  "site": 4082,
+  "esperado": 4082,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Zema",
+  "site": 21907,
+  "esperado": 21907,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Escritor Augusto Cury",
+  "site": 247397,
+  "esperado": 247397,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Veterinário Wilson Grassi",
+  "site": 1930,
+  "esperado": 1930,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Samara",
+  "site": 14186,
+  "esperado": 14186,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Renan Santos",
+  "site": 211843,
+  "esperado": 211843,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RJ: votos de Rui Costa Pimenta",
+  "site": 1793,
+  "esperado": 1793,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos válidos",
+  "site": 2071898,
+  "esperado": 2071898,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Flávio Bolsonaro",
+  "site": 720493,
+  "esperado": 720493,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Ronaldo Caiado",
+  "site": 16407,
+  "esperado": 16407,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Lula",
+  "site": 1237963,
+  "esperado": 1237963,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Hertz Dias",
+  "site": 572,
+  "esperado": 572,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Edmilson Costa",
+  "site": 315,
+  "esperado": 315,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Clariana Barao",
+  "site": 405,
+  "esperado": 405,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Zema",
+  "site": 1525,
+  "esperado": 1525,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Escritor Augusto Cury",
+  "site": 57367,
+  "esperado": 57367,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Veterinário Wilson Grassi",
+  "site": 185,
+  "esperado": 185,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Samara",
+  "site": 1228,
+  "esperado": 1228,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Renan Santos",
+  "site": 35261,
+  "esperado": 35261,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RN: votos de Rui Costa Pimenta",
+  "site": 177,
+  "esperado": 177,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos válidos",
+  "site": 6423046,
+  "esperado": 6423046,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Flávio Bolsonaro",
+  "site": 3573783,
+  "esperado": 3573783,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Ronaldo Caiado",
+  "site": 158821,
+  "esperado": 158821,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Lula",
+  "site": 2294759,
+  "esperado": 2294759,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Hertz Dias",
+  "site": 2146,
+  "esperado": 2146,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Edmilson Costa",
+  "site": 1031,
+  "esperado": 1031,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Clariana Barao",
+  "site": 2066,
+  "esperado": 2066,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Zema",
+  "site": 18988,
+  "esperado": 18988,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Escritor Augusto Cury",
+  "site": 195296,
+  "esperado": 195296,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Veterinário Wilson Grassi",
+  "site": 923,
+  "esperado": 923,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Samara",
+  "site": 6632,
+  "esperado": 6632,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Renan Santos",
+  "site": 167558,
+  "esperado": 167558,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RS: votos de Rui Costa Pimenta",
+  "site": 1043,
+  "esperado": 1043,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos válidos",
+  "site": 968059,
+  "esperado": 968059,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Flávio Bolsonaro",
+  "site": 652988,
+  "esperado": 652988,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Ronaldo Caiado",
+  "site": 16929,
+  "esperado": 16929,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Lula",
+  "site": 250667,
+  "esperado": 250667,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Clariana Barao",
+  "site": 356,
+  "esperado": 356,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Edmilson Costa",
+  "site": 160,
+  "esperado": 160,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Hertz Dias",
+  "site": 174,
+  "esperado": 174,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Escritor Augusto Cury",
+  "site": 25280,
+  "esperado": 25280,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Zema",
+  "site": 1318,
+  "esperado": 1318,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Samara",
+  "site": 843,
+  "esperado": 843,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Veterinário Wilson Grassi",
+  "site": 97,
+  "esperado": 97,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Renan Santos",
+  "site": 19187,
+  "esperado": 19187,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RO: votos de Rui Costa Pimenta",
+  "site": 60,
+  "esperado": 60,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos válidos",
+  "site": 325545,
+  "esperado": 325545,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Flávio Bolsonaro",
+  "site": 231322,
+  "esperado": 231322,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Ronaldo Caiado",
+  "site": 3639,
+  "esperado": 3639,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Lula",
+  "site": 74420,
+  "esperado": 74420,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Hertz Dias",
+  "site": 60,
+  "esperado": 60,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Edmilson Costa",
+  "site": 42,
+  "esperado": 42,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Clariana Barao",
+  "site": 168,
+  "esperado": 168,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Zema",
+  "site": 337,
+  "esperado": 337,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Escritor Augusto Cury",
+  "site": 8579,
+  "esperado": 8579,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Veterinário Wilson Grassi",
+  "site": 41,
+  "esperado": 41,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Samara",
+  "site": 280,
+  "esperado": 280,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Renan Santos",
+  "site": 6623,
+  "esperado": 6623,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno RR: votos de Rui Costa Pimenta",
+  "site": 34,
+  "esperado": 34,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos válidos",
+  "site": 4500897,
+  "esperado": 4500897,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Flávio Bolsonaro",
+  "site": 3000020,
+  "esperado": 3000020,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Ronaldo Caiado",
+  "site": 79911,
+  "esperado": 79911,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Lula",
+  "site": 1127168,
+  "esperado": 1127168,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Hertz Dias",
+  "site": 1503,
+  "esperado": 1503,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Edmilson Costa",
+  "site": 828,
+  "esperado": 828,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Clariana Barao",
+  "site": 1429,
+  "esperado": 1429,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Zema",
+  "site": 16718,
+  "esperado": 16718,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Escritor Augusto Cury",
+  "site": 134273,
+  "esperado": 134273,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Veterinário Wilson Grassi",
+  "site": 560,
+  "esperado": 560,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Samara",
+  "site": 5049,
+  "esperado": 5049,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Renan Santos",
+  "site": 132795,
+  "esperado": 132795,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SC: votos de Rui Costa Pimenta",
+  "site": 643,
+  "esperado": 643,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos válidos",
+  "site": 24882948,
+  "esperado": 24882948,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Flávio Bolsonaro",
+  "site": 12922023,
+  "esperado": 12922023,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Ronaldo Caiado",
+  "site": 579571,
+  "esperado": 579571,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Lula",
+  "site": 9505413,
+  "esperado": 9505413,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Clariana Barao",
+  "site": 10563,
+  "esperado": 10563,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Edmilson Costa",
+  "site": 6129,
+  "esperado": 6129,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Hertz Dias",
+  "site": 15815,
+  "esperado": 15815,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Escritor Augusto Cury",
+  "site": 892368,
+  "esperado": 892368,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Zema",
+  "site": 94635,
+  "esperado": 94635,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Samara",
+  "site": 42532,
+  "esperado": 42532,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Veterinário Wilson Grassi",
+  "site": 5160,
+  "esperado": 5160,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Renan Santos",
+  "site": 804310,
+  "esperado": 804310,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SP: votos de Rui Costa Pimenta",
+  "site": 4429,
+  "esperado": 4429,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos válidos",
+  "site": 1364196,
+  "esperado": 1364196,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Flávio Bolsonaro",
+  "site": 417839,
+  "esperado": 417839,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Ronaldo Caiado",
+  "site": 26651,
+  "esperado": 26651,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Lula",
+  "site": 856019,
+  "esperado": 856019,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Clariana Barao",
+  "site": 457,
+  "esperado": 457,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Edmilson Costa",
+  "site": 204,
+  "esperado": 204,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Hertz Dias",
+  "site": 331,
+  "esperado": 331,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Escritor Augusto Cury",
+  "site": 38895,
+  "esperado": 38895,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Zema",
+  "site": 1158,
+  "esperado": 1158,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Samara",
+  "site": 991,
+  "esperado": 991,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Veterinário Wilson Grassi",
+  "site": 138,
+  "esperado": 138,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Renan Santos",
+  "site": 21405,
+  "esperado": 21405,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno SE: votos de Rui Costa Pimenta",
+  "site": 108,
+  "esperado": 108,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos válidos",
+  "site": 930447,
+  "esperado": 930447,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Flávio Bolsonaro",
+  "site": 469321,
+  "esperado": 469321,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Ronaldo Caiado",
+  "site": 20189,
+  "esperado": 20189,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Lula",
+  "site": 404009,
+  "esperado": 404009,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Clariana Barao",
+  "site": 171,
+  "esperado": 171,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Edmilson Costa",
+  "site": 117,
+  "esperado": 117,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Hertz Dias",
+  "site": 101,
+  "esperado": 101,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Escritor Augusto Cury",
+  "site": 22434,
+  "esperado": 22434,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Zema",
+  "site": 595,
+  "esperado": 595,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Samara",
+  "site": 395,
+  "esperado": 395,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Veterinário Wilson Grassi",
+  "site": 67,
+  "esperado": 67,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Renan Santos",
+  "site": 12983,
+  "esperado": 12983,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "1º turno TO: votos de Rui Costa Pimenta",
+  "site": 65,
+  "esperado": 65,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BR: votos válidos",
+  "site": 124082273,
+  "esperado": 124082273,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BR: votos de Flávio Bolsonaro",
+  "site": 59826041,
+  "esperado": 59826041,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BR: votos de Lula",
+  "site": 64256232,
+  "esperado": 64256232,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ZZ: votos válidos",
+  "site": 371651,
+  "esperado": 371651,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ZZ: votos de Flávio Bolsonaro",
+  "site": 171497,
+  "esperado": 171497,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ZZ: votos de Lula",
+  "site": 200154,
+  "esperado": 200154,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AC: votos válidos",
+  "site": 432228,
+  "esperado": 432228,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AC: votos de Flávio Bolsonaro",
+  "site": 287715,
+  "esperado": 287715,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AC: votos de Lula",
+  "site": 144513,
+  "esperado": 144513,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AL: votos válidos",
+  "site": 1896761,
+  "esperado": 1896761,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AL: votos de Flávio Bolsonaro",
+  "site": 744140,
+  "esperado": 744140,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AL: votos de Lula",
+  "site": 1152621,
+  "esperado": 1152621,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AP: votos válidos",
+  "site": 421642,
+  "esperado": 421642,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AP: votos de Flávio Bolsonaro",
+  "site": 198674,
+  "esperado": 198674,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AP: votos de Lula",
+  "site": 222968,
+  "esperado": 222968,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AM: votos válidos",
+  "site": 2121028,
+  "esperado": 2121028,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AM: votos de Flávio Bolsonaro",
+  "site": 975245,
+  "esperado": 975245,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno AM: votos de Lula",
+  "site": 1145783,
+  "esperado": 1145783,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BA: votos válidos",
+  "site": 9094019,
+  "esperado": 9094019,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BA: votos de Flávio Bolsonaro",
+  "site": 2608761,
+  "esperado": 2608761,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno BA: votos de Lula",
+  "site": 6485258,
+  "esperado": 6485258,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno CE: votos válidos",
+  "site": 5855602,
+  "esperado": 5855602,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno CE: votos de Flávio Bolsonaro",
+  "site": 1819478,
+  "esperado": 1819478,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno CE: votos de Lula",
+  "site": 4036124,
+  "esperado": 4036124,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno DF: votos válidos",
+  "site": 1804766,
+  "esperado": 1804766,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno DF: votos de Flávio Bolsonaro",
+  "site": 979542,
+  "esperado": 979542,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno DF: votos de Lula",
+  "site": 825224,
+  "esperado": 825224,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ES: votos válidos",
+  "site": 2296469,
+  "esperado": 2296469,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ES: votos de Flávio Bolsonaro",
+  "site": 1294504,
+  "esperado": 1294504,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno ES: votos de Lula",
+  "site": 1001965,
+  "esperado": 1001965,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno GO: votos válidos",
+  "site": 3930889,
+  "esperado": 3930889,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno GO: votos de Flávio Bolsonaro",
+  "site": 2345334,
+  "esperado": 2345334,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno GO: votos de Lula",
+  "site": 1585555,
+  "esperado": 1585555,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MA: votos válidos",
+  "site": 4038202,
+  "esperado": 4038202,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MA: votos de Flávio Bolsonaro",
+  "site": 1229971,
+  "esperado": 1229971,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MA: votos de Lula",
+  "site": 2808231,
+  "esperado": 2808231,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MT: votos válidos",
+  "site": 2045266,
+  "esperado": 2045266,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MT: votos de Flávio Bolsonaro",
+  "site": 1351099,
+  "esperado": 1351099,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MT: votos de Lula",
+  "site": 694167,
+  "esperado": 694167,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MS: votos válidos",
+  "site": 1556865,
+  "esperado": 1556865,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MS: votos de Flávio Bolsonaro",
+  "site": 927892,
+  "esperado": 927892,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MS: votos de Lula",
+  "site": 628973,
+  "esperado": 628973,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MG: votos válidos",
+  "site": 12592885,
+  "esperado": 12592885,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MG: votos de Flávio Bolsonaro",
+  "site": 6241786,
+  "esperado": 6241786,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno MG: votos de Lula",
+  "site": 6351099,
+  "esperado": 6351099,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PA: votos válidos",
+  "site": 4890389,
+  "esperado": 4890389,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PA: votos de Flávio Bolsonaro",
+  "site": 2199940,
+  "esperado": 2199940,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PA: votos de Lula",
+  "site": 2690449,
+  "esperado": 2690449,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PB: votos válidos",
+  "site": 2659269,
+  "esperado": 2659269,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PB: votos de Flávio Bolsonaro",
+  "site": 865210,
+  "esperado": 865210,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PB: votos de Lula",
+  "site": 1794059,
+  "esperado": 1794059,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PR: votos válidos",
+  "site": 6857948,
+  "esperado": 6857948,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PR: votos de Flávio Bolsonaro",
+  "site": 4291444,
+  "esperado": 4291444,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PR: votos de Lula",
+  "site": 2566504,
+  "esperado": 2566504,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PE: votos válidos",
+  "site": 5950067,
+  "esperado": 5950067,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PE: votos de Flávio Bolsonaro",
+  "site": 1832554,
+  "esperado": 1832554,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PE: votos de Lula",
+  "site": 4117513,
+  "esperado": 4117513,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PI: votos válidos",
+  "site": 2179848,
+  "esperado": 2179848,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PI: votos de Flávio Bolsonaro",
+  "site": 525859,
+  "esperado": 525859,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno PI: votos de Lula",
+  "site": 1653989,
+  "esperado": 1653989,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RJ: votos válidos",
+  "site": 9734426,
+  "esperado": 9734426,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RJ: votos de Flávio Bolsonaro",
+  "site": 5169033,
+  "esperado": 5169033,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RJ: votos de Lula",
+  "site": 4565393,
+  "esperado": 4565393,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RN: votos válidos",
+  "site": 2151005,
+  "esperado": 2151005,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RN: votos de Flávio Bolsonaro",
+  "site": 737409,
+  "esperado": 737409,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RN: votos de Lula",
+  "site": 1413596,
+  "esperado": 1413596,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RS: votos válidos",
+  "site": 6698930,
+  "esperado": 6698930,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RS: votos de Flávio Bolsonaro",
+  "site": 3874378,
+  "esperado": 3874378,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RS: votos de Lula",
+  "site": 2824552,
+  "esperado": 2824552,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RO: votos válidos",
+  "site": 968828,
+  "esperado": 968828,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RO: votos de Flávio Bolsonaro",
+  "site": 674382,
+  "esperado": 674382,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RO: votos de Lula",
+  "site": 294446,
+  "esperado": 294446,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RR: votos válidos",
+  "site": 303180,
+  "esperado": 303180,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RR: votos de Flávio Bolsonaro",
+  "site": 219675,
+  "esperado": 219675,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno RR: votos de Lula",
+  "site": 83505,
+  "esperado": 83505,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SC: votos válidos",
+  "site": 4638385,
+  "esperado": 4638385,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SC: votos de Flávio Bolsonaro",
+  "site": 3220071,
+  "esperado": 3220071,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SC: votos de Lula",
+  "site": 1418314,
+  "esperado": 1418314,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SP: votos válidos",
+  "site": 26258452,
+  "esperado": 26258452,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SP: votos de Flávio Bolsonaro",
+  "site": 14139178,
+  "esperado": 14139178,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SP: votos de Lula",
+  "site": 12119274,
+  "esperado": 12119274,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SE: votos válidos",
+  "site": 1422395,
+  "esperado": 1422395,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SE: votos de Flávio Bolsonaro",
+  "site": 433354,
+  "esperado": 433354,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno SE: votos de Lula",
+  "site": 989041,
+  "esperado": 989041,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno TO: votos válidos",
+  "site": 910878,
+  "esperado": 910878,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno TO: votos de Flávio Bolsonaro",
+  "site": 467916,
+  "esperado": 467916,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Bruto × API",
+  "item": "2º turno TO: votos de Lula",
+  "site": 442962,
+  "esperado": 442962,
+  "fonte": "votacao_secao × API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: votos válidos (resumo.json)",
+  "site": 119300788,
+  "esperado": 119300788,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Flávio Bolsonaro (resumo.json)",
+  "site": 56104503,
+  "esperado": 56104503,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Lula (resumo.json)",
+  "site": 53879538,
+  "esperado": 53879538,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Escritor Augusto Cury (resumo.json)",
+  "site": 3448569,
+  "esperado": 3448569,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Renan Santos (resumo.json)",
+  "site": 2675887,
+  "esperado": 2675887,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Ronaldo Caiado (resumo.json)",
+  "site": 2605148,
+  "esperado": 2605148,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Zema (resumo.json)",
+  "site": 326488,
+  "esperado": 326488,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Samara (resumo.json)",
+  "site": 122911,
+  "esperado": 122911,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Hertz Dias (resumo.json)",
+  "site": 43103,
+  "esperado": 43103,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Clariana Barao (resumo.json)",
+  "site": 40043,
+  "esperado": 40043,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Edmilson Costa (resumo.json)",
+  "site": 22693,
+  "esperado": 22693,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Veterinário Wilson Grassi (resumo.json)",
+  "site": 16881,
+  "esperado": 16881,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "1º turno: Rui Costa Pimenta (resumo.json)",
+  "site": 15024,
+  "esperado": 15024,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "2º turno: votos válidos (resumo.json)",
+  "site": 124082273,
+  "esperado": 124082273,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "2º turno: Lula (resumo.json)",
+  "site": 64256232,
+  "esperado": 64256232,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Placar e totais",
+  "item": "2º turno: Flávio Bolsonaro (resumo.json)",
+  "site": 59826041,
+  "esperado": 59826041,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Municípios",
+  "item": "municípios × turnos com votos iguais ao bruto (todos os candidatos)",
+  "site": 11431,
+  "esperado": 11431,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno AC: válidos, Lula e Flávio",
+  "site": [
+   469066,
+   134770,
+   302807
+  ],
+  "esperado": [
+   469066,
+   134770,
+   302807
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno AL: válidos, Lula e Flávio",
+  "site": [
+   1818856,
+   995459,
+   735718
+  ],
+  "esperado": [
+   1818856,
+   995459,
+   735718
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno AP: válidos, Lula e Flávio",
+  "site": [
+   464858,
+   212503,
+   212278
+  ],
+  "esperado": [
+   464858,
+   212503,
+   212278
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno AM: válidos, Lula e Flávio",
+  "site": [
+   2170763,
+   1046996,
+   976764
+  ],
+  "esperado": [
+   2170763,
+   1046996,
+   976764
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno BA: válidos, Lula e Flávio",
+  "site": [
+   8560291,
+   5664771,
+   2442585
+  ],
+  "esperado": [
+   8560291,
+   5664771,
+   2442585
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno CE: válidos, Lula e Flávio",
+  "site": [
+   5617814,
+   3555263,
+   1756850
+  ],
+  "esperado": [
+   5617814,
+   3555263,
+   1756850
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno DF: válidos, Lula e Flávio",
+  "site": [
+   1772808,
+   675627,
+   909616
+  ],
+  "esperado": [
+   1772808,
+   675627,
+   909616
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno ES: válidos, Lula e Flávio",
+  "site": [
+   2251078,
+   850028,
+   1233194
+  ],
+  "esperado": [
+   2251078,
+   850028,
+   1233194
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno GO: válidos, Lula e Flávio",
+  "site": [
+   3827823,
+   1188880,
+   2051888
+  ],
+  "esperado": [
+   3827823,
+   1188880,
+   2051888
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno MA: válidos, Lula e Flávio",
+  "site": [
+   4010439,
+   2566301,
+   1239040
+  ],
+  "esperado": [
+   4010439,
+   2566301,
+   1239040
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno MT: válidos, Lula e Flávio",
+  "site": [
+   1993288,
+   581681,
+   1298581
+  ],
+  "esperado": [
+   1993288,
+   581681,
+   1298581
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno MS: válidos, Lula e Flávio",
+  "site": [
+   1490278,
+   516855,
+   873351
+  ],
+  "esperado": [
+   1490278,
+   516855,
+   873351
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno MG: válidos, Lula e Flávio",
+  "site": [
+   11976235,
+   5188936,
+   5777548
+  ],
+  "esperado": [
+   11976235,
+   5188936,
+   5777548
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno PA: válidos, Lula e Flávio",
+  "site": [
+   4863172,
+   2427237,
+   2163957
+  ],
+  "esperado": [
+   4863172,
+   2427237,
+   2163957
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno PB: válidos, Lula e Flávio",
+  "site": [
+   2513747,
+   1541127,
+   831377
+  ],
+  "esperado": [
+   2513747,
+   1541127,
+   831377
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno PR: válidos, Lula e Flávio",
+  "site": [
+   6585243,
+   2054597,
+   3945345
+  ],
+  "esperado": [
+   6585243,
+   2054597,
+   3945345
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno PE: válidos, Lula e Flávio",
+  "site": [
+   5601017,
+   3553971,
+   1738043
+  ],
+  "esperado": [
+   5601017,
+   3553971,
+   1738043
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno PI: válidos, Lula e Flávio",
+  "site": [
+   2146394,
+   1523710,
+   517028
+  ],
+  "esperado": [
+   2146394,
+   1523710,
+   517028
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno RJ: válidos, Lula e Flávio",
+  "site": [
+   9369700,
+   3693021,
+   4966844
+  ],
+  "esperado": [
+   9369700,
+   3693021,
+   4966844
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno RN: válidos, Lula e Flávio",
+  "site": [
+   2071898,
+   1237963,
+   720493
+  ],
+  "esperado": [
+   2071898,
+   1237963,
+   720493
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno RS: válidos, Lula e Flávio",
+  "site": [
+   6423046,
+   2294759,
+   3573783
+  ],
+  "esperado": [
+   6423046,
+   2294759,
+   3573783
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno RO: válidos, Lula e Flávio",
+  "site": [
+   968059,
+   250667,
+   652988
+  ],
+  "esperado": [
+   968059,
+   250667,
+   652988
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno RR: válidos, Lula e Flávio",
+  "site": [
+   325545,
+   74420,
+   231322
+  ],
+  "esperado": [
+   325545,
+   74420,
+   231322
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno SC: válidos, Lula e Flávio",
+  "site": [
+   4500897,
+   1127168,
+   3000020
+  ],
+  "esperado": [
+   4500897,
+   1127168,
+   3000020
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno SP: válidos, Lula e Flávio",
+  "site": [
+   24882948,
+   9505413,
+   12922023
+  ],
+  "esperado": [
+   24882948,
+   9505413,
+   12922023
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno SE: válidos, Lula e Flávio",
+  "site": [
+   1364196,
+   856019,
+   417839
+  ],
+  "esperado": [
+   1364196,
+   856019,
+   417839
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno TO: válidos, Lula e Flávio",
+  "site": [
+   930447,
+   404009,
+   469321
+  ],
+  "esperado": [
+   930447,
+   404009,
+   469321
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "1º turno ZZ: válidos, Lula e Flávio",
+  "site": [
+   330882,
+   157387,
+   143900
+  ],
+  "esperado": [
+   330882,
+   157387,
+   143900
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno AC: válidos, Lula e Flávio",
+  "site": [
+   432228,
+   144513,
+   287715
+  ],
+  "esperado": [
+   432228,
+   144513,
+   287715
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno AL: válidos, Lula e Flávio",
+  "site": [
+   1896761,
+   1152621,
+   744140
+  ],
+  "esperado": [
+   1896761,
+   1152621,
+   744140
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno AP: válidos, Lula e Flávio",
+  "site": [
+   421642,
+   222968,
+   198674
+  ],
+  "esperado": [
+   421642,
+   222968,
+   198674
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno AM: válidos, Lula e Flávio",
+  "site": [
+   2121028,
+   1145783,
+   975245
+  ],
+  "esperado": [
+   2121028,
+   1145783,
+   975245
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno BA: válidos, Lula e Flávio",
+  "site": [
+   9094019,
+   6485258,
+   2608761
+  ],
+  "esperado": [
+   9094019,
+   6485258,
+   2608761
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno CE: válidos, Lula e Flávio",
+  "site": [
+   5855602,
+   4036124,
+   1819478
+  ],
+  "esperado": [
+   5855602,
+   4036124,
+   1819478
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno DF: válidos, Lula e Flávio",
+  "site": [
+   1804766,
+   825224,
+   979542
+  ],
+  "esperado": [
+   1804766,
+   825224,
+   979542
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno ES: válidos, Lula e Flávio",
+  "site": [
+   2296469,
+   1001965,
+   1294504
+  ],
+  "esperado": [
+   2296469,
+   1001965,
+   1294504
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno GO: válidos, Lula e Flávio",
+  "site": [
+   3930889,
+   1585555,
+   2345334
+  ],
+  "esperado": [
+   3930889,
+   1585555,
+   2345334
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno MA: válidos, Lula e Flávio",
+  "site": [
+   4038202,
+   2808231,
+   1229971
+  ],
+  "esperado": [
+   4038202,
+   2808231,
+   1229971
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno MT: válidos, Lula e Flávio",
+  "site": [
+   2045266,
+   694167,
+   1351099
+  ],
+  "esperado": [
+   2045266,
+   694167,
+   1351099
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno MS: válidos, Lula e Flávio",
+  "site": [
+   1556865,
+   628973,
+   927892
+  ],
+  "esperado": [
+   1556865,
+   628973,
+   927892
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno MG: válidos, Lula e Flávio",
+  "site": [
+   12592885,
+   6351099,
+   6241786
+  ],
+  "esperado": [
+   12592885,
+   6351099,
+   6241786
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno PA: válidos, Lula e Flávio",
+  "site": [
+   4890389,
+   2690449,
+   2199940
+  ],
+  "esperado": [
+   4890389,
+   2690449,
+   2199940
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno PB: válidos, Lula e Flávio",
+  "site": [
+   2659269,
+   1794059,
+   865210
+  ],
+  "esperado": [
+   2659269,
+   1794059,
+   865210
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno PR: válidos, Lula e Flávio",
+  "site": [
+   6857948,
+   2566504,
+   4291444
+  ],
+  "esperado": [
+   6857948,
+   2566504,
+   4291444
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno PE: válidos, Lula e Flávio",
+  "site": [
+   5950067,
+   4117513,
+   1832554
+  ],
+  "esperado": [
+   5950067,
+   4117513,
+   1832554
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno PI: válidos, Lula e Flávio",
+  "site": [
+   2179848,
+   1653989,
+   525859
+  ],
+  "esperado": [
+   2179848,
+   1653989,
+   525859
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno RJ: válidos, Lula e Flávio",
+  "site": [
+   9734426,
+   4565393,
+   5169033
+  ],
+  "esperado": [
+   9734426,
+   4565393,
+   5169033
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno RN: válidos, Lula e Flávio",
+  "site": [
+   2151005,
+   1413596,
+   737409
+  ],
+  "esperado": [
+   2151005,
+   1413596,
+   737409
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno RS: válidos, Lula e Flávio",
+  "site": [
+   6698930,
+   2824552,
+   3874378
+  ],
+  "esperado": [
+   6698930,
+   2824552,
+   3874378
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno RO: válidos, Lula e Flávio",
+  "site": [
+   968828,
+   294446,
+   674382
+  ],
+  "esperado": [
+   968828,
+   294446,
+   674382
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno RR: válidos, Lula e Flávio",
+  "site": [
+   303180,
+   83505,
+   219675
+  ],
+  "esperado": [
+   303180,
+   83505,
+   219675
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno SC: válidos, Lula e Flávio",
+  "site": [
+   4638385,
+   1418314,
+   3220071
+  ],
+  "esperado": [
+   4638385,
+   1418314,
+   3220071
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno SP: válidos, Lula e Flávio",
+  "site": [
+   26258452,
+   12119274,
+   14139178
+  ],
+  "esperado": [
+   26258452,
+   12119274,
+   14139178
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno SE: válidos, Lula e Flávio",
+  "site": [
+   1422395,
+   989041,
+   433354
+  ],
+  "esperado": [
+   1422395,
+   989041,
+   433354
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno TO: válidos, Lula e Flávio",
+  "site": [
+   910878,
+   442962,
+   467916
+  ],
+  "esperado": [
+   910878,
+   442962,
+   467916
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Estados (municipios.json)",
+  "item": "2º turno ZZ: válidos, Lula e Flávio",
+  "site": [
+   371651,
+   200154,
+   171497
+  ],
+  "esperado": [
+   371651,
+   200154,
+   171497
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: aptos (site × API)",
+  "site": 158745502,
+  "esperado": 158745502,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: comparecimento (site × API)",
+  "site": 125275835,
+  "esperado": 125275835,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: abstenções (site × API)",
+  "site": 33469244,
+  "esperado": 33469244,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: brancos (site × API)",
+  "site": 2300798,
+  "esperado": 2300798,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: nulos (site × API)",
+  "site": 3674249,
+  "esperado": 3674249,
+  "fonte": "API",
+  "ok": true,
+  "nota": "a API soma nulos e nulos técnicos"
+ },
+ {
+  "area": "Comparecimento",
+  "item": "1º turno Brasil: site × detalhe bruto",
+  "site": [
+   158745502,
+   125275835,
+   33469244,
+   2300798,
+   3674249
+  ],
+  "esperado": [
+   158745502,
+   125275835,
+   33469244,
+   2300798,
+   3674249
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno AC: aptos, comparecimento, abstenção",
+  "site": [
+   613742,
+   488330,
+   125412
+  ],
+  "esperado": [
+   613742,
+   488330,
+   125412
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno AL: aptos, comparecimento, abstenção",
+  "site": [
+   2442126,
+   1938428,
+   503698
+  ],
+  "esperado": [
+   2442126,
+   1938428,
+   503698
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno AP: aptos, comparecimento, abstenção",
+  "site": [
+   576988,
+   476562,
+   100426
+  ],
+  "esperado": [
+   576988,
+   476562,
+   100426
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno AM: aptos, comparecimento, abstenção",
+  "site": [
+   2798611,
+   2234549,
+   564062
+  ],
+  "esperado": [
+   2798611,
+   2234549,
+   564062
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno BA: aptos, comparecimento, abstenção",
+  "site": [
+   11312752,
+   9053601,
+   2259151
+  ],
+  "esperado": [
+   11312752,
+   9053601,
+   2259151
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno CE: aptos, comparecimento, abstenção",
+  "site": [
+   6996545,
+   5910471,
+   1086074
+  ],
+  "esperado": [
+   6996545,
+   5910471,
+   1086074
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno DF: aptos, comparecimento, abstenção",
+  "site": [
+   2258320,
+   1831396,
+   426924
+  ],
+  "esperado": [
+   2258320,
+   1831396,
+   426924
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno ES: aptos, comparecimento, abstenção",
+  "site": [
+   2991650,
+   2352282,
+   639368
+  ],
+  "esperado": [
+   2991650,
+   2352282,
+   639368
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno GO: aptos, comparecimento, abstenção",
+  "site": [
+   5080590,
+   3971587,
+   1109003
+  ],
+  "esperado": [
+   5080590,
+   3971587,
+   1109003
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno MA: aptos, comparecimento, abstenção",
+  "site": [
+   5183115,
+   4160343,
+   1022772
+  ],
+  "esperado": [
+   5183115,
+   4160343,
+   1022772
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno MT: aptos, comparecimento, abstenção",
+  "site": [
+   2637801,
+   2052133,
+   585668
+  ],
+  "esperado": [
+   2637801,
+   2052133,
+   585668
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno MS: aptos, comparecimento, abstenção",
+  "site": [
+   2024430,
+   1541220,
+   483210
+  ],
+  "esperado": [
+   2024430,
+   1541220,
+   483210
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno MG: aptos, comparecimento, abstenção",
+  "site": [
+   16372372,
+   12637274,
+   3735098
+  ],
+  "esperado": [
+   16372372,
+   12637274,
+   3735098
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno PA: aptos, comparecimento, abstenção",
+  "site": [
+   6262397,
+   5066504,
+   1195893
+  ],
+  "esperado": [
+   6262397,
+   5066504,
+   1195893
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno PB: aptos, comparecimento, abstenção",
+  "site": [
+   3248531,
+   2683988,
+   564543
+  ],
+  "esperado": [
+   3248531,
+   2683988,
+   564543
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno PR: aptos, comparecimento, abstenção",
+  "site": [
+   8613657,
+   6841457,
+   1772200
+  ],
+  "esperado": [
+   8613657,
+   6841457,
+   1772200
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno PE: aptos, comparecimento, abstenção",
+  "site": [
+   7223450,
+   5911062,
+   1312388
+  ],
+  "esperado": [
+   7223450,
+   5911062,
+   1312388
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno PI: aptos, comparecimento, abstenção",
+  "site": [
+   2704758,
+   2240883,
+   463875
+  ],
+  "esperado": [
+   2704758,
+   2240883,
+   463875
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno RJ: aptos, comparecimento, abstenção",
+  "site": [
+   12857648,
+   9859802,
+   2997846
+  ],
+  "esperado": [
+   12857648,
+   9859802,
+   2997846
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno RN: aptos, comparecimento, abstenção",
+  "site": [
+   2659825,
+   2171013,
+   488812
+  ],
+  "esperado": [
+   2659825,
+   2171013,
+   488812
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno RS: aptos, comparecimento, abstenção",
+  "site": [
+   8522545,
+   6702903,
+   1819642
+  ],
+  "esperado": [
+   8522545,
+   6702903,
+   1819642
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno RO: aptos, comparecimento, abstenção",
+  "site": [
+   1265893,
+   991080,
+   274813
+  ],
+  "esperado": [
+   1265893,
+   991080,
+   274813
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno RR: aptos, comparecimento, abstenção",
+  "site": [
+   401521,
+   332772,
+   68749
+  ],
+  "esperado": [
+   401521,
+   332772,
+   68749
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno SC: aptos, comparecimento, abstenção",
+  "site": [
+   5734651,
+   4648159,
+   1086492
+  ],
+  "esperado": [
+   5734651,
+   4648159,
+   1086492
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno SP: aptos, comparecimento, abstenção",
+  "site": [
+   34122892,
+   26431992,
+   7690900
+  ],
+  "esperado": [
+   34122892,
+   26431992,
+   7690900
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno SE: aptos, comparecimento, abstenção",
+  "site": [
+   1740135,
+   1439082,
+   301053
+  ],
+  "esperado": [
+   1740135,
+   1439082,
+   301053
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "1º turno TO: aptos, comparecimento, abstenção",
+  "site": [
+   1182023,
+   965196,
+   216827
+  ],
+  "esperado": [
+   1182023,
+   965196,
+   216827
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: aptos (site × API)",
+  "site": 158745502,
+  "esperado": 158745502,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: comparecimento (site × API)",
+  "site": 128236074,
+  "esperado": 128236074,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: abstenções (site × API)",
+  "site": 30509005,
+  "esperado": 30509005,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: brancos (site × API)",
+  "site": 1430496,
+  "esperado": 1430496,
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: nulos (site × API)",
+  "site": 2723305,
+  "esperado": 2723305,
+  "fonte": "API",
+  "ok": true,
+  "nota": "a API soma nulos e nulos técnicos"
+ },
+ {
+  "area": "Comparecimento",
+  "item": "2º turno Brasil: site × detalhe bruto",
+  "site": [
+   158745502,
+   128236074,
+   30509005,
+   1430496,
+   2723305
+  ],
+  "esperado": [
+   158745502,
+   128236074,
+   30509005,
+   1430496,
+   2723305
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno AC: aptos, comparecimento, abstenção",
+  "site": [
+   613715,
+   453654,
+   160061
+  ],
+  "esperado": [
+   613715,
+   453654,
+   160061
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno AL: aptos, comparecimento, abstenção",
+  "site": [
+   2442081,
+   1951632,
+   490449
+  ],
+  "esperado": [
+   2442081,
+   1951632,
+   490449
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno AP: aptos, comparecimento, abstenção",
+  "site": [
+   576910,
+   429975,
+   146935
+  ],
+  "esperado": [
+   576910,
+   429975,
+   146935
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno AM: aptos, comparecimento, abstenção",
+  "site": [
+   2798661,
+   2192059,
+   606602
+  ],
+  "esperado": [
+   2798661,
+   2192059,
+   606602
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno BA: aptos, comparecimento, abstenção",
+  "site": [
+   11312891,
+   9422047,
+   1890844
+  ],
+  "esperado": [
+   11312891,
+   9422047,
+   1890844
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno CE: aptos, comparecimento, abstenção",
+  "site": [
+   6996521,
+   6024843,
+   971678
+  ],
+  "esperado": [
+   6996521,
+   6024843,
+   971678
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno DF: aptos, comparecimento, abstenção",
+  "site": [
+   2258995,
+   1868280,
+   390715
+  ],
+  "esperado": [
+   2258995,
+   1868280,
+   390715
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno ES: aptos, comparecimento, abstenção",
+  "site": [
+   2991515,
+   2409214,
+   582301
+  ],
+  "esperado": [
+   2991515,
+   2409214,
+   582301
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno GO: aptos, comparecimento, abstenção",
+  "site": [
+   5080385,
+   4047280,
+   1033105
+  ],
+  "esperado": [
+   5080385,
+   4047280,
+   1033105
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno MA: aptos, comparecimento, abstenção",
+  "site": [
+   5183049,
+   4127771,
+   1055278
+  ],
+  "esperado": [
+   5183049,
+   4127771,
+   1055278
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno MT: aptos, comparecimento, abstenção",
+  "site": [
+   2637879,
+   2085334,
+   552545
+  ],
+  "esperado": [
+   2637879,
+   2085334,
+   552545
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno MS: aptos, comparecimento, abstenção",
+  "site": [
+   2024437,
+   1594460,
+   429977
+  ],
+  "esperado": [
+   2024437,
+   1594460,
+   429977
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno MG: aptos, comparecimento, abstenção",
+  "site": [
+   16372144,
+   13044203,
+   3327941
+  ],
+  "esperado": [
+   16372144,
+   13044203,
+   3327941
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno PA: aptos, comparecimento, abstenção",
+  "site": [
+   6262063,
+   4989573,
+   1272490
+  ],
+  "esperado": [
+   6262063,
+   4989573,
+   1272490
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno PB: aptos, comparecimento, abstenção",
+  "site": [
+   3248434,
+   2743560,
+   504874
+  ],
+  "esperado": [
+   3248434,
+   2743560,
+   504874
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno PR: aptos, comparecimento, abstenção",
+  "site": [
+   8613628,
+   7059339,
+   1554289
+  ],
+  "esperado": [
+   8613628,
+   7059339,
+   1554289
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno PE: aptos, comparecimento, abstenção",
+  "site": [
+   7223227,
+   6126467,
+   1096760
+  ],
+  "esperado": [
+   7223227,
+   6126467,
+   1096760
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno PI: aptos, comparecimento, abstenção",
+  "site": [
+   2704695,
+   2239830,
+   464865
+  ],
+  "esperado": [
+   2704695,
+   2239830,
+   464865
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno RJ: aptos, comparecimento, abstenção",
+  "site": [
+   12857526,
+   10077449,
+   2780077
+  ],
+  "esperado": [
+   12857526,
+   10077449,
+   2780077
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno RN: aptos, comparecimento, abstenção",
+  "site": [
+   2659867,
+   2232823,
+   427044
+  ],
+  "esperado": [
+   2659867,
+   2232823,
+   427044
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno RS: aptos, comparecimento, abstenção",
+  "site": [
+   8522318,
+   6889638,
+   1632680
+  ],
+  "esperado": [
+   8522318,
+   6889638,
+   1632680
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno RO: aptos, comparecimento, abstenção",
+  "site": [
+   1265926,
+   988489,
+   277437
+  ],
+  "esperado": [
+   1265926,
+   988489,
+   277437
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno RR: aptos, comparecimento, abstenção",
+  "site": [
+   401540,
+   308597,
+   92943
+  ],
+  "esperado": [
+   401540,
+   308597,
+   92943
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno SC: aptos, comparecimento, abstenção",
+  "site": [
+   5734687,
+   4762303,
+   972384
+  ],
+  "esperado": [
+   5734687,
+   4762303,
+   972384
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno SP: aptos, comparecimento, abstenção",
+  "site": [
+   34123591,
+   27364389,
+   6759202
+  ],
+  "esperado": [
+   34123591,
+   27364389,
+   6759202
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno SE: aptos, comparecimento, abstenção",
+  "site": [
+   1740093,
+   1466659,
+   273434
+  ],
+  "esperado": [
+   1740093,
+   1466659,
+   273434
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento por estado",
+  "item": "2º turno TO: aptos, comparecimento, abstenção",
+  "site": [
+   1182041,
+   954763,
+   227278
+  ],
+  "esperado": [
+   1182041,
+   954763,
+   227278
+  ],
+  "fonte": "API",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Comparecimento",
+  "item": "municípios × turnos com comparecimento igual ao bruto",
+  "site": 11514,
+  "esperado": 11514,
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Lula: maiorPct",
+  "site": [
+   92.34,
+   91.25,
+   91.24,
+   91.11,
+   90.9,
+   90.88,
+   90.78,
+   90.3,
+   90.15,
+   90.11
+  ],
+  "esperado": [
+   92.34,
+   91.25,
+   91.24,
+   91.11,
+   90.9,
+   90.88,
+   90.78,
+   90.3,
+   90.15,
+   90.11
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Lula: menorPct",
+  "site": [
+   9.44,
+   12.18,
+   13.17,
+   13.42,
+   13.65,
+   13.9,
+   14.0,
+   14.1,
+   14.98,
+   15.45
+  ],
+  "esperado": [
+   9.44,
+   12.18,
+   13.17,
+   13.42,
+   13.65,
+   13.9,
+   14.0,
+   14.1,
+   14.98,
+   15.45
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Lula: maiorVotos",
+  "site": [
+   3864354,
+   1898391,
+   1154072,
+   932282,
+   825224,
+   741128,
+   633369,
+   520418,
+   468891,
+   456019
+  ],
+  "esperado": [
+   3864354,
+   1898391,
+   1154072,
+   932282,
+   825224,
+   741128,
+   633369,
+   520418,
+   468891,
+   456019
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Lula: menorVotos",
+  "site": [
+   197,
+   211,
+   222,
+   223,
+   252,
+   256,
+   260,
+   271,
+   275,
+   278
+  ],
+  "esperado": [
+   197,
+   211,
+   222,
+   223,
+   252,
+   256,
+   260,
+   271,
+   275,
+   278
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Lula: maiorPct",
+  "site": [
+   22.1,
+   17.76,
+   14.71,
+   14.51,
+   14.35,
+   14.24,
+   12.83,
+   12.76,
+   12.4,
+   12.24
+  ],
+  "esperado": [
+   22.1,
+   17.76,
+   14.71,
+   14.51,
+   14.35,
+   14.24,
+   12.83,
+   12.76,
+   12.4,
+   12.24
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Lula: menorPct",
+  "site": [
+   -6.05,
+   -5.21,
+   -1.6,
+   -0.22,
+   0.09,
+   0.33,
+   0.48,
+   0.64,
+   0.89,
+   1.02
+  ],
+  "esperado": [
+   -6.05,
+   -5.21,
+   -1.6,
+   -0.22,
+   0.09,
+   0.33,
+   0.48,
+   0.64,
+   0.89,
+   1.02
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Lula: maiorVotos",
+  "site": [
+   812005,
+   373874,
+   209714,
+   149597,
+   149091,
+   135280,
+   92993,
+   89821,
+   81391,
+   78767
+  ],
+  "esperado": [
+   812005,
+   373874,
+   209714,
+   149597,
+   149091,
+   135280,
+   92993,
+   89821,
+   81391,
+   78767
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Lula: menorVotos",
+  "site": [
+   -1135,
+   -968,
+   -787,
+   -747,
+   -717,
+   -689,
+   -659,
+   -525,
+   -522,
+   -510
+  ],
+  "esperado": [
+   -1135,
+   -968,
+   -787,
+   -747,
+   -717,
+   -689,
+   -659,
+   -525,
+   -522,
+   -510
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Flávio Bolsonaro: maiorPct",
+  "site": [
+   90.56,
+   87.82,
+   86.83,
+   86.58,
+   86.35,
+   86.1,
+   86.0,
+   85.9,
+   85.02,
+   84.55
+  ],
+  "esperado": [
+   90.56,
+   87.82,
+   86.83,
+   86.58,
+   86.35,
+   86.1,
+   86.0,
+   85.9,
+   85.02,
+   84.55
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Flávio Bolsonaro: menorPct",
+  "site": [
+   7.66,
+   8.75,
+   8.76,
+   8.89,
+   9.1,
+   9.12,
+   9.22,
+   9.7,
+   9.85,
+   9.89
+  ],
+  "esperado": [
+   7.66,
+   8.75,
+   8.76,
+   8.89,
+   9.1,
+   9.12,
+   9.22,
+   9.7,
+   9.85,
+   9.89
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Flávio Bolsonaro: maiorVotos",
+  "site": [
+   3097923,
+   1785198,
+   979542,
+   765311,
+   702244,
+   657892,
+   619634,
+   504281,
+   421752,
+   400342
+  ],
+  "esperado": [
+   3097923,
+   1785198,
+   979542,
+   765311,
+   702244,
+   657892,
+   619634,
+   504281,
+   421752,
+   400342
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: mais e menos votados",
+  "item": "Flávio Bolsonaro: menorVotos",
+  "site": [
+   258,
+   269,
+   277,
+   289,
+   293,
+   302,
+   307,
+   308,
+   315,
+   315
+  ],
+  "esperado": [
+   258,
+   269,
+   277,
+   289,
+   293,
+   302,
+   307,
+   308,
+   315,
+   315
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Flávio Bolsonaro: maiorPct",
+  "site": [
+   13.73,
+   13.64,
+   13.41,
+   12.88,
+   12.53,
+   12.05,
+   11.46,
+   11.39,
+   11.07,
+   10.75
+  ],
+  "esperado": [
+   13.73,
+   13.64,
+   13.41,
+   12.88,
+   12.53,
+   12.05,
+   11.46,
+   11.39,
+   11.07,
+   10.75
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Flávio Bolsonaro: menorPct",
+  "site": [
+   -9.05,
+   -4.79,
+   -4.67,
+   -4.67,
+   -4.34,
+   -3.77,
+   -3.63,
+   -3.35,
+   -3.35,
+   -3.28
+  ],
+  "esperado": [
+   -9.05,
+   -4.79,
+   -4.67,
+   -4.67,
+   -4.34,
+   -3.77,
+   -3.63,
+   -3.35,
+   -3.35,
+   -3.28
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Flávio Bolsonaro: maiorVotos",
+  "site": [
+   337176,
+   122844,
+   74351,
+   73523,
+   71673,
+   69926,
+   35551,
+   33383,
+   30564,
+   30489
+  ],
+  "esperado": [
+   337176,
+   122844,
+   74351,
+   73523,
+   71673,
+   69926,
+   35551,
+   33383,
+   30564,
+   30489
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: crescimento",
+  "item": "Flávio Bolsonaro: menorVotos",
+  "site": [
+   -3785,
+   -2292,
+   -2135,
+   -2069,
+   -1389,
+   -1389,
+   -1354,
+   -1352,
+   -1350,
+   -1305
+  ],
+  "esperado": [
+   -3785,
+   -2292,
+   -2135,
+   -2069,
+   -1389,
+   -1389,
+   -1354,
+   -1352,
+   -1350,
+   -1305
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Cidades: viradas",
+  "item": "cidades que trocaram de vencedor (sem empates)",
+  "site": 212,
+  "esperado": 212,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": "3 cidades com empate em algum turno: PR75485, SP62448, TO73555"
+ },
+ {
+  "area": "Cidades: viradas",
+  "item": "mesmo conjunto de cidades (sem empates)",
+  "site": [
+   "AL27111",
+   "AL27456",
+   "AL27553",
+   "AL28118",
+   "AL28479",
+   "AL28690",
+   "AL28711",
+   "AM2194",
+   "AM2453",
+   "AM2798",
+   "AP6050",
+   "AP6114",
+   "CE14796",
+   "ES56090",
+   "ES56227",
+   "ES56677",
+   "GO92150",
+   "GO92266",
+   "GO92517",
+   "GO92800",
+   "GO93246",
+   "GO93297",
+   "GO93394",
+   "GO93408",
+   "GO94552",
+   "GO94579",
+   "GO95354",
+   "GO95893",
+   "GO95958",
+   "GO96059",
+   "GO96237",
+   "MA9636",
+   "MG40150",
+   "MG40185",
+   "MG40231",
+   "MG40320",
+   "MG40363",
+   "MG40568",
+   "MG40916",
+   "MG40991",
+   "MG41017",
+   "MG41254",
+   "MG41424",
+   "MG41629",
+   "MG41890",
+   "MG41912",
+   "MG42137",
+   "MG42374",
+   "MG42455",
+   "MG42510",
+   "MG42633",
+   "MG42919",
+   "MG42951",
+   "MG43095",
+   "MG43192",
+   "MG43451",
+   "MG43591",
+   "MG43630",
+   "MG44172",
+   "MG44296",
+   "MG44474",
+   "MG44830",
+   "MG45195",
+   "MG45390",
+   "MG45454",
+   "MG45730",
+   "MG45837",
+   "MG45950",
+   "MG46051",
+   "MG46078",
+   "MG46132",
+   "MG46370",
+   "MG46850",
+   "MG46876",
+   "MG46914",
+   "MG47139",
+   "MG47236",
+   "MG47899",
+   "MG48054",
+   "MG48216",
+   "MG48453",
+   "MG48550",
+   "MG48852",
+   "MG48950",
+   "MG49115",
+   "MG49174",
+   "MG49514",
+   "MG50393",
+   "MG50830",
+   "MG50911",
+   "MG51233",
+   "MG51330",
+   "MG51551",
+   "MG51578",
+   "MG51659",
+   "MG52159",
+   "MG52370",
+   "MG52531",
+   "MG52574",
+   "MG52957",
+   "MG52990",
+   "MG53376",
+   "MG53759",
+   "MG53791",
+   "MG53872",
+   "MG53910",
+   "MG53970",
+   "MG54151",
+   "MS90638",
+   "MS98078",
+   "MS98116",
+   "MS98175",
+   "MT90018",
+   "MT91197",
+   "PA4049",
+   "PA4154",
+   "PA4200",
+   "PA4480",
+   "PA4758",
+   "PR74179",
+   "PR74616",
+   "PR74705",
+   "PR74802",
+   "PR74942",
+   "PR75027",
+   "PR75060",
+   "PR75280",
+   "PR75450",
+   "PR76597",
+   "PR77330",
+   "PR77437",
+   "PR77739",
+   "PR77879",
+   "PR77976",
+   "PR79391",
+   "PR84514",
+   "PR84530",
+   "PR84557",
+   "PR84719",
+   "RJ58050",
+   "RJ58238",
+   "RJ58556",
+   "RJ58793",
+   "RJ58874",
+   "RJ58912",
+   "RJ59170",
+   "RJ59196",
+   "RJ60011",
+   "RN16799",
+   "RS84840",
+   "RS85049",
+   "RS85073",
+   "RS85111",
+   "RS85316",
+   "RS85804",
+   "RS86517",
+   "RS86851",
+   "RS86860",
+   "RS87769",
+   "RS88315",
+   "RS88625",
+   "RS88633",
+   "RS88714",
+   "RS88730",
+   "RS88951",
+   "RS89010",
+   "RS89486",
+   "RS98299",
+   "SC81914",
+   "SP61069",
+   "SP61085",
+   "SP61107",
+   "SP61638",
+   "SP61700",
+   "SP62111",
+   "SP62332",
+   "SP63614",
+   "SP63819",
+   "SP64033",
+   "SP64076",
+   "SP64610",
+   "SP65277",
+   "SP65757",
+   "SP66010",
+   "SP66176",
+   "SP67237",
+   "SP67598",
+   "SP67890",
+   "SP68411",
+   "SP68837",
+   "SP68977",
+   "SP69396",
+   "SP69671",
+   "SP69752",
+   "SP70858",
+   "SP70874",
+   "SP70912",
+   "SP71218",
+   "SP71250",
+   "SP71790",
+   "SP72079",
+   "TO73008",
+   "TO73121",
+   "TO73199",
+   "TO73245",
+   "TO73466",
+   "TO92088",
+   "TO92185",
+   "TO92452",
+   "TO94170",
+   "TO94994",
+   "TO96296"
+  ],
+  "esperado": [
+   "AL27111",
+   "AL27456",
+   "AL27553",
+   "AL28118",
+   "AL28479",
+   "AL28690",
+   "AL28711",
+   "AM2194",
+   "AM2453",
+   "AM2798",
+   "AP6050",
+   "AP6114",
+   "CE14796",
+   "ES56090",
+   "ES56227",
+   "ES56677",
+   "GO92150",
+   "GO92266",
+   "GO92517",
+   "GO92800",
+   "GO93246",
+   "GO93297",
+   "GO93394",
+   "GO93408",
+   "GO94552",
+   "GO94579",
+   "GO95354",
+   "GO95893",
+   "GO95958",
+   "GO96059",
+   "GO96237",
+   "MA9636",
+   "MG40150",
+   "MG40185",
+   "MG40231",
+   "MG40320",
+   "MG40363",
+   "MG40568",
+   "MG40916",
+   "MG40991",
+   "MG41017",
+   "MG41254",
+   "MG41424",
+   "MG41629",
+   "MG41890",
+   "MG41912",
+   "MG42137",
+   "MG42374",
+   "MG42455",
+   "MG42510",
+   "MG42633",
+   "MG42919",
+   "MG42951",
+   "MG43095",
+   "MG43192",
+   "MG43451",
+   "MG43591",
+   "MG43630",
+   "MG44172",
+   "MG44296",
+   "MG44474",
+   "MG44830",
+   "MG45195",
+   "MG45390",
+   "MG45454",
+   "MG45730",
+   "MG45837",
+   "MG45950",
+   "MG46051",
+   "MG46078",
+   "MG46132",
+   "MG46370",
+   "MG46850",
+   "MG46876",
+   "MG46914",
+   "MG47139",
+   "MG47236",
+   "MG47899",
+   "MG48054",
+   "MG48216",
+   "MG48453",
+   "MG48550",
+   "MG48852",
+   "MG48950",
+   "MG49115",
+   "MG49174",
+   "MG49514",
+   "MG50393",
+   "MG50830",
+   "MG50911",
+   "MG51233",
+   "MG51330",
+   "MG51551",
+   "MG51578",
+   "MG51659",
+   "MG52159",
+   "MG52370",
+   "MG52531",
+   "MG52574",
+   "MG52957",
+   "MG52990",
+   "MG53376",
+   "MG53759",
+   "MG53791",
+   "MG53872",
+   "MG53910",
+   "MG53970",
+   "MG54151",
+   "MS90638",
+   "MS98078",
+   "MS98116",
+   "MS98175",
+   "MT90018",
+   "MT91197",
+   "PA4049",
+   "PA4154",
+   "PA4200",
+   "PA4480",
+   "PA4758",
+   "PR74179",
+   "PR74616",
+   "PR74705",
+   "PR74802",
+   "PR74942",
+   "PR75027",
+   "PR75060",
+   "PR75280",
+   "PR75450",
+   "PR76597",
+   "PR77330",
+   "PR77437",
+   "PR77739",
+   "PR77879",
+   "PR77976",
+   "PR79391",
+   "PR84514",
+   "PR84530",
+   "PR84557",
+   "PR84719",
+   "RJ58050",
+   "RJ58238",
+   "RJ58556",
+   "RJ58793",
+   "RJ58874",
+   "RJ58912",
+   "RJ59170",
+   "RJ59196",
+   "RJ60011",
+   "RN16799",
+   "RS84840",
+   "RS85049",
+   "RS85073",
+   "RS85111",
+   "RS85316",
+   "RS85804",
+   "RS86517",
+   "RS86851",
+   "RS86860",
+   "RS87769",
+   "RS88315",
+   "RS88625",
+   "RS88633",
+   "RS88714",
+   "RS88730",
+   "RS88951",
+   "RS89010",
+   "RS89486",
+   "RS98299",
+   "SC81914",
+   "SP61069",
+   "SP61085",
+   "SP61107",
+   "SP61638",
+   "SP61700",
+   "SP62111",
+   "SP62332",
+   "SP63614",
+   "SP63819",
+   "SP64033",
+   "SP64076",
+   "SP64610",
+   "SP65277",
+   "SP65757",
+   "SP66010",
+   "SP66176",
+   "SP67237",
+   "SP67598",
+   "SP67890",
+   "SP68411",
+   "SP68837",
+   "SP68977",
+   "SP69396",
+   "SP69671",
+   "SP69752",
+   "SP70858",
+   "SP70874",
+   "SP70912",
+   "SP71218",
+   "SP71250",
+   "SP71790",
+   "SP72079",
+   "TO73008",
+   "TO73121",
+   "TO73199",
+   "TO73245",
+   "TO73466",
+   "TO92088",
+   "TO92185",
+   "TO92452",
+   "TO94170",
+   "TO94994",
+   "TO96296"
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "abstCaiu",
+  "site": [
+   -8.15,
+   -8.15,
+   -7.94,
+   -7.91,
+   -7.06,
+   -6.64,
+   -6.61,
+   -6.55,
+   -6.54,
+   -6.54
+  ],
+  "esperado": [
+   -8.15,
+   -8.15,
+   -7.94,
+   -7.91,
+   -7.06,
+   -6.64,
+   -6.61,
+   -6.55,
+   -6.54,
+   -6.54
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "abstSubiu",
+  "site": [
+   23.81,
+   22.76,
+   21.44,
+   19.97,
+   19.26,
+   19.04,
+   17.2,
+   15.89,
+   15.65,
+   15.28
+  ],
+  "esperado": [
+   23.81,
+   22.76,
+   21.44,
+   19.97,
+   19.26,
+   19.04,
+   17.2,
+   15.89,
+   15.65,
+   15.28
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "bnCaiu",
+  "site": [
+   -6.08,
+   -5.93,
+   -5.58,
+   -5.58,
+   -5.55,
+   -5.52,
+   -5.51,
+   -5.44,
+   -5.43,
+   -5.32
+  ],
+  "esperado": [
+   -6.08,
+   -5.93,
+   -5.58,
+   -5.58,
+   -5.55,
+   -5.52,
+   -5.51,
+   -5.44,
+   -5.43,
+   -5.32
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "bnSubiu",
+  "site": [
+   3.59,
+   2.91,
+   2.58,
+   2.25,
+   2.22,
+   2.15,
+   2.15,
+   2.15,
+   2.1,
+   2.02
+  ],
+  "esperado": [
+   3.59,
+   2.91,
+   2.58,
+   2.25,
+   2.22,
+   2.15,
+   2.15,
+   2.15,
+   2.1,
+   2.02
+  ],
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "cidades comparadas",
+  "site": 5571,
+  "esperado": 5571,
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Abstenção: cidades",
+  "item": "cidades onde a abstenção caiu",
+  "site": 4440,
+  "esperado": 4440,
+  "fonte": "detalhe_votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas",
+  "item": "1º turno: seções no Brasil",
+  "site": 497897,
+  "esperado": 497897,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Lula: total",
+  "site": 8,
+  "esperado": 8,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Lula: votos computados",
+  "site": 532,
+  "esperado": 532,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Lula: por estado",
+  "site": {
+   "RS": 3,
+   "PA": 2,
+   "PR": 1,
+   "MG": 1,
+   "SP": 1
+  },
+  "esperado": {
+   "RS": 3,
+   "MG": 1,
+   "PR": 1,
+   "PA": 2,
+   "SP": 1
+  },
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "1º turno Lula: total",
+  "site": 370,
+  "esperado": 370,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "1º turno Lula: urnas com 0…10 votos",
+  "site": [
+   8,
+   3,
+   16,
+   15,
+   20,
+   27,
+   40,
+   48,
+   61,
+   60,
+   72
+  ],
+  "esperado": [
+   8,
+   3,
+   16,
+   15,
+   20,
+   27,
+   40,
+   48,
+   61,
+   60,
+   72
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: mais votadas",
+  "item": "1º turno Lula: 10 maiores votações",
+  "site": [
+   390,
+   373,
+   367,
+   360,
+   354,
+   353,
+   351,
+   351,
+   348,
+   346
+  ],
+  "esperado": [
+   390,
+   373,
+   367,
+   360,
+   354,
+   353,
+   351,
+   351,
+   348,
+   346
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Flávio Bolsonaro: total",
+  "site": 79,
+  "esperado": 79,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Flávio Bolsonaro: votos computados",
+  "site": 9814,
+  "esperado": 9814,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "1º turno Flávio Bolsonaro: por estado",
+  "site": {
+   "AM": 19,
+   "PA": 13,
+   "MA": 12,
+   "BA": 6,
+   "TO": 5,
+   "MG": 5,
+   "MT": 3,
+   "RR": 3,
+   "PI": 2,
+   "CE": 2,
+   "AP": 2,
+   "AC": 1,
+   "PR": 1,
+   "RO": 1,
+   "RS": 1,
+   "MS": 1,
+   "ES": 1,
+   "SP": 1
+  },
+  "esperado": {
+   "MA": 12,
+   "BA": 6,
+   "AC": 1,
+   "TO": 5,
+   "MT": 3,
+   "PI": 2,
+   "RS": 1,
+   "PR": 1,
+   "PA": 13,
+   "AM": 19,
+   "CE": 2,
+   "MG": 5,
+   "RR": 3,
+   "RO": 1,
+   "AP": 2,
+   "SP": 1,
+   "MS": 1,
+   "ES": 1
+  },
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "1º turno Flávio Bolsonaro: total",
+  "site": 2914,
+  "esperado": 2914,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "1º turno Flávio Bolsonaro: urnas com 0…10 votos",
+  "site": [
+   79,
+   129,
+   150,
+   201,
+   241,
+   263,
+   297,
+   336,
+   352,
+   429,
+   437
+  ],
+  "esperado": [
+   79,
+   129,
+   150,
+   201,
+   241,
+   263,
+   297,
+   336,
+   352,
+   429,
+   437
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: mais votadas",
+  "item": "1º turno Flávio Bolsonaro: 10 maiores votações",
+  "site": [
+   318,
+   315,
+   315,
+   309,
+   307,
+   306,
+   303,
+   302,
+   302,
+   300
+  ],
+  "esperado": [
+   318,
+   315,
+   315,
+   309,
+   307,
+   306,
+   303,
+   302,
+   302,
+   300
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas",
+  "item": "2º turno: seções no Brasil",
+  "site": 497897,
+  "esperado": 497897,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Lula: total",
+  "site": 4,
+  "esperado": 4,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Lula: votos computados",
+  "site": 302,
+  "esperado": 302,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Lula: por estado",
+  "site": {
+   "RS": 2,
+   "PA": 2
+  },
+  "esperado": {
+   "RS": 2,
+   "PA": 2
+  },
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "2º turno Lula: total",
+  "site": 212,
+  "esperado": 212,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "2º turno Lula: urnas com 0…10 votos",
+  "site": [
+   4,
+   6,
+   3,
+   7,
+   22,
+   21,
+   15,
+   27,
+   37,
+   33,
+   37
+  ],
+  "esperado": [
+   4,
+   6,
+   3,
+   7,
+   22,
+   21,
+   15,
+   27,
+   37,
+   33,
+   37
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: mais votadas",
+  "item": "2º turno Lula: 10 maiores votações",
+  "site": [
+   382,
+   376,
+   373,
+   362,
+   362,
+   359,
+   357,
+   357,
+   356,
+   356
+  ],
+  "esperado": [
+   382,
+   376,
+   373,
+   362,
+   362,
+   359,
+   357,
+   357,
+   356,
+   356
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Flávio Bolsonaro: total",
+  "site": 106,
+  "esperado": 106,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Flávio Bolsonaro: votos computados",
+  "site": 15222,
+  "esperado": 15222,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: zeradas",
+  "item": "2º turno Flávio Bolsonaro: por estado",
+  "site": {
+   "AM": 30,
+   "MA": 20,
+   "PA": 16,
+   "RR": 8,
+   "TO": 7,
+   "MT": 5,
+   "BA": 4,
+   "AC": 3,
+   "MG": 2,
+   "RS": 2,
+   "CE": 2,
+   "PR": 1,
+   "PE": 1,
+   "RO": 1,
+   "MS": 1,
+   "ES": 1,
+   "PI": 1,
+   "PB": 1
+  },
+  "esperado": {
+   "RR": 8,
+   "TO": 7,
+   "AM": 30,
+   "MA": 20,
+   "PA": 16,
+   "AC": 3,
+   "BA": 4,
+   "RS": 2,
+   "MT": 5,
+   "PI": 1,
+   "PE": 1,
+   "PB": 1,
+   "MG": 2,
+   "MS": 1,
+   "CE": 2,
+   "PR": 1,
+   "ES": 1,
+   "RO": 1
+  },
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "2º turno Flávio Bolsonaro: total",
+  "site": 3029,
+  "esperado": 3029,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: até 10 votos",
+  "item": "2º turno Flávio Bolsonaro: urnas com 0…10 votos",
+  "site": [
+   106,
+   123,
+   162,
+   243,
+   261,
+   255,
+   309,
+   361,
+   370,
+   415,
+   424
+  ],
+  "esperado": [
+   106,
+   123,
+   162,
+   243,
+   261,
+   255,
+   309,
+   361,
+   370,
+   415,
+   424
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: mais votadas",
+  "item": "2º turno Flávio Bolsonaro: 10 maiores votações",
+  "site": [
+   363,
+   338,
+   330,
+   324,
+   320,
+   319,
+   319,
+   312,
+   311,
+   311
+  ],
+  "esperado": [
+   363,
+   338,
+   330,
+   324,
+   320,
+   319,
+   319,
+   312,
+   311,
+   311
+  ],
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: entre turnos",
+  "item": "seções comparadas nos dois turnos",
+  "site": 497897,
+  "esperado": 497897,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: viradas",
+  "item": "Lula: urnas que viraram",
+  "site": 31341,
+  "esperado": 31341,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: viradas",
+  "item": "Lula: votos a mais nessas urnas",
+  "site": 879247,
+  "esperado": 879247,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Lula: urnas em que perdeu votos",
+  "site": 9575,
+  "esperado": 9575,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Lula: votos a menos nessas urnas",
+  "site": 58796,
+  "esperado": 58796,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Lula: maior queda",
+  "site": -81,
+  "esperado": -81,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: viradas",
+  "item": "Flávio Bolsonaro: urnas que viraram",
+  "site": 555,
+  "esperado": 555,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: viradas",
+  "item": "Flávio Bolsonaro: votos a mais nessas urnas",
+  "site": 9104,
+  "esperado": 9104,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Flávio Bolsonaro: urnas em que perdeu votos",
+  "site": 82155,
+  "esperado": 82155,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Flávio Bolsonaro: votos a menos nessas urnas",
+  "site": 382939,
+  "esperado": 382939,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Urnas: perdas",
+  "item": "Flávio Bolsonaro: maior queda",
+  "site": -100,
+  "esperado": -100,
+  "fonte": "votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "federal: cidades com Lula à frente",
+  "site": 2663,
+  "esperado": 2663,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "federal: dessas, PL o mais votado",
+  "site": 387,
+  "esperado": 387,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Voto misturado",
+  "item": "federal: cidades com Flávio Bolsonaro à frente",
+  "site": 2906,
+  "esperado": 2906,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "federal: dessas, PT o mais votado",
+  "site": 120,
+  "esperado": 120,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Voto misturado",
+  "item": "estadual: cidades com Lula à frente",
+  "site": 2663,
+  "esperado": 2663,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "estadual: dessas, PL o mais votado",
+  "site": 223,
+  "esperado": 223,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Voto misturado",
+  "item": "estadual: cidades com Flávio Bolsonaro à frente",
+  "site": 2906,
+  "esperado": 2906,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "estadual: dessas, PT o mais votado",
+  "site": 91,
+  "esperado": 91,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Voto misturado",
+  "item": "senador: cidades com Lula à frente",
+  "site": 2565,
+  "esperado": 2565,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "senador: dessas, PL o mais votado",
+  "site": 205,
+  "esperado": 205,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Voto misturado",
+  "item": "senador: cidades com Flávio Bolsonaro à frente",
+  "site": 1858,
+  "esperado": 1858,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Voto misturado",
+  "item": "senador: dessas, PT o mais votado",
+  "site": 89,
+  "esperado": 89,
+  "fonte": "votacao_partido × votacao_secao",
+  "ok": true,
+  "nota": "empates de partido não contam na auditoria"
+ },
+ {
+  "area": "Mapa",
+  "item": "polígonos do mapa sem município do TSE",
+  "site": 0,
+  "esperado": 0,
+  "fonte": "malha IBGE",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Mapa",
+  "item": "municípios do TSE sem polígono no mapa (só os sem contorno no IBGE)",
+  "site": [
+   "MT73709"
+  ],
+  "esperado": [
+   "MT73709"
+  ],
+  "fonte": "malha IBGE",
+  "ok": true,
+  "nota": "Boa Esperança do Norte-MT: município novo, sem contorno na malha do IBGE (a API do IBGE não o devolve); o site avisa abaixo dos mapas"
+ },
+ {
+  "area": "Mapa",
+  "item": "municípios ligados a mais de um polígono",
+  "site": [],
+  "esperado": [],
+  "fonte": "malha IBGE",
+  "ok": true,
+  "nota": ""
+ },
+ {
+  "area": "Mapa",
+  "item": "municípios ligados a uma cidade do IBGE com outro nome ou outra UF",
+  "site": [],
+  "esperado": [],
+  "fonte": "IBGE",
+  "ok": true,
+  "nota": "13 grafias alternativas aceitas, conferidas uma a uma"
+ },
+ {
+  "area": "Mapa",
+  "item": "capitais: nome no site",
+  "site": {
+   "AC": "Rio Branco",
+   "AL": "Maceió",
+   "AP": "Macapá",
+   "AM": "Manaus",
+   "BA": "Salvador",
+   "CE": "Fortaleza",
+   "DF": "Brasília",
+   "ES": "Vitória",
+   "GO": "Goiânia",
+   "MA": "São Luís",
+   "MT": "Cuiabá",
+   "MS": "Campo Grande",
+   "MG": "Belo Horizonte",
+   "PA": "Belém",
+   "PB": "João Pessoa",
+   "PR": "Curitiba",
+   "PE": "Recife",
+   "PI": "Teresina",
+   "RJ": "Rio de Janeiro",
+   "RN": "Natal",
+   "RS": "Porto Alegre",
+   "RO": "Porto Velho",
+   "RR": "Boa Vista",
+   "SC": "Florianópolis",
+   "SP": "São Paulo",
+   "SE": "Aracaju",
+   "TO": "Palmas"
+  },
+  "esperado": {
+   "AC": "Rio Branco",
+   "AL": "Maceió",
+   "AP": "Macapá",
+   "AM": "Manaus",
+   "BA": "Salvador",
+   "CE": "Fortaleza",
+   "DF": "Brasília",
+   "ES": "Vitória",
+   "GO": "Goiânia",
+   "MA": "São Luís",
+   "MT": "Cuiabá",
+   "MS": "Campo Grande",
+   "MG": "Belo Horizonte",
+   "PA": "Belém",
+   "PB": "João Pessoa",
+   "PR": "Curitiba",
+   "PE": "Recife",
+   "PI": "Teresina",
+   "RJ": "Rio de Janeiro",
+   "RN": "Natal",
+   "RS": "Porto Alegre",
+   "RO": "Porto Velho",
+   "RR": "Boa Vista",
+   "SC": "Florianópolis",
+   "SP": "São Paulo",
+   "SE": "Aracaju",
+   "TO": "Palmas"
+  },
+  "fonte": "IBGE",
+  "ok": true,
+  "nota": ""
+ }
+]

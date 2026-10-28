@@ -1,0 +1,289 @@
+{
+  "geracao_arquivos_tse": {
+    "votos": "27/10/2026 16:32:29",
+    "detalhe": "25/10/2026 12:33:24",
+    "candidatos": "27/10/2026 19:30:36"
+  },
+  "secoes": {
+    "Presidência da República": [
+      {
+        "titulo": "Resultado do 1º turno",
+        "destaque": "12 candidatos",
+        "texto": "Flavio Bolsonaro (PL-BR): 47,03%; Lula (PT-BR): 45,16%; Escritor Augusto Cury (AVANTE-BR): 2,89%; Renan Santos (MISSÃO-BR): 2,24%; Ronaldo Caiado (PSD-BR): 2,18%.",
+        "dados": {}
+      },
+      {
+        "titulo": "Resultado do 2º turno",
+        "destaque": "51,79%",
+        "texto": "Lula (PT-BR) venceu com 64.256.232 votos válidos, 4.430.191 a mais que Flavio Bolsonaro (PL-BR) (48,21%).",
+        "dados": {}
+      },
+      {
+        "titulo": "Municípios que “viraram” do 1º para o 2º turno",
+        "destaque": "212",
+        "texto": "Em 212 cidades o vencedor do 2º turno não foi quem liderou no 1º (Lula: 211, Flavio Bolsonaro: 1). A maior delas foi Rio de Janeiro (RJ), onde Flavio Bolsonaro liderou no 1º turno e Lula venceu no 2º.",
+        "dados": {}
+      },
+      {
+        "titulo": "Reduto e deserto de Lula",
+        "destaque": "92,3%",
+        "texto": "Maior votação proporcional no 2º turno: 92,3% em Carnaubeira da Penha (PE). Menor: 9,4% em Nova Pádua (RS) (cidades com 1.000+ votos válidos).",
+        "dados": {}
+      },
+      {
+        "titulo": "Reduto e deserto de Flavio Bolsonaro",
+        "destaque": "90,6%",
+        "texto": "Maior votação proporcional no 2º turno: 90,6% em Nova Pádua (RS). Menor: 7,7% em Carnaubeira da Penha (PE) (cidades com 1.000+ votos válidos).",
+        "dados": {}
+      },
+      {
+        "titulo": "A cidade mais dividida do país",
+        "destaque": "3 voto(s)",
+        "texto": "Entre cidades com 5.000+ votos válidos, Itabirinha (MG) foi a mais rachada: diferença de apenas 3 voto(s) entre os finalistas em 6.965 válidos. Empate exato em 1 cidade(s): Marquinho (PR).",
+        "dados": {}
+      },
+      {
+        "titulo": "Mapa dos estados no 2º turno",
+        "destaque": "13 × 14",
+        "texto": "Lula venceu em 13 UFs e Flavio Bolsonaro em 14.",
+        "dados": {}
+      },
+      {
+        "titulo": "O voto dos brasileiros no exterior",
+        "destaque": "53,9%",
+        "texto": "Lula venceu entre os 371.651 votos válidos do exterior.",
+        "dados": {}
+      }
+    ],
+    "Governadores": [
+      {
+        "titulo": "Resolvidos já no 1º turno",
+        "destaque": "21 de 27",
+        "texto": "21 estados elegeram governador no 1º turno; 6 foram ao 2º.",
+        "dados": {}
+      },
+      {
+        "titulo": "A vitória mais folgada",
+        "destaque": "71,1%",
+        "texto": "Rafael Fonteles (PT-PI) foi eleito com 71,1% dos votos válidos no 1º turno.",
+        "dados": {}
+      },
+      {
+        "titulo": "A disputa mais apertada",
+        "destaque": "32.625 votos",
+        "texto": "Cadu de Lula (PT-RN) venceu Allyson (UNIÃO-RN) no 2º turno por 32.625 votos (1,54% dos válidos).",
+        "dados": {}
+      },
+      {
+        "titulo": "Viradas no 2º turno",
+        "destaque": "2",
+        "texto": "Quem chegou atrás e venceu: Cadu de Lula (RN), que ficou em 2º no 1º turno; Vicentinho Júnior (TO), que ficou em 2º no 1º turno.",
+        "dados": {}
+      }
+    ],
+    "Senado": [
+      {
+        "titulo": "O senador mais votado do país",
+        "destaque": "13.273.880",
+        "texto": "Guilherme Derrite (PP-SP) recebeu 13.273.880 votos.",
+        "dados": {}
+      },
+      {
+        "titulo": "Domínio absoluto no estado",
+        "destaque": "35,9%",
+        "texto": "Marcelo Castro (MDB-PI) ficou com 35,9% de todos os votos nominais para o Senado no seu estado.",
+        "dados": {}
+      },
+      {
+        "titulo": "Eleito com menos votos",
+        "destaque": "117.270",
+        "texto": "Teresa Surita (MDB-RR) conquistou a vaga com 117.270 votos.",
+        "dados": {}
+      }
+    ],
+    "Câmara dos Deputados": [
+      {
+        "titulo": "Os mais votados do país",
+        "destaque": "3.119.318",
+        "texto": "Nikolas Ferreira (PL-MG): 3.119.318; Lucas Pavanato (PL-SP): 3.038.438; Erika Hilton (PSOL-SP): 1.596.472; André Fernandes (PL-CE): 684.372; Sâmia Bomfim (PSOL-SP): 583.107.",
+        "dados": {}
+      },
+      {
+        "titulo": "Maior fatia do eleitorado do próprio estado",
+        "destaque": "27,4%",
+        "texto": "Nikolas Ferreira (PL-MG) sozinho teve 27,4% dos votos válidos para deputado federal em MG.",
+        "dados": {}
+      },
+      {
+        "titulo": "Eleito com menos votos",
+        "destaque": "13.732",
+        "texto": "Júnior Betão (PL-AC) se elegeu com só 13.732 votos, puxado pelo quociente partidário.",
+        "dados": {}
+      },
+      {
+        "titulo": "O “azar” do quociente",
+        "destaque": "140.961",
+        "texto": "Duarte Jr (AVANTE-MA) teve 140.961 votos e não se elegeu — 10x mais que Júnior Betão, que entrou.",
+        "dados": {}
+      },
+      {
+        "titulo": "Voto de uma cidade só",
+        "destaque": "88,5%",
+        "texto": "Talita Galhardo (PSDB-RJ) tirou 88,5% de seus votos em uma única cidade: Rio de Janeiro (RJ).",
+        "dados": {}
+      },
+      {
+        "titulo": "Votado em todo canto",
+        "destaque": "853 cidades",
+        "texto": "Nikolas Ferreira (PL-MG) recebeu votos em 853 municípios de MG.",
+        "dados": {}
+      },
+      {
+        "titulo": "Bancadas eleitas",
+        "destaque": "20 partidos",
+        "texto": "Maiores bancadas: PL 121, PT 70, UNIÃO 46, PSD 43, REPUBLICANOS 41, PP 41.",
+        "dados": {}
+      },
+      {
+        "titulo": "Nem o próprio voto?",
+        "destaque": "131",
+        "texto": "131 candidatos a deputado federal com candidatura válida terminaram com zero votos, e 2 tiveram exatamente 1 voto.",
+        "dados": {}
+      }
+    ],
+    "Assembleias Legislativas": [
+      {
+        "titulo": "Os mais votados do país",
+        "destaque": "1.956.238",
+        "texto": "Eduarda Campopiano (PL-SP): 1.956.238; Bruno Engler (PL-MG): 675.940; Eduardo Suplicy (PT-SP): 654.627; Sofia Favero (PSOL-SP): 407.773; Ana Campagnolo (PL-SC): 387.523.",
+        "dados": {}
+      },
+      {
+        "titulo": "Maior fatia do eleitorado do próprio estado",
+        "destaque": "9,1%",
+        "texto": "Ana Campagnolo (PL-SC) sozinho teve 9,1% dos votos válidos para deputado estadual em SC.",
+        "dados": {}
+      },
+      {
+        "titulo": "Eleito com menos votos",
+        "destaque": "4.469",
+        "texto": "Tenente Roney (AGIR-RR) se elegeu com só 4.469 votos, puxado pelo quociente partidário.",
+        "dados": {}
+      },
+      {
+        "titulo": "O “azar” do quociente",
+        "destaque": "89.489",
+        "texto": "Renato Battista (MISSÃO-SP) teve 89.489 votos e não se elegeu — 20x mais que Tenente Roney, que entrou.",
+        "dados": {}
+      },
+      {
+        "titulo": "Voto de uma cidade só",
+        "destaque": "97,8%",
+        "texto": "Fabão (PV-MG) tirou 97,8% de seus votos em uma única cidade: Uberlândia (MG).",
+        "dados": {}
+      },
+      {
+        "titulo": "Votado em todo canto",
+        "destaque": "853 cidades",
+        "texto": "Bruno Engler (PL-MG) recebeu votos em 853 municípios de MG.",
+        "dados": {}
+      },
+      {
+        "titulo": "Bancadas eleitas",
+        "destaque": "25 partidos",
+        "texto": "Maiores bancadas: PL 207, PT 138, MDB 109, PSD 102, PP 78, REPUBLICANOS 75.",
+        "dados": {}
+      },
+      {
+        "titulo": "Nem o próprio voto?",
+        "destaque": "113",
+        "texto": "113 candidatos a deputado estadual com candidatura válida terminaram com zero votos, e 0 tiveram exatamente 1 voto.",
+        "dados": {}
+      }
+    ],
+    "Comparecimento, brancos e nulos (1º turno, Presidente)": [
+      {
+        "titulo": "Abstenção no Brasil",
+        "destaque": "21,08%",
+        "texto": "33.469.244 de 158.745.502 eleitores aptos não votaram. Brancos: 2.300.798; nulos: 3.674.249.",
+        "dados": {}
+      },
+      {
+        "titulo": "Onde mais (e menos) se faltou",
+        "destaque": "40,1%",
+        "texto": "Maior abstenção: Rio Vermelho (MG), 40,1%. Menor: Bela Vista do Piauí (PI), só 7,3% (cidades com 1.000+ eleitores).",
+        "dados": {}
+      },
+      {
+        "titulo": "Campeã de brancos e nulos",
+        "destaque": "10,1%",
+        "texto": "Em Queimada Nova (PI), 10,1% de quem foi votar anulou ou votou em branco para presidente.",
+        "dados": {}
+      },
+      {
+        "titulo": "Abstenção no exterior",
+        "destaque": "62,7%",
+        "texto": "Dos 916.534 eleitores aptos no exterior, só 341.766 votaram.",
+        "dados": {}
+      }
+    ],
+    "Perfil dos eleitos": [
+      {
+        "titulo": "O mais jovem e o mais velho",
+        "destaque": "20 × 91 anos",
+        "texto": "Mais jovem: Alvinho Lira (PP-AL), 20 anos, eleito deputado federal. Mais velho: Luiza Erundina (PSOL-SP), 91 anos, eleita deputado estadual.",
+        "dados": {}
+      },
+      {
+        "titulo": "Mulheres eleitas — Deputado Federal",
+        "destaque": "21,2%",
+        "texto": "109 de 513 eleitos para deputado federal são mulheres.",
+        "dados": {}
+      },
+      {
+        "titulo": "Mulheres eleitas — Deputado Estadual",
+        "destaque": "20,6%",
+        "texto": "213 de 1035 eleitos para deputado estadual são mulheres.",
+        "dados": {}
+      },
+      {
+        "titulo": "Mulheres eleitas — Senador",
+        "destaque": "22,2%",
+        "texto": "12 de 54 eleitos para senador são mulheres.",
+        "dados": {}
+      },
+      {
+        "titulo": "Mulheres eleitas — Governador",
+        "destaque": "11,1%",
+        "texto": "3 de 27 eleitos para governador são mulheres.",
+        "dados": {}
+      },
+      {
+        "titulo": "Profissões declaradas pelos eleitos",
+        "destaque": "Deputado",
+        "texto": "Mais comuns: Deputado (597), Empresário (183), Advogado (168), Vereador (104), Médico (79). Algumas que aparecem uma única vez: Agente De Saúde E Sanitarista, Atleta Profissional E Técnico Em Desportos, Ator E Diretor De Espetáculos Públicos, Corretor De Imóveis, Seguros, Títulos E Valores, Despachante, Escritor E Crítico, Fonoaudiólogo, Fotógrafo E Assemelhados.",
+        "dados": {}
+      }
+    ],
+    "Patrimônio declarado": [
+      {
+        "titulo": "Maior patrimônio declarado",
+        "destaque": "R$ 1.226.983.360,00",
+        "texto": "Dra. Georgia Micheletti (PSDB-AC), candidatura a deputado estadual, declarou R$ 1.226.983.360,00 em bens — só o item \"Casa: LOTEAMENTO CHACARA IPE\" vale R$ 1.109.124.020,00. Os valores são autodeclarados e o TSE não os confere; cifras assim costumam ser erro de digitação.",
+        "dados": {}
+      },
+      {
+        "titulo": "O eleito mais rico",
+        "destaque": "R$ 575.680.870,95",
+        "texto": "Otaviano Pivetta (REPUBLICANOS-MT), eleito governador, declarou R$ 575.680.870,95.",
+        "dados": {}
+      },
+      {
+        "titulo": "Eleitos sem nenhum bem declarado",
+        "destaque": "50",
+        "texto": "50 eleitos declararam patrimônio zero, entre eles Mara Rocha (REPUBLICANOS-AC), Clodoaldo Rodrigues (PP-AC), Raimundo Neném (PL-AC), Tchê (PDT-AC).",
+        "dados": {}
+      }
+    ]
+  }
+}

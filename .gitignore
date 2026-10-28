@@ -1,0 +1,10 @@
+dados_tse/
+dados_ibge/
+site/node_modules/
+site/.npm-cache/
+site/dist/
+__pycache__/
+.tools/
+auditoria/saida.txt
+auditoria/erros.txt
+.claude/

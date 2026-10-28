@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Eleições 2026 em Curiosidades</title>
+  <meta name="description" content="As maiores curiosidades das Eleições Gerais 2026, calculadas com os dados abertos oficiais do TSE.">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div class="topo">
+    <div class="wrap topo-in">
+      <a class="marca-site" href="#" aria-label="Voltar ao início">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="18" height="12" rx="2.5"/><path d="M7 9V5.5A1.5 1.5 0 0 1 8.5 4h7A1.5 1.5 0 0 1 17 5.5V9"/><path d="M9.5 14.5l1.8 1.8 3.4-3.6"/></svg>
+        <span>Eleições <b>2026</b></span>
+      </a>
+      <nav class="nav-itens" aria-label="Seções">
+        <a href="#mapa">Mapa</a>
+        <a href="#regioes">Regiões</a>
+        <a href="#estados">Estados</a>
+        <a href="#cidades">Cidades</a>
+        <a href="#urnas">Urnas</a>
+        <a href="#outros">Outros candidatos</a>
+        <a href="#cidade">Sua cidade</a>
+        <a href="#abstencao">Abstenção</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+      <button id="tema" class="tema" type="button" aria-label="Mudar para o tema escuro">
+        <svg class="ico-lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
+        <svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="kicker">Eleições Gerais 2026 · site independente com dados oficiais do TSE</p>
+      <h1>O Brasil das urnas em curiosidades</h1>
+      <p class="lede">A eleição para presidente por região, estado, cidade e urna: onde cada finalista foi mais forte, quem cresceu entre os turnos, para onde foram os votos dos outros candidatos, as urnas zeradas e o mapa da abstenção.</p>
+      <div id="placar" class="placar" aria-live="polite"><p class="carregando">Carregando resultados…</p></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="mapa" class="secao">
+      <h2>O mapa, cidade por cidade</h2>
+      <div class="alternar" id="mapa-modos" role="group" aria-label="Turno exibido no mapa">
+        <button type="button" data-modo="pres2" aria-pressed="true">2º turno</button>
+        <button type="button" data-modo="pres1" aria-pressed="false">1º turno</button>
+      </div>
+      <div id="mapa-area" class="mapa-area"><p class="carregando">Carregando mapa…</p></div>
+      <div id="mapa-legenda" class="legenda"></div>
+      <p class="nota">Passe o mouse (ou toque) numa cidade para ver os votos; clique para abrir o resultado completo dela. Para dar zoom, use os botões, Ctrl + rolagem (⌘ no Mac) ou dois dedos no celular.</p>
+    </section>
+
+    <section id="regioes" class="secao">
+      <h2>Regiões: um país dividido</h2>
+      <div class="alternar" id="reg-turno"></div>
+      <p class="nota">Passe o mouse (ou toque) numa fatia para ver os números.</p>
+      <div id="reg-roscas" class="roscas"><p class="carregando">Carregando…</p></div>
+      <div class="cards"></div>
+    </section>
+
+    <section id="estados" class="secao">
+      <h2>Estados: quem venceu e por quanto</h2>
+      <h3 class="sub primeiro">Os 27 estados, do mais ao menos favorável a cada finalista</h3>
+      <div class="alternar" id="est-turno"></div>
+      <p class="nota">Cada barra é 100% dos votos válidos do estado; o traço marca a metade. À direita, a margem de vitória em pontos.</p>
+      <div id="est-barras"><p class="carregando">Carregando…</p></div>
+      <h3 class="sub">Os estados que trocaram de líder entre os turnos</h3>
+      <div id="est-viradas" class="disputas"></div>
+      <h3 class="sub">Os 10 estados onde cada finalista mais cresceu do 1º para o 2º turno</h3>
+      <div class="alternar" id="est-cresc-medida" role="group" aria-label="Medida do crescimento">
+        <button type="button" data-m="pp" aria-pressed="true">Pontos percentuais</button>
+        <button type="button" data-m="votos" aria-pressed="false">Votos absolutos</button>
+      </div>
+      <p class="nota" id="nota-est-cresc"></p>
+      <div id="est-cresc" class="listas"></div>
+      <div class="cards"></div>
+    </section>
+
+    <section id="cidades" class="secao">
+      <h2>Cidades: votação, crescimento, viradas e tamanho</h2>
+      <h3 class="sub primeiro">Onde cada finalista foi mais e menos votado no 2º turno</h3>
+      <div class="alternar" role="group" aria-label="Medida das listas">
+        <button type="button" data-medida="pct" aria-pressed="true">% dos votos válidos</button>
+        <button type="button" data-medida="votos" aria-pressed="false">Votos absolutos</button>
+      </div>
+      <p class="nota" id="nota-listas"></p>
+      <div id="pres-listas" class="listas"></div>
+      <h3 class="sub">Onde cada finalista mais e menos cresceu do 1º para o 2º turno</h3>
+      <div class="alternar" role="group" aria-label="Medida do crescimento">
+        <button type="button" data-cresc="pp" aria-pressed="true">Pontos percentuais</button>
+        <button type="button" data-cresc="votos" aria-pressed="false">Votos absolutos</button>
+      </div>
+      <p class="nota" id="nota-cresc"></p>
+      <div id="pres-cresc" class="listas"></div>
+      <h3 class="sub">As cidades que viraram: ganhou no 1º turno, perdeu no 2º</h3>
+      <div id="viradas"></div>
+      <h3 class="sub">Voto misturado: um finalista para presidente, o partido do outro em outro cargo</h3>
+      <div class="alternar" id="mistura-cargo" role="group" aria-label="Cargo comparado">
+        <button type="button" data-cargo="federal" aria-pressed="true">Deputado federal</button>
+        <button type="button" data-cargo="estadual" aria-pressed="false">Deputado estadual</button>
+        <button type="button" data-cargo="senador" aria-pressed="false">Senador</button>
+      </div>
+      <p class="nota">Presidente no 1º turno × voto no partido para o cargo escolhido (nominais + legenda), na mesma urna e no mesmo dia: voto com voto. Cada quadro lista as cidades em que o finalista ficou à frente para presidente e o partido do outro foi o mais votado no cargo, da mistura mais forte para a mais fraca (pelo menor dos dois percentuais). O voto é secreto: são as cidades, não os eleitores, que aparecem “misturadas”.</p>
+      <div id="mistura"><p class="carregando">Carregando…</p></div>
+      <h3 class="sub">Cidade pequena, média ou grande</h3>
+      <div class="alternar" id="cid-porte-turno"></div>
+      <p class="nota">Cidades agrupadas pelo número de eleitores aptos. Cada barra é 100% dos votos válidos da faixa.</p>
+      <div id="cid-porte"><p class="carregando">Carregando…</p></div>
+      <div class="cards"></div>
+    </section>
+
+    <section id="urnas" class="secao">
+      <h2>Urnas curiosas</h2>
+      <div class="contexto">
+        <p><b>Como ler esta parte.</b> Urnas zeradas, quase zeradas ou com grandes variações entre os turnos são comuns em aldeias indígenas, comunidades pequenas e isoladas e em seções que receberam ou perderam eleitores (transferências, seções agregadas). <b>Não indicam irregularidade</b>: os números são os resultados oficiais, totalizados e auditados pelo TSE.</p>
+        <p>Só seções eleitorais no Brasil: as urnas do exterior ficam de fora desta parte.</p>
+      </div>
+      <div id="urnas-app"><p class="carregando">Carregando urnas…</p></div>
+      <div class="cards"></div>
+    </section>
+
+    <section id="outros" class="secao">
+      <h2>Os outros candidatos: quem eram e para onde foram os votos</h2>
+      <h3 class="sub primeiro">O 1º turno além dos finalistas</h3>
+      <div id="out-geral" class="listas"><p class="carregando">Carregando…</p></div>
+      <h3 class="sub">De onde vieram os votos a mais do 2º turno</h3>
+      <p class="nota">O voto é secreto: não há como saber quem votou em quem. O que dá para medir é o saldo. Os finalistas somaram milhões de votos a mais no 2º turno, e esses votos só podem ter vindo de quem votou em outro candidato, de quem anulou ou votou em branco, ou de quem não tinha ido votar.</p>
+      <div id="out-fluxo" class="listas"></div>
+      <h3 class="sub">O que aconteceu nos redutos de cada um</h3>
+      <p class="nota">Para os quatro mais votados entre os que ficaram no 1º turno: as cidades onde cada um teve a maior proporção de votos (só cidades com 1.000+ votos válidos) e quanto cada finalista cresceu ali, comparado ao Brasil.</p>
+      <div id="out-redutos" class="disputas"></div>
+      <div class="cards"></div>
+    </section>
+
+    <section id="cidade" class="secao">
+      <h2>Como votou a sua cidade</h2>
+      <div class="busca">
+        <label for="busca-input" class="vh">Buscar município</label>
+        <input id="busca-input" type="search" placeholder="Digite o nome da cidade…" autocomplete="off" disabled>
+        <ul id="busca-sugestoes" class="sugestoes" role="listbox" hidden></ul>
+      </div>
+      <div id="cidade-painel"></div>
+    </section>
+
+    <section id="abstencao" class="secao">
+      <h2>Abstenção, brancos e nulos</h2>
+      <div id="comp-brasil"></div>
+      <h3 class="sub">O mapa da abstenção</h3>
+      <div class="alternar" id="abst-modos" role="group" aria-label="O que o mapa de abstenção mostra">
+        <button type="button" data-modo="abst2" aria-pressed="true">2º turno</button>
+        <button type="button" data-modo="abst1" aria-pressed="false">1º turno</button>
+        <button type="button" data-modo="abstVar" aria-pressed="false">Variação entre turnos</button>
+      </div>
+      <div id="abst-area" class="mapa-area"><p class="carregando">Carregando mapa…</p></div>
+      <div id="abst-legenda" class="legenda"></div>
+      <p class="nota">Percentual de eleitores aptos que não votaram para presidente em cada cidade. Passe o mouse (ou toque) para ver os números dos dois turnos.</p>
+      <h3 class="sub">Estados onde a abstenção mais subiu e mais caiu</h3>
+      <p class="nota">Variação da abstenção (eleitores aptos que não votaram para presidente) do 1º para o 2º turno, em pontos percentuais, com a % e o número de abstenções em cada turno.</p>
+      <div id="abst-estados" class="listas"><p class="carregando">Carregando…</p></div>
+      <div class="cards"></div>
+      <div id="comp-listas"></div>
+    </section>
+    <section id="sobre" class="secao sobre">
+      <h2>Sobre este site</h2>
+      <p class="sobre-lede">Site <b>independente</b>, feito a partir dos dados abertos do Tribunal Superior Eleitoral. Não tem vínculo com o TSE, com partidos ou com candidatos, e não apoia nenhum deles. Mostra fatos dos resultados oficiais, sem opinião.</p>
+      <div class="sobre-grade">
+        <div>
+          <h3>De onde vêm os números</h3>
+          <ul>
+            <li>Portal de Dados Abertos do TSE: votação por município, por seção eleitoral e por partido, detalhe da apuração, candidaturas e fotos oficiais de divulgação.</li>
+            <li>Malhas territoriais e cadastro de municípios do IBGE, para o mapa.</li>
+            <li id="sobre-geracao">Arquivos do TSE gerados em …</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Auditoria</h3>
+          <p>Todos os números foram recalculados de forma independente e conferidos com a API oficial de divulgação de resultados do TSE (Brasil, 27 estados e exterior, nos dois turnos): <b>923 conferências, nenhuma divergência</b> (28/10/2026). Os arquivos do TSE ainda podem mudar com recontagens e decisões judiciais.</p>
+        </div>
+        <div>
+          <h3>Escolhas de método</h3>
+          <ul>
+            <li>Percentuais sobre os votos válidos (sem brancos e nulos), como no resultado oficial.</li>
+            <li>Listas em % só com cidades de 1.000 ou mais votos válidos, para cidades minúsculas não dominarem.</li>
+            <li>Comparações entre turnos e “urnas que viraram” consideram só os dois finalistas.</li>
+            <li>No voto misturado, PT e PL são contados como partido, sem os demais da federação ou coligação; empates não contam.</li>
+            <li>O voto é secreto: nenhuma conta aqui identifica como um eleitor votou; todas as comparações são entre cidades, estados ou urnas.</li>
+          </ul>
+          <p class="sem-fraude"><b>Este site não alega, não sugere e não investiga fraude.</b> As curiosidades descrevem os resultados oficiais, totalizados e auditados pelo TSE. Números fora do comum (urnas zeradas, viradas, quedas de votos) têm explicações conhecidas, como aldeias, comunidades pequenas e mudanças no eleitorado das seções, e não são indício de irregularidade.</p>
+        </div>
+        <div>
+          <h3>Encontrou um erro?</h3>
+          <p>Avise pelo perfil do projeto no Instagram. Correções são feitas e registradas aqui.</p>
+          <p class="nota">Fotos dos candidatos: divulgação/TSE. Mapa: IBGE.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap" id="fonte"></div>
+  </footer>
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <div id="aviso" class="aviso" role="status" hidden></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
