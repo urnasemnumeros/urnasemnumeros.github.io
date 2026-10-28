@@ -122,11 +122,11 @@ export function criarBusca(munis: Map<string, Municipio>, cand: Record<string, C
     const r = m.r;
     painel.innerHTML = `
       <div class="cidade-topo"><h3>${esc(nomeCidade(m))}</h3><button type="button" class="mais" id="ver-no-mapa">Ver no mapa</button></div>
-      ${tabelaComparec(m)}
       <div class="disputas">
         ${disputa("Presidente · 2º turno", r.pres2, r.pres1, fluxo(m))}
         ${disputa("Presidente · 1º turno", r.pres1)}
-      </div>`;
+      </div>
+      <div class="cidade-comparec">${tabelaComparec(m)}</div>`;
     painel.querySelector("#ver-no-mapa")!.addEventListener("click", () => {
       document.getElementById("mapa")!.scrollIntoView();
       document.querySelector(`#mapa-area path[data-id="${id}"]`)?.dispatchEvent(new PointerEvent("pointermove", { bubbles: true, clientX: innerWidth / 2, clientY: innerHeight / 2 }));

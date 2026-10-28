@@ -355,3 +355,4 @@ td small { color: var(--text-3); margin-left: 4px; }
 .fluxo-leg li { display: grid; grid-template-columns: auto 1fr auto 52px; gap: 8px; align-items: center; padding: 3px 0; }
 .fluxo-leg li b { font-weight: 600; text-align: right; }
 .fluxo-leg li small { color: var(--text-3); text-align: right; }
+.cidade-comparec { margin-top: 16px; }
