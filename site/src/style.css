@@ -357,26 +357,81 @@ td small { color: var(--text-3); margin-left: 4px; }
 .fluxo-leg li small { color: var(--text-3); text-align: right; }
 .cidade-comparec { margin-top: 16px; }
 
-/* ---------- filtro por estado (slide) e paginação lateral nos quadros de urnas */
-.filtro-uf { display: flex; align-items: center; gap: 6px; margin: 4px 0 12px; }
-.trilho-uf { flex: 1; min-width: 0; display: flex; gap: 6px; overflow-x: auto; scroll-behavior: smooth; scroll-snap-type: x proximity; scrollbar-width: none; padding: 2px 0; }
-.trilho-uf[data-borda="dir"] { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 16px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 16px), transparent); }
-.trilho-uf[data-borda="esq"] { -webkit-mask-image: linear-gradient(90deg, transparent, #000 16px); mask-image: linear-gradient(90deg, transparent, #000 16px); }
-.trilho-uf[data-borda="ambas"] { -webkit-mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 16px), transparent);
-  mask-image: linear-gradient(90deg, transparent, #000 16px, #000 calc(100% - 16px), transparent); }
-.trilho-uf::-webkit-scrollbar { display: none; }
-.pilula-uf { flex: none; scroll-snap-align: start; display: inline-flex; align-items: baseline; gap: 5px; border: 1px solid var(--line); background: var(--surface); color: var(--text-2);
-  font: inherit; font-size: .8rem; font-weight: 600; padding: 4px 10px; border-radius: 999px; cursor: pointer; white-space: nowrap; transition: background .15s, color .15s, border-color .15s; }
-.pilula-uf b { font-weight: 500; font-size: .74rem; color: var(--text-3); }
-.pilula-uf:hover { border-color: var(--text-3); color: var(--text); }
-.pilula-uf[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
-.pilula-uf[aria-pressed="true"] b { color: color-mix(in srgb, var(--bg) 75%, transparent); }
-.seta-uf, .seta-pag { flex: none; width: 30px; height: 30px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--text);
-  font: inherit; font-size: 1.1rem; line-height: 1; cursor: pointer; display: grid; place-items: center; transition: opacity .15s, border-color .15s; }
-.seta-uf:hover:not(:disabled), .seta-pag:hover:not(:disabled) { border-color: var(--text-3); }
-.seta-uf:disabled, .seta-pag:disabled { opacity: .3; cursor: default; }
-.filtro-nota { margin: -4px 0 10px; }
-.paginacao { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 12px; }
-.paginacao[hidden] { display: none; }
-.pag-info { font-size: .84rem; color: var(--text-2); min-width: 120px; text-align: center; }
-@media (prefers-reduced-motion: reduce) { .pilula-uf, .seta-uf, .seta-pag { transition: none; } .trilho-uf { scroll-behavior: auto; } }
+/* ---------- marca Sem Clarim (clarim riscado) */
+.marca-site svg.logo { width: 30px; height: 30px; fill: currentColor; stroke: currentColor; stroke-width: 0; }
+.marca-site .logo-clarim path[fill="none"] { stroke-width: 2.1; }
+.marca-site .logo-vao { stroke: var(--bg); stroke-width: 5; fill: none; }
+.marca-site .logo-risco { stroke: #dc9b3e; stroke-width: 2.8; fill: none; }
+.marca-site span { font-weight: 800; font-size: .86rem; text-transform: uppercase; letter-spacing: .16em; }
+
+/* ---------- ranking por estado e janela das maiores urnas */
+.ranking-uf { list-style: none; margin: 0; padding: 0; }
+.uf-linha { width: 100%; display: grid; grid-template-columns: 2.1em 2.3em minmax(0, 1fr) auto 3.7em; align-items: center; gap: 10px;
+  border: 0; background: none; color: var(--text); font: inherit; font-size: .88rem; padding: 6px 8px; margin: 0 -8px; width: calc(100% + 16px);
+  border-radius: 8px; cursor: pointer; text-align: left; transition: background .15s; }
+.uf-linha:hover, .uf-linha:focus-visible { background: var(--surface-2); }
+.uf-pos { color: var(--text-3); font-size: .78rem; }
+.uf-sigla { font-weight: 700; }
+.uf-trilho { height: 10px; background: var(--surface-2); border-radius: 0 5px 5px 0; overflow: hidden; }
+.uf-trilho span { display: block; height: 100%; border-radius: 0 5px 5px 0; transform-origin: left; animation: crescer .7s cubic-bezier(.2, .8, .2, 1) both; }
+.uf-linha:hover .uf-trilho span { filter: brightness(1.08); }
+.uf-n { font-weight: 600; text-align: right; }
+.uf-pct { color: var(--text-3); text-align: right; }
+@keyframes crescer { from { transform: scaleX(0); } }
+.ranking-mais summary { cursor: pointer; font-size: .84rem; color: var(--text-2); padding: 6px 0; list-style: none; }
+.ranking-mais summary::-webkit-details-marker { display: none; }
+.ranking-mais summary::before { content: "＋ "; color: var(--text-3); }
+.ranking-mais[open] summary::before { content: "－ "; }
+.botao-urna { position: relative; overflow: hidden; width: 100%; margin-top: 14px; display: flex; align-items: center; gap: 12px;
+  border: 0; border-radius: 12px; padding: 13px 16px; background: var(--text); color: var(--bg); font: inherit; font-weight: 600; font-size: .95rem;
+  cursor: pointer; box-shadow: 0 1px 2px rgb(0 0 0 / .15); transition: transform .15s, box-shadow .2s; }
+.botao-urna::after { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / .18) 50%, transparent 70%);
+  transform: translateX(-100%); transition: transform .6s; }
+.botao-urna:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgb(0 0 0 / .18); }
+.botao-urna:hover::after { transform: translateX(100%); }
+.botao-urna:active { transform: translateY(0) scale(.99); }
+.botao-urna .seta { margin-left: auto; transition: transform .2s; }
+.botao-urna:hover .seta { transform: translateX(4px); }
+.ico-urna { flex: none; width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+.janela-urnas { width: min(760px, calc(100vw - 24px)); max-height: min(86vh, 900px); padding: 0; border: 1px solid var(--line); border-radius: 18px;
+  background: var(--bg); color: var(--text); box-shadow: 0 24px 60px rgb(0 0 0 / .35); }
+.janela-urnas[open] { animation: janela-entra .28s cubic-bezier(.2, .8, .2, 1); }
+.janela-urnas::backdrop { background: rgb(10 10 10 / .55); backdrop-filter: blur(3px); }
+@keyframes janela-entra { from { opacity: 0; transform: translateY(16px) scale(.98); } }
+.janela-cab { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 14px; padding: 16px 18px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.janela-cab h3 { margin: 0; font-size: 1.15rem; }
+.janela-cab .meta { margin: 2px 0 0; color: var(--text-3); font-size: .82rem; }
+.janela-icone { flex: none; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; color: #fff; }
+.janela-icone .ico-urna { width: 26px; height: 26px; }
+.janela-fechar { margin-left: auto; flex: none; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface);
+  color: var(--text); font: inherit; font-size: 1.3rem; line-height: 1; cursor: pointer; }
+.janela-fechar:hover { border-color: var(--text-3); }
+.janela-filtro { display: flex; align-items: center; gap: 10px; padding: 14px 18px 10px; font-size: .85rem; color: var(--text-2); }
+.janela-filtro select { font: inherit; font-size: .88rem; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; }
+.janela-urnas .tabela-wrap { margin: 0 18px; }
+.janela-urnas td { white-space: normal; vertical-align: top; }
+.janela-urnas td.n { white-space: nowrap; }
+.janela-urnas td.pos { color: var(--text-3); font-weight: 700; width: 1%; }
+.janela-urnas .nota { padding: 0 18px 18px; }
+@media (max-width: 600px) {
+  .janela-urnas { width: 100vw; max-width: 100vw; margin: auto 0 0; border-radius: 18px 18px 0 0; max-height: 90vh; }
+  .janela-urnas .tabela-wrap { margin: 0 10px; overflow-x: hidden; }
+  /* no celular cada urna vira um cartão: posição | local e cidade | votos */
+  .janela-urnas thead { display: none; }
+  .janela-urnas table, .janela-urnas tbody { display: block; }
+  .janela-urnas tr { display: grid; grid-template-columns: 1.6em minmax(0, 1fr) auto; grid-auto-flow: dense; column-gap: 10px;
+    padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  .janela-urnas tr:last-child { border-bottom: 0; }
+  .janela-urnas td { display: block; padding: 0; border: 0; grid-column: 2; }
+  .janela-urnas td.pos { grid-column: 1; grid-row: 1 / span 3; }
+  .janela-urnas td.n:not(.pos) { grid-column: 3; text-align: right; }
+  .janela-urnas td + td:not(.n) { margin-top: 4px; font-size: .82rem; }
+  .janela-urnas td[data-rot]::before { content: attr(data-rot) " turno  "; color: var(--text-3); font-size: .72rem; white-space: pre; }
+  .uf-linha { grid-template-columns: 2em 2.2em minmax(0, 1fr) auto; }
+  .uf-pct { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .uf-trilho span, .janela-urnas[open] { animation: none; }
+  .botao-urna, .botao-urna::after, .botao-urna .seta, .uf-linha { transition: none; }
+}
