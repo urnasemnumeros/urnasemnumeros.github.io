@@ -149,3 +149,17 @@ iniciar().catch((e) => falha("placar", e));
 // cliques nos botões "Apoie" (topo e fim da página) entram como evento anônimo no contador de visitas
 document.querySelectorAll<HTMLAnchorElement>("[data-apoie]").forEach((a) =>
   a.addEventListener("click", () => contarEvento(`apoie-${a.dataset.apoie}`, "Clique em Apoie")));
+
+// botão flutuante: aparece depois do topo da página e some quando o bloco de apoio do fim está na tela
+const flutuante = document.querySelector<HTMLElement>(".apoie-flutuante");
+const blocoApoie = document.querySelector(".apoie-bloco");
+if (flutuante && blocoApoie) {
+  let blocoVisivel = false;
+  const atualizar = () => {
+    flutuante.hidden = scrollY < 500 || blocoVisivel;
+    flutuante.tabIndex = flutuante.hidden ? -1 : 0; // escondido também sai da navegação por teclado
+  };
+  new IntersectionObserver(([e]) => { blocoVisivel = e.isIntersecting; atualizar(); }).observe(blocoApoie);
+  addEventListener("scroll", atualizar, { passive: true });
+  atualizar();
+}
