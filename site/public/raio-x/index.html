@@ -55,7 +55,7 @@
 
     .exemplos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .exemplo { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; }
-    .exemplo img { display: block; width: 100%; height: auto; background: #fff; border-bottom: 1px solid var(--line); }
+    .exemplo img { display: block; width: 100%; height: auto; aspect-ratio: 720 / 570; object-fit: contain; padding: 12px 12px 4px; background: #fff; border-bottom: 1px solid var(--line); }
     .exemplo .corpo { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
     .exemplo h3 { font-size: 1.35rem; }
     .exemplo .meta { color: var(--text-3); font-size: .88rem; margin: 0; }
@@ -133,7 +133,7 @@
         <p class="sub">Um de cada lado do espectro político, com o mesmo método. Baixe e veja exatamente o que você recebe.</p>
         <div class="exemplos">
           <article class="exemplo">
-            <img src="mapa-nikolas-ferreira.jpg" alt="Mapa de Minas Gerais com o percentual de votos de Nikolas Ferreira em cada município" width="640" height="500" loading="lazy">
+            <img src="mapa-nikolas-ferreira.jpg" alt="Mapa de Minas Gerais com o percentual de votos de Nikolas Ferreira em cada município" width="720" height="570" loading="lazy">
             <div class="corpo">
               <h3>Nikolas Ferreira</h3>
               <p class="meta">PL · Deputado federal por Minas Gerais</p>
@@ -142,7 +142,7 @@
             </div>
           </article>
           <article class="exemplo">
-            <img src="mapa-erika-hilton.jpg" alt="Mapa de São Paulo com o percentual de votos de Erika Hilton em cada município" width="640" height="500" loading="lazy">
+            <img src="mapa-erika-hilton.jpg" alt="Mapa de São Paulo com o percentual de votos de Erika Hilton em cada município" width="720" height="570" loading="lazy">
             <div class="corpo">
               <h3>Erika Hilton</h3>
               <p class="meta">PSOL · Deputada federal por São Paulo</p>
