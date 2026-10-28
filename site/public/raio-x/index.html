@@ -92,7 +92,16 @@
       .chamada { flex-direction: column; align-items: flex-start; padding: 24px; }
       .chamada .botao { width: 100%; justify-content: center; }
     }
-    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .botao { transition: none; } }
+    /* botão flutuante: aparece depois dos botões do topo e some na chamada final */
+    .flutuante { position: fixed; right: 20px; bottom: 20px; z-index: 30; display: inline-flex; align-items: center; gap: 8px; line-height: 1;
+      padding: 14px 20px; border-radius: 999px; background: var(--ambar); color: #1a1a19; font-weight: 700; text-decoration: none;
+      box-shadow: 0 8px 24px rgb(0 0 0 / .25); transition: opacity .25s, transform .25s, filter .15s; }
+    .flutuante[hidden] { display: inline-flex; opacity: 0; transform: translateY(16px) scale(.9); pointer-events: none; }
+    .flutuante:hover { filter: brightness(1.05); transform: translateY(-2px); }
+    .flutuante:focus-visible { outline: 2px solid var(--text); outline-offset: 3px; }
+    .flutuante svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; flex: none; }
+    @media (max-width: 760px) { .flutuante { right: 14px; bottom: 14px; padding: 13px 18px; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .botao, .flutuante { transition: none; } }
   </style>
 </head>
 <body>
@@ -212,8 +221,23 @@
     </div>
   </main>
 
+  <a class="flutuante" href="https://docs.google.com/forms/d/e/1FAIpQLSc_324lChpcSUdbDqFzLkvMVB5Ok3vJzWFmBfnReROax8P27w/viewform" target="_blank" rel="noopener" data-goatcounter-click="raiox-pedido-flutuante" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5h17"/><path d="M6 17V11M10.5 17V6M15 17v-4M19.5 17V8.5"/></svg>Pedir Raio-X
+  </a>
+
   <footer>
     <div class="wrap">Sem Clarim · Política com dados e fontes. Sem alarde, só fatos. · Dúvidas: <a href="mailto:semclarim@gmail.com">semclarim@gmail.com</a></div>
   </footer>
+  <script>
+    // aparece quando os botões do topo saem da tela e some quando a chamada final aparece
+    (function () {
+      var f = document.querySelector(".flutuante"), topo = document.querySelector(".hero .acoes"), fim = document.querySelector(".chamada");
+      if (!f || !topo || !fim || !("IntersectionObserver" in window)) return;
+      var topoVisivel = true, fimVisivel = false;
+      function atualizar() { f.hidden = topoVisivel || fimVisivel; f.tabIndex = f.hidden ? -1 : 0; }
+      new IntersectionObserver(function (e) { topoVisivel = e[0].isIntersecting; atualizar(); }).observe(topo);
+      new IntersectionObserver(function (e) { fimVisivel = e[0].isIntersecting; atualizar(); }).observe(fim);
+    })();
+  </script>
 </body>
 </html>
