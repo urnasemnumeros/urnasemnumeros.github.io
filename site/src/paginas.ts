@@ -126,7 +126,8 @@ function montarAbas() {
 
 function rolarAba(aba: string) {
   const alvo = aba === "resumo" ? document.querySelector(`#${atual} h2`) : document.getElementById(`aba-${aba}`);
-  alvo?.scrollIntoView();
+  alvo?.scrollIntoView({ behavior: "instant" });
+  dispatchEvent(new Event("scroll")); // marca a sub-aba na hora
 }
 
 /** As abas da página de Urnas só existem depois que urnas.json chega: chamado de novo quando a página é preenchida. */
