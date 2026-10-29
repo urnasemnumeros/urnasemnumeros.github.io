@@ -311,7 +311,8 @@ def resumir_turno(turno, por_uf, nomes):
     def lista(itens, filtro, chave, extra):
         sel = sorted((x for x in itens if filtro(x)), key=chave)
         por = collections.Counter(x[1][1] for x in sel)
-        return {"total": len(sel), "porUf": dict(por), "lista": [urna(x[1], extra(x)) for x in sel[:MAX_LISTA]]}
+        soma = {k: sum(x[2].get(k, 0) for x in sel) for k in ("votos", "semBio", "depois17")}
+        return {"total": len(sel), "soma": soma, "porUf": dict(por), "lista": [urna(x[1], extra(x)) for x in sel[:MAX_LISTA]]}
 
     hm = lambda m: f"{m // 60:02d}:{m % 60:02d}"
     print(f"  {turno}º turno: votos do log = comparecimento oficial em {confere} seções, diferem em {difere}",

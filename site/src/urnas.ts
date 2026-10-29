@@ -27,7 +27,7 @@ export interface DadosUrnas {
 
 /** Seção eleitoral identificada nos logs (logs_urna.py), sem os votos dos finalistas. */
 type UrnaLog = Pick<Urna, "id" | "uf" | "mun" | "zona" | "secao" | "local" | "end"> & { votos: number } & Record<string, number | string>;
-interface ListaLogs { total: number; porUf: Record<string, number>; lista: UrnaLog[] }
+interface ListaLogs { total: number; soma?: { votos: number; semBio: number; depois17: number }; porUf: Record<string, number>; lista: UrnaLog[] }
 interface TurnoLogs {
   secoes: number;
   contadores: Record<string, number>;
@@ -351,6 +351,7 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
         ${stat("Votos depois das 17h", num(c("depois17")), "eleitores que estavam na fila", "A votação encerra às 17h (Brasília), mas quem já está na fila recebe senha e vota. Horários convertidos para Brasília.")}
         ${stat("Tempo médio na cabine", duracao(t.duracaoMedia), "da liberação ao voto computado", "Tempo entre o eleitor ser liberado e o voto ser computado, em média. Ficam de fora casos acima de 1 hora, que são falhas.")}
         ${dm ? stat("Voto mais demorado", duracao(t.duracaoMax.s), `${esc(lugar(dm))}, zona ${dm.zona}, seção ${dm.secao}`, "O maior tempo entre liberar o eleitor e computar o voto, desconsiderando casos acima de 1 hora.") : ""}
+        ${depois.lista[0] ? ((u) => stat("Voto mais tarde", `${(u.ultimo as string).replace(":", "h")}`, `${esc(lugar(u))}, zona ${u.zona}, seção ${u.secao}`, `O último voto computado no país neste turno, no horário de Brasília. A votação encerra às 17h, mas quem já está na fila recebe senha e vota: nesta seção foram ${num(u.depois as number)} votos depois das 17h, de ${num(u.votos)} no dia.`))(depois.lista[0]) : ""}
       </div>
       <div class="disputas logs-paineis">
         ${horas(t)}
@@ -360,11 +361,13 @@ export function criarUrnas(dados: DadosUrnas, cand: Record<string, Candidato>, f
         <div class="painel">
           <h4><span class="marca" style="background:var(--sembio)"></span>Mais da metade dos votos sem biometria</h4>
           <p class="destaque-painel num">${num(maioria.total)} <small>urnas com 50+ votos</small></p>
+          ${maioria.soma ? `<p class="soma-painel"><b class="num">${num(maioria.soma.votos)}</b> votos nessas urnas, <b class="num">${num(maioria.soma.semBio)}</b> sem biometria (${pct((100 * maioria.soma.semBio) / Math.max(maioria.soma.votos, 1), 1)})</p>` : ""}
           ${maioria.total ? rankingEBotao(jMaioria, "Ver as com mais votos sem biometria") : `<p class="meta">Nenhuma urna.</p>`}
         </div>
         <div class="painel">
           <h4><span class="marca" style="background:var(--text-2)"></span>Votos depois das 17h</h4>
           <p class="destaque-painel num">${num(depois.total)} <small>urnas de ${num(t.secoes)} (${pct((100 * depois.total) / t.secoes, 1)})</small></p>
+          <p class="soma-painel"><b class="num">${num(c("depois17"))}</b> votos depois das 17h (${((p17) => pct(p17, p17 < 1 ? 2 : 1))((100 * c("depois17")) / Math.max(votos, 1))} de todos os votos)</p>
           ${depois.total ? rankingEBotao(jDepois, "Ver as que votaram até mais tarde") : `<p class="meta">Nenhuma urna.</p>`}
         </div>
       </div>

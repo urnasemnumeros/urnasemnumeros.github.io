@@ -655,3 +655,5 @@ body[data-pagina="inicio"] .chamadas { margin-top: 8px; }
 @media (max-width: 860px) { .sobre-grade { grid-template-columns: 1fr; } }
 @media (max-width: 600px) { .sobre-contato { flex-direction: column; align-items: flex-start; padding: 18px; } }
 .sobre > .sem-fraude { margin: 20px 0 0; padding: 14px 18px; border-left: 4px solid var(--text-3); background: var(--surface); border-radius: 10px; color: var(--text); font-size: .92rem; }
+.soma-painel { margin: -6px 0 14px; color: var(--text-2); font-size: .9rem; }
+.soma-painel b { color: var(--text); font-weight: 600; }
