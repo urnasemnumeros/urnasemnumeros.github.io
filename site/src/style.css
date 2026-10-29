@@ -657,3 +657,22 @@ body[data-pagina="inicio"] .chamadas { margin-top: 8px; }
 .sobre > .sem-fraude { margin: 20px 0 0; padding: 14px 18px; border-left: 4px solid var(--text-3); background: var(--surface); border-radius: 10px; color: var(--text); font-size: .92rem; }
 .soma-painel { margin: -6px 0 14px; color: var(--text-2); font-size: .9rem; }
 .soma-painel b { color: var(--text); font-weight: 600; }
+
+/* Raio-X eleitoral no fim de cada página (na capa já há o cartão, então ele some) */
+.raiox-bloco { display: flex; align-items: center; gap: 20px; margin: 0 0 16px; padding: 24px 28px; border-radius: 16px; background: var(--text); color: var(--bg); }
+.raiox-icone { flex: none; width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center; background: color-mix(in srgb, var(--bg) 14%, transparent); }
+.raiox-icone svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+.raiox-texto { flex: 1; min-width: 0; }
+.raiox-texto .kicker { margin: 0 0 6px; color: #dc9b3e; }
+.raiox-texto h2 { margin: 0 0 6px; font-size: 1.4rem; }
+.raiox-texto p:last-child { margin: 0; color: color-mix(in srgb, var(--bg) 72%, transparent); }
+.raiox-botao { flex: none; display: inline-flex; align-items: center; gap: 8px; padding: 13px 20px; border-radius: 12px; background: #dc9b3e; color: #1a1a19;
+  text-decoration: none; font-weight: 700; transition: transform .15s, filter .15s; }
+.raiox-botao:hover { transform: translateY(-1px); filter: brightness(1.06); }
+.raiox-botao:focus-visible { outline: 2px solid var(--bg); outline-offset: 2px; }
+.raiox-bloco + .news-bloco { margin-top: 0; }
+body[data-pagina="inicio"] .raiox-bloco { display: none; }
+@media (max-width: 760px) {
+  .raiox-bloco { flex-direction: column; align-items: flex-start; padding: 20px; }
+  .raiox-botao { width: 100%; justify-content: center; }
+}

@@ -218,6 +218,10 @@ iniciar().catch((e) => falha("placar", e));
 document.querySelectorAll<HTMLAnchorElement>("[data-apoie]").forEach((a) =>
   a.addEventListener("click", () => contarEvento(`apoie-${a.dataset.apoie}`, "Clique em Apoie")));
 
+// cliques no bloco do Raio-X (fim das páginas) também entram como evento anônimo
+document.querySelectorAll<HTMLAnchorElement>("[data-raiox]").forEach((a) =>
+  a.addEventListener("click", () => contarEvento(`raiox-${a.dataset.raiox}`, "Clique em Raio-X")));
+
 // botão flutuante: aparece depois do topo da página e some quando o bloco de apoio do fim está na tela
 const flutuante = document.querySelector<HTMLElement>(".apoie-flutuante");
 const blocoApoie = document.querySelector(".apoie-bloco");
