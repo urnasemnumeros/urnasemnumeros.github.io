@@ -1,6 +1,7 @@
 // Busca de município e painel com o resultado completo da cidade.
 import { Municipio, Candidato, Disputa, num, pct, titulo, esc, barra, normalizar, nomeCidade, comparec } from "./util";
 import { corCandidato } from "./cores";
+import { ir } from "./paginas";
 
 export function criarBusca(munis: Map<string, Municipio>, cand: Record<string, Candidato>, finalistas: [string, string]) {
   const input = document.getElementById("busca-input") as HTMLInputElement;
@@ -128,8 +129,7 @@ export function criarBusca(munis: Map<string, Municipio>, cand: Record<string, C
       </div>
       <div class="cidade-comparec">${tabelaComparec(m)}</div>`;
     painel.querySelector("#ver-no-mapa")!.addEventListener("click", () => {
-      document.getElementById("mapa")!.scrollIntoView();
-      document.querySelector(`#mapa-area path[data-id="${id}"]`)?.dispatchEvent(new PointerEvent("pointermove", { bubbles: true, clientX: innerWidth / 2, clientY: innerHeight / 2 }));
+      ir("mapa").then(() => document.querySelector(`#mapa-area path[data-id="${id}"]`)?.dispatchEvent(new PointerEvent("pointermove", { bubbles: true, clientX: innerWidth / 2, clientY: innerHeight / 2 })));
     });
     if (rolar) document.getElementById("cidade")!.scrollIntoView();
   }

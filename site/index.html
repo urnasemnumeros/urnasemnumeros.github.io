@@ -13,7 +13,7 @@
 <body>
   <div class="topo">
     <div class="wrap topo-in">
-      <a class="marca-site" href="#" aria-label="Sem Clarim: voltar ao início">
+      <a class="marca-site" href="./" data-p="" aria-label="Sem Clarim: voltar ao início">
         <svg class="logo" viewBox="0 0 32 32" aria-hidden="true">
           <g class="logo-clarim"><rect x="2.5" y="12.2" width="2.2" height="4.6" rx=".6"/><rect x="4.2" y="13.6" width="15" height="1.9"/>
             <path d="M18.4 13.6c3.8-.2 7-1.7 9.6-4.6v13.4c-2.5-2.8-5.6-4.3-9.4-4.9z"/>
@@ -23,31 +23,59 @@
         <span>Sem Clarim</span>
       </a>
       <nav class="nav-itens" aria-label="Seções">
-        <a href="#mapa">Mapa</a>
-        <a href="#regioes">Regiões</a>
-        <a href="#estados">Estados</a>
-        <a href="#cidades">Cidades</a>
-        <a href="#urnas">Urnas</a>
-        <a href="#outros">Outros candidatos</a>
-        <a href="#cidade">Sua cidade</a>
-        <a href="#abstencao">Abstenção</a>
-        <a href="#sobre">Sobre</a>
+        <a href="?p=mapa" data-p="mapa">Mapa</a>
+        <a href="?p=regioes" data-p="regioes">Regiões</a>
+        <a href="?p=estados" data-p="estados">Estados</a>
+        <a href="?p=cidades" data-p="cidades">Cidades</a>
+        <a href="?p=urnas" data-p="urnas">Urnas</a>
+        <a href="?p=outros" data-p="outros">Outros candidatos</a>
+        <a href="?p=cidade" data-p="cidade">Sua cidade</a>
+        <a href="?p=abstencao" data-p="abstencao">Abstenção</a>
+        <a href="./#sobre" data-p="" data-alvo="sobre">Sobre</a>
       </nav>
+      <button id="lupa" class="tema lupa" type="button" aria-label="Buscar (Ctrl+K)" title="Buscar (Ctrl+K)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5"/></svg>
+      </button>
       <button id="tema" class="tema" type="button" aria-label="Mudar para o tema escuro">
         <svg class="ico-lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/></svg>
         <svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
       </button>
     </div>
   </div>
+  <nav id="subabas" class="subabas" aria-label="Partes desta página" hidden></nav>
 
   <header class="hero">
     <div class="wrap">
       <p class="kicker">Eleições Gerais 2026 · site independente com dados oficiais do TSE</p>
       <h1>O Brasil das urnas em curiosidades</h1>
-      <p class="lede">A eleição para presidente por região, estado, cidade e urna: onde cada finalista foi mais forte, quem cresceu entre os turnos, para onde foram os votos dos outros candidatos, as urnas zeradas e o mapa da abstenção.</p>
+      <p class="lede">Os votos para presidente abertos urna por urna: as cidades que viraram, quem votou sem digital, até que horas teve fila e quem ficou em casa. <span>Tudo calculado com os dados oficiais do TSE, sem opinião.</span></p>
       <div id="placar" class="placar" aria-live="polite"><p class="carregando">Carregando resultados…</p></div>
     </div>
   </header>
+
+  <div id="capa" class="capa wrap" hidden>
+    <div class="busca-geral">
+      <label for="busca-geral" class="vh">Buscar</label>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5"/></svg>
+      <input id="busca-geral" type="search" placeholder="Busque um tema ou uma página…" autocomplete="off">
+      <kbd>Ctrl K</kbd>
+      <ul class="sugestoes" role="listbox" hidden></ul>
+    </div>
+    <p class="capa-rot">Escolha por onde começar</p>
+    <div class="bento">
+      <a class="cartao c-mapa" href="?p=mapa" data-p="mapa" data-cartao="mapa"><small>Mapa</small><div class="c-fig"></div><b class="c-num">…</b><span class="c-txt">Cidades vencidas por cada finalista no 2º turno</span><i aria-hidden="true">→</i></a>
+      <a class="cartao c-urnas" href="?p=urnas&amp;aba=biometria-e-horarios" data-p="urnas" data-aba="biometria-e-horarios" data-cartao="biometria"><small>Biometria</small><b class="c-num">…</b><span class="c-txt">Eleitores que votaram sem a digital</span><i aria-hidden="true">→</i></a>
+      <a class="cartao" href="?p=estados" data-p="estados" data-cartao="estados"><small>Estados</small><b class="c-num">…</b><span class="c-txt">Quem venceu em cada estado</span><i aria-hidden="true">→</i></a>
+      <a class="cartao" href="?p=cidades" data-p="cidades" data-cartao="cidades"><small>Cidades</small><b class="c-num">…</b><span class="c-txt">Cidades que trocaram de lado</span><i aria-hidden="true">→</i></a>
+      <a class="cartao c-noite" href="?p=urnas&amp;aba=biometria-e-horarios" data-p="urnas" data-aba="biometria-e-horarios" data-cartao="ultimo"><small>Fila até de noite</small><b class="c-num">…</b><span class="c-txt">O último voto do Brasil</span><i aria-hidden="true">→</i></a>
+      <a class="cartao" href="?p=urnas&amp;aba=zeradas" data-p="urnas" data-aba="zeradas" data-cartao="zeradas"><small>Urnas zeradas</small><b class="c-num">…</b><span class="c-txt">Urnas sem nenhum voto para um finalista</span><i aria-hidden="true">→</i></a>
+      <a class="cartao" href="?p=regioes" data-p="regioes" data-cartao="regioes"><small>Regiões</small><b class="c-num">…</b><span class="c-txt">Um país dividido</span><i aria-hidden="true">→</i></a>
+      <a class="cartao" href="?p=abstencao" data-p="abstencao" data-cartao="abstencao"><small>Abstenção</small><b class="c-num">…</b><span class="c-txt">Quem ficou em casa</span><i aria-hidden="true">→</i></a>
+      <a class="cartao c-outros" href="?p=outros" data-p="outros" data-cartao="outros"><small>Outros candidatos</small><b class="c-num">…</b><span class="c-txt">Para onde foram os votos</span><i aria-hidden="true">→</i></a>
+      <a class="cartao c-escuro pronto" href="?p=cidade" data-p="cidade"><small>Sua cidade</small><b class="c-num">Como votou a sua cidade?</b><span class="c-txt">O resultado completo, a abstenção e de onde vieram os votos a mais em qualquer uma das 5.570 cidades</span><i aria-hidden="true">→</i></a>
+      <a class="cartao c-raiox pronto" href="/raio-x/"><small>Raio-X eleitoral</small><b class="c-num">Quer os números de um candidato, cidade ou partido?</b><span class="c-txt">Peça um Raio-X eleitoral sob medida</span><i aria-hidden="true">↗</i></a>
+    </div>
+  </div>
 
   <main class="wrap">
     <section id="mapa" class="secao">
@@ -174,28 +202,13 @@
     <section id="sobre" class="secao sobre">
       <h2>Sobre este site</h2>
       <p class="sobre-lede">Site <b>independente</b>, feito a partir dos dados abertos do Tribunal Superior Eleitoral. Não tem vínculo com o TSE, com partidos ou com candidatos, e não apoia nenhum deles. Mostra fatos dos resultados oficiais, sem opinião.</p>
-    <aside class="news-bloco" aria-labelledby="news-titulo">
-      <div class="news-texto">
-        <p class="kicker">Newsletter grátis</p>
-        <h2 id="news-titulo">A política da semana em números</h2>
-        <p>Toda semana no seu e-mail: dados oficiais, com contexto e com a fonte de cada informação. Sem alarde, só fatos.</p>
+      <div class="sobre-contato">
+        <div>
+          <h3>Encontrou um erro ou tem uma sugestão de curiosidade?</h3>
+          <p>Correções são feitas e registradas aqui. Precisa dos dados de um candidato, cidade ou partido? Conheça o <a href="/raio-x/">Raio-X eleitoral</a>.</p>
+        </div>
+        <a class="sobre-email" href="mailto:semclarim@gmail.com">semclarim@gmail.com <span aria-hidden="true">→</span></a>
       </div>
-      <form class="news-form" action="https://semclarim.substack.com/subscribe" method="get" target="_blank" data-news>
-        <label for="news-email" class="vh">Seu e-mail</label>
-        <input id="news-email" type="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
-        <button type="submit">Assinar grátis</button>
-        <p class="nota">Abre a página do Substack com o seu e-mail preenchido para confirmar. Dá para cancelar quando quiser.</p>
-      </form>
-    </aside>
-
-    <aside class="apoie-bloco" aria-labelledby="apoie-titulo">
-      <div class="apoie-icone"><svg viewBox="0 1.3 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/></svg></div>
-      <div class="apoie-texto">
-        <h2 id="apoie-titulo">O Sem Clarim é independente</h2>
-        <p>Sem patrocínio de partidos nem de governos. Quem mantém este site e os vídeos de pé são as pessoas que apoiam, a partir de <b>R$ 5 por mês</b>.</p>
-      </div>
-      <a class="apoie-botao" href="https://apoia.se/semclarim" target="_blank" rel="noopener" data-apoie="rodape">Apoiar no Apoia.se <span aria-hidden="true">→</span></a>
-    </aside>
       <div class="sobre-grade">
         <div>
           <h3>De onde vêm os números</h3>
@@ -218,22 +231,50 @@
             <li>No voto misturado, PT e PL são contados como partido, sem os demais da federação ou coligação; empates não contam.</li>
             <li>O voto é secreto: nenhuma conta aqui identifica como um eleitor votou; todas as comparações são entre cidades, estados ou urnas.</li>
           </ul>
-          <p class="sem-fraude"><b>Este site não alega, não sugere e não investiga fraude.</b> As curiosidades descrevem os resultados oficiais, totalizados e auditados pelo TSE. Números fora do comum (urnas zeradas, viradas, quedas de votos) têm explicações conhecidas, como aldeias, comunidades pequenas e mudanças no eleitorado das seções, e não são indício de irregularidade.</p>
-        </div>
-        <div>
-          <h3>Encontrou um erro ou tem uma sugestão de curiosidade?</h3>
-          <p>Envie um e-mail para <a href="mailto:semclarim@gmail.com">semclarim@gmail.com</a>. Correções são feitas e registradas aqui.</p>
-          <p>Precisa dos dados de um candidato, cidade ou partido? Conheça o <a href="/raio-x/">Raio-X eleitoral</a>.</p>
-          <p class="nota">Fotos dos candidatos: divulgação/TSE. Mapa: IBGE.</p>
-          <p class="nota">Privacidade: o site conta visitas de forma anônima, sem cookies e sem identificar ninguém (GoatCounter).</p>
         </div>
       </div>
+      <p class="sem-fraude"><b>Este site não alega, não sugere e não investiga fraude.</b> As curiosidades descrevem os resultados oficiais, totalizados e auditados pelo TSE. Números fora do comum (urnas zeradas, viradas, quedas de votos) têm explicações conhecidas, como aldeias, comunidades pequenas e mudanças no eleitorado das seções, e não são indício de irregularidade.</p>
+      <p class="nota sobre-notas">Fotos dos candidatos: divulgação/TSE. Mapa: IBGE. Privacidade: o site conta visitas de forma anônima, sem cookies e sem identificar ninguém (GoatCounter).</p>
     </section>
+    <nav id="proxima" class="proxima" aria-label="Próxima página" hidden></nav>
   </main>
+
+  <div class="wrap chamadas">
+    <aside class="news-bloco" aria-labelledby="news-titulo">
+      <div class="news-texto">
+        <p class="kicker">Newsletter grátis</p>
+        <h2 id="news-titulo">A política da semana em números</h2>
+        <p>Toda semana no seu e-mail: dados oficiais, com contexto e com a fonte de cada informação. Sem alarde, só fatos.</p>
+      </div>
+      <form class="news-form" action="https://semclarim.substack.com/subscribe" method="get" target="_blank" data-news>
+        <label for="news-email" class="vh">Seu e-mail</label>
+        <input id="news-email" type="email" name="email" placeholder="seu@email.com" autocomplete="email" required>
+        <button type="submit">Assinar grátis</button>
+        <p class="nota">Abre a página do Substack com o seu e-mail preenchido para confirmar. Dá para cancelar quando quiser.</p>
+      </form>
+    </aside>
+
+    <aside class="apoie-bloco" aria-labelledby="apoie-titulo">
+      <div class="apoie-icone"><svg viewBox="0 1.3 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.6-7.5 10.2-7.5 10.2z"/></svg></div>
+      <div class="apoie-texto">
+        <h2 id="apoie-titulo">O Sem Clarim é independente</h2>
+        <p>Sem patrocínio de partidos nem de governos. Quem mantém este site e os vídeos de pé são as pessoas que apoiam, a partir de <b>R$ 5 por mês</b>.</p>
+      </div>
+      <a class="apoie-botao" href="https://apoia.se/semclarim" target="_blank" rel="noopener" data-apoie="rodape">Apoiar no Apoia.se <span aria-hidden="true">→</span></a>
+    </aside>
+  </div>
 
   <footer class="rodape">
     <div class="wrap" id="fonte"></div>
   </footer>
+  <dialog id="paleta" class="paleta" aria-label="Buscar no site">
+    <div class="busca-geral">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5l5 5"/></svg>
+      <input type="search" placeholder="Busque sua cidade, um tema ou uma página…" autocomplete="off" aria-label="Buscar">
+      <kbd>Esc</kbd>
+      <ul class="sugestoes" role="listbox" hidden></ul>
+    </div>
+  </dialog>
   <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
   <div id="aviso" class="aviso" role="status" hidden></div>
   <a class="apoie-flutuante" href="https://apoia.se/semclarim" target="_blank" rel="noopener" data-apoie="flutuante"
