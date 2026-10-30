@@ -200,6 +200,12 @@ tbody tr.clicavel { cursor: pointer; }
 /* ---------- rodapé e avisos */
 .rodape { margin-top: 64px; padding: 32px 0 48px; border-top: 1px solid var(--line); color: var(--text-2); font-size: .85rem; }
 .rodape a { color: var(--text); }
+.redes { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-bottom: 20px; }
+.redes span { color: var(--text); font-weight: 600; margin-right: 4px; }
+.redes a { display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px;
+  text-decoration: none; font-weight: 600; transition: border-color .2s, transform .2s; }
+.redes a:hover { border-color: var(--text-2); transform: translateY(-1px); }
+.redes svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .aviso { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 60; background: var(--text); color: var(--bg); padding: 10px 16px; border-radius: 10px; font-size: .9rem; }
 
 @media (max-width: 600px) {
